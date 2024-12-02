@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
+using Assets.Forest_Level.Scripts;
 using UnityEngine;
-
 public class Collectable : MonoBehaviour
 {
     private void OnTriggerEnter2D(Collider2D collision)
