@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+using Assets.Winter_Level.Scripts.Player;
+
 public class AreaExit : MonoBehaviour
 {
     [SerializeField] private string sceneToLoad;
