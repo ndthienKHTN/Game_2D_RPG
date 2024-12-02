@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{D3732ED1-8F56-5B28-6C36-E601AD01CA34}</ProjectGuid>
+    <ProjectGuid>{46ABDF82-DC8F-DD6D-5710-5E338EE8886E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.InternalAPIEditorBridge.001</AssemblyName>
@@ -977,11 +977,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
-      <Project>{45576FE5-A536-56C9-511E-FF57EB0AE086}</Project>
+      <Project>{DC0896C6-0D8A-40E0-571E-5BC1AC85C165}</Project>
       <Name>UnityEditor.TestRunner</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{74A93BCC-6DBA-F393-73EF-B3F141EF6BA9}</Project>
+      <Project>{B5F4359A-B4A4-435C-2B96-2592CD43989C}</Project>
       <Name>UnityEngine.TestRunner</Name>
     </ProjectReference>
   </ItemGroup>
