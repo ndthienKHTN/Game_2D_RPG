@@ -16,8 +16,6 @@ using UnityEngine.InputSystem;
 using UnityEngine.InputSystem.Utilities;
 namespace Assets.Winter_Level.Scripts.Player
 {
-
-
     public partial class @PlayerControls : IInputActionCollection2, IDisposable
     {
         public InputActionAsset asset { get; }
