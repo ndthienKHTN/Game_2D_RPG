@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Assets.Desert_Level.Scripts;
 using UnityEngine;
 
 public class DamageZone : MonoBehaviour
