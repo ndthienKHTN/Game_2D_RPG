@@ -2,33 +2,36 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AnimationController : MonoBehaviour
+namespace Assets.Desert_Level.Scripts
 {
-    private Animator animator;
-    private SpriteRenderer spriteRenderer;
-    private Vector2 movement;
-
-    private void Awake()
+    public class AnimationController : MonoBehaviour
     {
-        animator = GetComponent<Animator>();
-        spriteRenderer = GetComponent<SpriteRenderer>();
-    }
+        private Animator animator;
+        private SpriteRenderer spriteRenderer;
+        private Vector2 movement;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+        private void Awake()
+        {
+            animator = GetComponent<Animator>();
+            spriteRenderer = GetComponent<SpriteRenderer>();
+        }
 
-    // Update is called once per frame
-    void Update()
-    {
-        animator.SetFloat("moveX", movement.x);
-        animator.SetFloat("moveY", movement.y);
-    }
+        // Start is called before the first frame update
+        void Start()
+        {
 
-    private void FixedUpdate()
-    {
-        
+        }
+
+        // Update is called once per frame
+        void Update()
+        {
+            animator.SetFloat("moveX", movement.x);
+            animator.SetFloat("moveY", movement.y);
+        }
+
+        private void FixedUpdate()
+        {
+
+        }
     }
 }
