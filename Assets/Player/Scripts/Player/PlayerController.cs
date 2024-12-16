@@ -4,9 +4,11 @@ using UnityEngine;
 using UnityEngine.UI;
 
 
-public class PlayerController : Singleton<PlayerController>
+// public class PlayerController : Singleton<PlayerController>
+public class PlayerController : MonoBehaviour
 {
     public bool FacingLeft { get { return facingLeft; } set { facingLeft = value; } }
+    public static PlayerController Instance;
 
     [SerializeField] private float moveSpeed = 4f;
 
@@ -65,9 +67,10 @@ public class PlayerController : Singleton<PlayerController>
     // -----------------------------------------------------
 
 
-    protected override void Awake()
-    {
-        base.Awake();
+    // protected override void Awake()
+    private void Awake() {
+        // base.Awake();
+        Instance = this;
         playerControls = new PlayerControls();
         rb = GetComponent<Rigidbody2D>();
         myAnimator = GetComponent<Animator>();
