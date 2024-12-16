@@ -2,5 +2,6 @@
 /Logs/
 /obj/
 /Library/
-
-
+**.csproj
+/.vs/
+/.vscode/
