@@ -7,10 +7,10 @@ public class DamageZone : MonoBehaviour
 {
     private void OnTriggerStay2D(Collider2D collision)
     {
-        PlayerController player = collision.GetComponent<PlayerController>();
-        if (player != null)
+        //PlayerController player = collision.GetComponent<PlayerController>();
+        /*if (player != null)
         {
             player.ChangeHealth(-1);
-        }
+        }*/
     }
 }

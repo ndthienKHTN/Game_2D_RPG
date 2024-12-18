@@ -1,8 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
-public class Sword : MonoBehaviour
+using Assets.Player.Scripts;
+using Assets.Common.Scripts;
+public class Sword : MonoBehaviour, IPlayerController
 {
     [SerializeField] private GameObject slashAnimPrefab;
     [SerializeField] private Transform slashAnimSpawnPoint;
@@ -88,5 +89,25 @@ public class Sword : MonoBehaviour
 
         GameObject arrow = Instantiate(arrowPrefab, slashAnimSpawnPoint.position, Quaternion.identity);
         arrow.transform.right = direction;
+    }
+
+    public int attack(GameObject enemy, int atk)
+    {
+        IEnemyController enemyController = enemy.GetComponent<IEnemyController>();
+        if (enemyController != null)
+        {
+            return enemyController.beAttacked(atk);
+        }
+        return 0;
+    }
+
+    public int beAttacked(int atk)
+    {
+        return 0;
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        attack(collision.gameObject, 1);
     }
 }

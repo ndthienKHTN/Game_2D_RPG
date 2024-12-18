@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using Assets.Player.Scripts;
 public class DamageTrigger : MonoBehaviour
 {
     void OnTriggerStay2D(Collider2D other)

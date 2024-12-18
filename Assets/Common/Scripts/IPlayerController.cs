@@ -4,10 +4,9 @@ using UnityEngine;
 
 namespace Assets.Common.Scripts
 {
-
-    public interface EnemyController
+    public interface IPlayerController
     {
-        public int attack(int atk);
+        public int attack(GameObject enemy, int atk);
         public int beAttacked(int atk);
     }
 }

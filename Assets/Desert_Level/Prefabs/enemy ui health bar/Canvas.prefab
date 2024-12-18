@@ -138,9 +138,9 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 1.17605, y: 0.0548}
+  m_AnchoredPosition: {x: 0.0648002, y: 0.054800004}
   m_SizeDelta: {x: 2.2225, y: 0.1955}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_Pivot: {x: -0.000000018626451, y: 0.5}
 --- !u!222 &8033160304396292932
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -224,9 +224,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 214531323237581284}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 0.5}
+  m_AnchorMax: {x: 0, y: 0.5}
+  m_AnchoredPosition: {x: 1.11125, y: 0}
   m_SizeDelta: {x: 2.2225, y: 0.1955}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1276253035821061999
@@ -278,7 +278,7 @@ GameObject:
   - component: {fileID: 5548816177471290257}
   - component: {fileID: 8277676940756329491}
   - component: {fileID: 6767596262878840593}
-  - component: {fileID: 8099511453443226198}
+  - component: {fileID: 51404271974738457}
   m_Layer: 0
   m_Name: Health
   m_TagString: Untagged
@@ -344,7 +344,7 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &8099511453443226198
+--- !u!114 &51404271974738457
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

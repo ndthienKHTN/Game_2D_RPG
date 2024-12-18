@@ -6,7 +6,7 @@ using Assets.Desert_Level.Scripts;
 
 namespace Assets.Desert_Level.Scripts
 {
-    public class PlayerController : MonoBehaviour
+    public class PlayerController2 : MonoBehaviour
     {
         [SerializeField] private float speed = 1.0f;
 

@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using Assets.Player.Scripts;
 public class PotionCollect : MonoBehaviour
 {
     //Detect collision trigger with player

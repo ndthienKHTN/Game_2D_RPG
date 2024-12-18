@@ -21,7 +21,7 @@ namespace Assets.Desert_Level.Scripts
 
         private void OnTriggerEnter2D(Collider2D other)
         {
-            Debug.Log("Collision with: " + other.tag + " - " + other.gameObject.tag);
+            //Debug.Log("Collision with: " + other.tag + " - " + other.gameObject.tag);
             if (other.CompareTag("Player"))
             {
                 //other.GetComponent<PlayerController>().ChangeGold(goldValue);

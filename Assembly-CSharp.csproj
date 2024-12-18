@@ -70,6 +70,8 @@
     <Compile Include="Assets\Player\Scripts\MrClockwork.cs" />
     <Compile Include="Assets\Winter_Level\Scripts\AreaEntrance.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
+    <Compile Include="Assets\Common\Scripts\IEnemyController.cs" />
+    <Compile Include="Assets\Desert_Level\Scripts\Player2\PlayerController2.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
@@ -94,17 +96,16 @@
     <Compile Include="Assets\Player\Scripts\Misc\Flash.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
     <Compile Include="Assets\Winter_Level\Scripts\Player\PlayerController.cs" />
+    <Compile Include="Assets\Desert_Level\Scripts\Shardsoul\ShardsoulController.cs" />
     <Compile Include="Assets\Player\Scripts\Player\SlashAnim.cs" />
     <Compile Include="Assets\Winter_Level\Scripts\AreaExit.cs" />
     <Compile Include="Assets\Forest_Level\Scripts\Collectable.cs" />
-    <Compile Include="Assets\Desert_Level\Scripts\Player\PlayerController.cs" />
     <Compile Include="Assets\Forest_Level\Scripts\SpikeTrap.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
     <Compile Include="Assets\Desert_Level\Scripts\Collectables\ChickenController.cs" />
     <Compile Include="Assets\Desert_Level\Scripts\Collectables\GoldCollectable.cs" />
     <Compile Include="Assets\Forest_Level\Scripts\Tile.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
-    <Compile Include="Assets\Common\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Desert_Level\Scripts\Cobra\CobraController.cs" />
     <Compile Include="Assets\Player\Scripts\DamageTrigger.cs" />
     <Compile Include="Assets\Desert_Level\Scripts\Collectables\GoldManager.cs" />
@@ -112,8 +113,8 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMPro_InstructionOverlay.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\DropdownSample.cs" />
-    <Compile Include="Assets\Common\Scripts\EnemyController.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexColorCycler.cs" />
+    <Compile Include="Assets\Common\Scripts\IPlayerController.cs" />
     <Compile Include="Assets\Player\Scripts\Player\Sword.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ObjectSpin.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_PhoneNumberValidator.cs" />
@@ -128,6 +129,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_UiFrameRateCounter.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
     <Compile Include="Assets\Player\Scripts\Player\Projectile.cs" />
+    <Compile Include="Assets\Desert_Level\Scripts\Trap\FireTrapController.cs" />
     <Compile Include="Assets\Forest_Level\Scripts\DamageZone.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
     <Compile Include="Assets\Forest_Level\Scripts\Door.cs" />
