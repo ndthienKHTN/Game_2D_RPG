@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 6858890364208354797}
   - component: {fileID: 6166227064534950919}
   - component: {fileID: 8678189133432766356}
+  - component: {fileID: 7930395026998970085}
+  - component: {fileID: 3950407626897881631}
   - component: {fileID: 7821935236538529901}
   - component: {fileID: 4425542600807821610}
   - component: {fileID: 6391816693084334436}
@@ -98,7 +100,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 9079192226402259066}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5deeed4d8b2702845a6cf925d6bb691e, type: 3}
+  m_Script: {fileID: 11500000, guid: 9f5d6af11fac1ee4290ba903d1b056bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &8678189133432766356
@@ -114,6 +116,33 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 2
+--- !u!114 &7930395026998970085
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9079192226402259066}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf950185b61673347a7e8ab973ad8726, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deathVFXPrefab: {fileID: 1698634917931367144, guid: e751be24f0872e849bc775bc64349cc7, type: 3}
+--- !u!114 &3950407626897881631
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9079192226402259066}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99e1a96e5e3738e48a581a62fd76a2cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  whiteFlashMat: {fileID: 2100000, guid: 7bb3a7236f3810145aa58b083a7441c8, type: 2}
+  restoreDefaultMatTime: 0.2
 --- !u!70 &7821935236538529901
 CapsuleCollider2D:
   m_ObjectHideFlags: 0

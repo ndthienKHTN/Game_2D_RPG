@@ -1,11 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
+using Assets.Common.Scripts;
 using UnityEngine;
 using UnityEngine.UI;
 
 
 // public class PlayerController : Singleton<PlayerController>
-public class PlayerController : MonoBehaviour
+public class PlayerController : MonoBehaviour, IPlayerController
 {
     public bool FacingLeft { get { return facingLeft; } set { facingLeft = value; } }
     public static PlayerController Instance;
@@ -127,5 +128,17 @@ public class PlayerController : MonoBehaviour
             mySpriteRender.flipX = false;
             FacingLeft = false;
         }
+    }
+
+    public int attack(GameObject enemy, int atk)
+    {
+        //enemy.GetComponent<IEnemyController>().beAttacked(atk);
+        return 0;
+    }
+
+    public int beAttacked(int atk)
+    {
+        ChangeHealth(-atk);
+        return 0;
     }
 }

@@ -1,13 +1,18 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Assets.Winter_Level.Scripts;
 
-public class SceneManagement : Singleton<SceneManagement>
+
+namespace Assets.Winter_Level.Scripts
 {
-    public string SceneTransitionName { get; private set; }
-
-    public void SetTransitionName(string sceneTransitionName)
+    public class SceneManagement : Singleton<SceneManagement>
     {
-        this.SceneTransitionName = sceneTransitionName;
+        public string SceneTransitionName { get; private set; }
+
+        public void SetTransitionName(string sceneTransitionName)
+        {
+            this.SceneTransitionName = sceneTransitionName;
+        }
     }
 }

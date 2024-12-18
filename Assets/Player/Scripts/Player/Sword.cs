@@ -39,7 +39,11 @@ public class Sword : MonoBehaviour
     }
 
     private void Attack() {
-        myAnimator.SetTrigger("Attack");
+        if (myAnimator != null)
+        {
+            myAnimator.SetTrigger("Attack");
+        }
+
         weaponCollider.gameObject.SetActive(true);
 
         slashAnim = Instantiate(slashAnimPrefab, slashAnimSpawnPoint.position, Quaternion.identity);

@@ -89,7 +89,6 @@
     <Compile Include="Assets\Forest_Level\Scripts\PlayerController.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
-    <Compile Include="Assets\Desert_Level\Scripts\Minotaur\AnimationController.cs" />
     <Compile Include="Assets\Desert_Level\Scripts\Collectables\HealthPotionController.cs" />
     <Compile Include="Assets\Player\Scripts\Misc\Flash.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
@@ -105,6 +104,7 @@
     <Compile Include="Assets\Forest_Level\Scripts\Tile.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
     <Compile Include="Assets\Common\Scripts\PlayerController.cs" />
+    <Compile Include="Assets\Winter_Level\Scripts\Enemy\Flash.cs" />
     <Compile Include="Assets\Desert_Level\Scripts\Cobra\CobraController.cs" />
     <Compile Include="Assets\Player\Scripts\DamageTrigger.cs" />
     <Compile Include="Assets\Desert_Level\Scripts\Collectables\GoldManager.cs" />
@@ -120,6 +120,7 @@
     <Compile Include="Assets\Winter_Level\Scripts\Enemy\EnemyAI.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
     <Compile Include="Assets\Player\Scripts\Player\PotionCollect.cs" />
+    <Compile Include="Assets\Winter_Level\Scripts\Enemy\Slime.cs" />
     <Compile Include="Assets\Player\Scripts\Enemies\EnemyAILong.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextConsoleSimulator.cs" />
     <Compile Include="Assets\Player\Scripts\Enemies\EnemyControllerLong.cs" />

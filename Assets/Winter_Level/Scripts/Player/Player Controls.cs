@@ -14,6 +14,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.InputSystem;
 using UnityEngine.InputSystem.Utilities;
+using Assets.Winter_Level.Scripts;
+
 namespace Assets.Winter_Level.Scripts.Player
 {
     public partial class @PlayerControls : IInputActionCollection2, IDisposable

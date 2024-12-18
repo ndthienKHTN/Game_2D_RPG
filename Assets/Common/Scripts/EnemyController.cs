@@ -5,9 +5,10 @@ using UnityEngine;
 namespace Assets.Common.Scripts
 {
 
-    public interface EnemyController
+    public interface IEnemyController
     {
-        public int attack(int atk);
+        public int attack(GameObject player, int atk);
         public int beAttacked(int atk);
+        public void DetectDeath();
     }
 }
