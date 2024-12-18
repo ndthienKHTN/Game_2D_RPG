@@ -1,34 +1,45 @@
 using System.Collections;
 using System.Collections.Generic;
+using Assets.Common.Scripts;
 using UnityEngine;
 
-
-public class EnemyControllerLong : MonoBehaviour
+namespace Assets.Player.Scripts
 {
-    [SerializeField] private int startingHealth = 3;
+    public class EnemyController : MonoBehaviour, IEnemyController
+    {
+        [SerializeField] private int startingHealth = 3;
 
-    private int currentHealth;
-    private Knockback knockback;
-    private Flash flash;
+        private int currentHealth;
+        private Knockback knockback;
 
-    private void Awake() {
-        flash = GetComponent<Flash>();
-        knockback = GetComponent<Knockback>();
-    }
 
-    private void Start() {
-        currentHealth = startingHealth;
-    }
+        private void Awake() {
+            knockback = GetComponent<Knockback>();
+        }
 
-    public void beAttacked(int atk) {
-        currentHealth -= atk;
-        knockback.GetKnockedBack(PlayerController.Instance.transform, 15f);
-        StartCoroutine(flash.FlashRoutine());
-    }
+        private void Start() {
+            currentHealth = startingHealth;
+        }
 
-    public void DetectDeath() {
-        if (currentHealth <= 0) {
-            Destroy(gameObject);
+        public void beAttacked(int atk) {
+            currentHealth -= atk;
+            knockback.GetKnockedBack(PlayerController.Instance.transform, 15f);
+        }
+
+        public void DetectDeath() {
+            if (currentHealth <= 0) {
+                Destroy(gameObject);
+            }
+        }
+
+        public int attack(GameObject player, int atk)
+        {
+            throw new System.NotImplementedException();
+        }
+
+        int IEnemyController.beAttacked(int atk)
+        {
+            throw new System.NotImplementedException();
         }
     }
 }
