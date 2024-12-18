@@ -1,6 +1,4 @@
-# -----------------
 # Unity generated files
-# -----------------
 [Ll]ibrary/
 [Tt]emp/
 [Oo]bj/
@@ -13,6 +11,8 @@
 ExportedObj/
 .consulo/
 .vscode/
+*.csproj
+!Assembly-CSharp.csproj
 /*.unityproj
 /*.sln
 /*.suo
@@ -70,9 +70,14 @@ Desktop.ini
 
 # User-specific files
 *.prefs
+/.vs/
+/Logs/
+/obj/
+/Library/
+*.csproj
+/.vs/
+/.vscode/
+**/*.csproj
 
-# -----------------
-# Ignore all .csproj files except Assembly-CSharp.csproj
-# -----------------
 *.csproj
 !Assembly-CSharp.csproj
