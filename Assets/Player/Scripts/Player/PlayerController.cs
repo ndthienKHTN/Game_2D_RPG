@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using Assets.Common.Scripts;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.InputSystem;
 
 
 // public class PlayerController : Singleton<PlayerController>
@@ -20,6 +21,7 @@ public class PlayerController : MonoBehaviour, IPlayerController
     private SpriteRenderer mySpriteRender;
 
     private bool facingLeft = false;
+    AudioSource audioSource;
 
     //--------------------------Health--------------------------
     
@@ -47,6 +49,7 @@ public class PlayerController : MonoBehaviour, IPlayerController
     float invincibleTimer;
     void Start()
     {
+        audioSource = GetComponent<AudioSource>();
         currentHealth = maxHealth;
         UpdateHealthSlider();
     }
@@ -128,6 +131,11 @@ public class PlayerController : MonoBehaviour, IPlayerController
             mySpriteRender.flipX = false;
             FacingLeft = false;
         }
+    }
+
+    public void PlaySound(AudioClip clip)
+    {
+        audioSource.PlayOneShot(clip);
     }
 
     public int attack(GameObject enemy, int atk)

@@ -89,6 +89,7 @@
     <Compile Include="Assets\Forest_Level\Scripts\PlayerController.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
+    <Compile Include="Assets\Desert_Level\Scripts\Minotaur\AnimationController.cs" />
     <Compile Include="Assets\Desert_Level\Scripts\Collectables\HealthPotionController.cs" />
     <Compile Include="Assets\Player\Scripts\Misc\Flash.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
