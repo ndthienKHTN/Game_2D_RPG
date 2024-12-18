@@ -7,8 +7,6 @@
 [Ll]ogs/
 [Mm]emoryCaptures/
 
-# Asset meta files
-/[Aa]ssets/**/*.meta
 
 # Auto-generated VS/VSCode project files
 ExportedObj/
