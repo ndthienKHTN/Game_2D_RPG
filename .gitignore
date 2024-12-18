@@ -14,7 +14,8 @@
 ExportedObj/
 .consulo/
 .vscode/
-/*.csproj
+*.csproj
+!Assembly-CSharp.csproj
 /*.unityproj
 /*.sln
 /*.suo
