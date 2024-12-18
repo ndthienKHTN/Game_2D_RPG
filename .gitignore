@@ -7,6 +7,9 @@
 /.vscode/
 **/*.csproj
 
+*.csproj
+!Assembly-CSharp.csproj
+
 # Unity generated files
 [Ll]ibrary/
 [Tt]emp/
@@ -23,7 +26,6 @@
 ExportedObj/
 .consulo/
 .vscode/
-/*.csproj
 /*.unityproj
 /*.sln
 /*.suo
