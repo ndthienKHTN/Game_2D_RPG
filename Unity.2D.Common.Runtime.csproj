@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{F48CBD3A-81B9-F730-00A1-8540AEB4725B}</ProjectGuid>
+    <ProjectGuid>{A05EB5E8-8DA9-F273-77CA-41D602808AED}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.2D.Common.Runtime</AssemblyName>
@@ -61,11 +61,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Library\PackageCache\com.unity.2d.common@8.0.4\Runtime\UTess2D\UTess.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.common@8.0.4\Runtime\UTess2D\ArraySlice.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.common@8.0.4\Runtime\UTess2D\Array.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.common@8.0.4\Runtime\UTess2D\Smoothen.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.common@8.0.4\Runtime\UTess2D\ArraySlice.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.common@8.0.4\Runtime\AssemblyInfo.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.common@8.0.4\Runtime\UTess2D\Tessellator.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.common@8.0.4\Runtime\UTess2D\Smoothen.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.common@8.0.4\Runtime\UTess2D\Refinery.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.common@8.0.4\Runtime\UTess2D\PlanarGraph.cs" />
   </ItemGroup>
@@ -948,7 +948,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.Mathematics.csproj">
-      <Project>{AEF82F1D-598C-4044-ED87-F33974D8EDBD}</Project>
+      <Project>{AFC26735-A9F0-AB04-6DD8-D3C2D04DFD38}</Project>
       <Name>Unity.Mathematics</Name>
     </ProjectReference>
   </ItemGroup>

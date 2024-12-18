@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{E1AF221E-5047-4B5D-24A3-62CDFD864E5F}</ProjectGuid>
+    <ProjectGuid>{C2B44448-E0C5-F51D-4C3D-2038C3A272E4}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.2D.Tilemap.Extras.Editor</AssemblyName>
@@ -60,17 +60,17 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.53f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Library\PackageCache\com.unity.2d.tilemap.extras@3.1.3\Editor\Tiles\RuleOverrideTile\PopulateRuleOverrideTileWizard.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.tilemap.extras@3.1.3\Editor\Brushes\LineBrush\LineBrush.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.tilemap.extras@3.1.3\Editor\Tiles\HexagonalRuleTile\HexagonalRuleTileEditor.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.tilemap.extras@3.1.3\Editor\Tiles\RuleOverrideTile\AdvancedRuleOverrideTileEditor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.tilemap.extras@3.1.3\Editor\Brushes\GameObjectBrush\GameObjectBrush.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.tilemap.extras@3.1.3\Editor\Tiles\RuleTile\RuleTileEditor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.tilemap.extras@3.1.3\Editor\Brushes\RandomBrush\RandomBrush.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.tilemap.extras@3.1.3\Editor\Menu\CustomRuleTileMenu.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.tilemap.extras@3.1.3\Editor\Tiles\RuleOverrideTile\PopulateRuleOverrideTileWizard.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.tilemap.extras@3.1.3\Editor\Brushes\GameObjectBrush\GameObjectBrush.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.tilemap.extras@3.1.3\Editor\Tiles\IsometricRuleTile\IsometricRuleTileEditor.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.tilemap.extras@3.1.3\Editor\Tiles\RuleOverrideTile\RuleOverrideTileEditor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.tilemap.extras@3.1.3\Editor\Brushes\RandomBrush\RandomBrush.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.tilemap.extras@3.1.3\Editor\Tiles\AnimatedTile\AnimatedTileEditor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.tilemap.extras@3.1.3\Editor\Menu\CustomRuleTileMenu.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.tilemap.extras@3.1.3\Editor\Brushes\GroupBrush\GroupBrush.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.tilemap.extras@3.1.3\Editor\Menu\MenuItemOrder.cs" />
   </ItemGroup>
@@ -977,15 +977,15 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.2D.Tilemap.Extras.csproj">
-      <Project>{4BA1437C-33C2-917F-ED7B-E4809183522E}</Project>
+      <Project>{C2E34940-1237-EB32-6B30-BA8C753ABC6E}</Project>
       <Name>Unity.2D.Tilemap.Extras</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
-      <Project>{DC0896C6-0D8A-40E0-571E-5BC1AC85C165}</Project>
+      <Project>{44425BDD-E5DB-5DC9-FC4D-662127416CE2}</Project>
       <Name>UnityEditor.TestRunner</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{B5F4359A-B4A4-435C-2B96-2592CD43989C}</Project>
+      <Project>{CF87CC5C-BA17-C34C-3523-F79043CDF121}</Project>
       <Name>UnityEngine.TestRunner</Name>
     </ProjectReference>
   </ItemGroup>

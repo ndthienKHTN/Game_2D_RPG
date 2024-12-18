@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{E39B25E3-CC81-D18E-8A66-37867A7C32BE}</ProjectGuid>
+    <ProjectGuid>{C422EF46-8C21-548C-894E-CE18A4303A0F}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.Collections.DocCodeSamples</AssemblyName>
@@ -60,8 +60,8 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.53f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Library\PackageCache\com.unity.collections@1.2.4\DocCodeSamples.Tests\CollectionsAllocationExamples.cs" />
     <Compile Include="Library\PackageCache\com.unity.collections@1.2.4\DocCodeSamples.Tests\CollectionsExamples.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collections@1.2.4\DocCodeSamples.Tests\CollectionsAllocationExamples.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Library\PackageCache\com.unity.collections@1.2.4\DocCodeSamples.Tests\DocCodeSamples.Tests.asmdef" />
@@ -962,15 +962,15 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.Collections.csproj">
-      <Project>{202295E4-77DA-5C0E-0C01-C5A7AD92E8F0}</Project>
+      <Project>{ADAE59B3-1E5D-56D5-68AC-B53F68A67741}</Project>
       <Name>Unity.Collections</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
-      <Project>{DC0896C6-0D8A-40E0-571E-5BC1AC85C165}</Project>
+      <Project>{44425BDD-E5DB-5DC9-FC4D-662127416CE2}</Project>
       <Name>UnityEditor.TestRunner</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{B5F4359A-B4A4-435C-2B96-2592CD43989C}</Project>
+      <Project>{CF87CC5C-BA17-C34C-3523-F79043CDF121}</Project>
       <Name>UnityEngine.TestRunner</Name>
     </ProjectReference>
   </ItemGroup>

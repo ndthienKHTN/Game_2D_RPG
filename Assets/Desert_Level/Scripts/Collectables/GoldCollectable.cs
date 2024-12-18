@@ -2,27 +2,33 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GoldCollectable : MonoBehaviour
+namespace Assets.Desert_Level.Scripts
 {
-    public int goldValue = 100;
-    // Start is called before the first frame update
-    void Start()
+    public class GoldCollectable : MonoBehaviour
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
-    private void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.gameObject.CompareTag("Player"))
+        public int goldValue = 100;
+        // Start is called before the first frame update
+        void Start()
         {
-            //other.GetComponent<PlayerController>().ChangeGold(goldValue);
-            Destroy(gameObject);
+
+        }
+
+        // Update is called once per frame
+        void Update()
+        {
+
+        }
+
+        private void OnTriggerEnter2D(Collider2D other)
+        {
+            Debug.Log("Collision with: " + other.tag + " - " + other.gameObject.tag);
+            if (other.CompareTag("Player"))
+            {
+                //other.GetComponent<PlayerController>().ChangeGold(goldValue);
+                GoldManager.Instance.RemoveGold(gameObject);
+                Destroy(gameObject);
+            }
         }
     }
+
 }

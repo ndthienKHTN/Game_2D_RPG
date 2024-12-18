@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{AE642829-8C88-8319-8B2F-035440D47EDE}</ProjectGuid>
+    <ProjectGuid>{726C341A-E426-1FDE-393C-C2343CADB387}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.2D.SpriteShape.Runtime</AssemblyName>
@@ -62,6 +62,9 @@
   <ItemGroup>
     <Compile Include="Library\PackageCache\com.unity.2d.spriteshape@9.0.5\Runtime\SpriteShapeGeometryCreator.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.spriteshape@9.0.5\Runtime\AssemblyInfo.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.spriteshape@9.0.5\Runtime\External\LibTessDotNet\Dict.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.spriteshape@9.0.5\Runtime\External\LibTessDotNet\Sweep.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.spriteshape@9.0.5\Runtime\SpriteShape.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.spriteshape@9.0.5\Runtime\SplineUtility.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.spriteshape@9.0.5\Runtime\External\LibTessDotNet\Geom.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.spriteshape@9.0.5\Runtime\External\LibTessDotNet\MeshUtils.cs" />
@@ -72,13 +75,10 @@
     <Compile Include="Library\PackageCache\com.unity.2d.spriteshape@9.0.5\Runtime\External\LibTessDotNet\PriorityQueue.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.spriteshape@9.0.5\Runtime\BezierUtility.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.spriteshape@9.0.5\Runtime\Spline.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.spriteshape@9.0.5\Runtime\External\LibTessDotNet\Dict.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.spriteshape@9.0.5\Runtime\External\LibTessDotNet\Mesh.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.spriteshape@9.0.5\Runtime\External\LibTessDotNet\Sweep.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.spriteshape@9.0.5\Runtime\External\LibTessDotNet\Tess.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.spriteshape@9.0.5\Runtime\SpriteShapeController.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.spriteshape@9.0.5\Runtime\SpriteShapeGenerator.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.spriteshape@9.0.5\Runtime\SpriteShape.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Library\PackageCache\com.unity.2d.spriteshape@9.0.5\Runtime\External\LibTessDotNet\LICENSE.txt" />
@@ -960,15 +960,15 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.2D.Common.Runtime.csproj">
-      <Project>{F48CBD3A-81B9-F730-00A1-8540AEB4725B}</Project>
+      <Project>{A05EB5E8-8DA9-F273-77CA-41D602808AED}</Project>
       <Name>Unity.2D.Common.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Mathematics.csproj">
-      <Project>{AEF82F1D-598C-4044-ED87-F33974D8EDBD}</Project>
+      <Project>{AFC26735-A9F0-AB04-6DD8-D3C2D04DFD38}</Project>
       <Name>Unity.Mathematics</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Burst.csproj">
-      <Project>{CA758711-782F-763B-20C6-3705E2FA7F2F}</Project>
+      <Project>{344728AC-0D39-A92A-EAA9-3C9632F9AEEA}</Project>
       <Name>Unity.Burst</Name>
     </ProjectReference>
   </ItemGroup>

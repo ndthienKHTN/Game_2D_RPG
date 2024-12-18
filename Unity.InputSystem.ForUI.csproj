@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{76E22379-A418-9F6C-1A5D-0370F2C059B9}</ProjectGuid>
+    <ProjectGuid>{1A45ADB7-5323-7B82-DE5F-701A1C1F088B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.InputSystem.ForUI</AssemblyName>
@@ -61,8 +61,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.11.2\InputSystem\Plugins\InputForUI\InputSystemProvider.cs" />
-    <Compile Include="Library\PackageCache\com.unity.inputsystem@1.11.2\InputSystem\Plugins\InputForUI\InputActionAssetVerifier.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.11.2\InputSystem\Plugins\InputForUI\AssemblyInfo.cs" />
+    <Compile Include="Library\PackageCache\com.unity.inputsystem@1.11.2\InputSystem\Plugins\InputForUI\InputActionAssetVerifier.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Library\PackageCache\com.unity.inputsystem@1.11.2\InputSystem\Plugins\InputForUI\InputSystemForUI.asmdef" />
@@ -943,7 +943,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.InputSystem.csproj">
-      <Project>{27A62E74-A8F0-F111-FC44-EDE739A321EE}</Project>
+      <Project>{056B9B90-125B-1CEB-F6D3-84880AC699D7}</Project>
       <Name>Unity.InputSystem</Name>
     </ProjectReference>
   </ItemGroup>

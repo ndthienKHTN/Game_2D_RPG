@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{E1975ABA-4F76-AF20-C1E6-437F90F9AFEF}</ProjectGuid>
+    <ProjectGuid>{11180870-FCE5-20A7-7E2D-389D029561F1}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.2D.Aseprite.Common</AssemblyName>
@@ -60,11 +60,11 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.53f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Library\PackageCache\com.unity.2d.aseprite@1.1.6\Editor\Common\ImagePacker\ImagePackNode.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.aseprite@1.1.6\Editor\Common\ImagePacker\Jobs\FindTightRectJob.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.aseprite@1.1.6\Editor\Common\TextureGenerator\TextureGeneratorHelper.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.aseprite@1.1.6\Editor\Common\ImagePacker\ImagePacker.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.aseprite@1.1.6\Editor\Common\AssemblyInfo.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.aseprite@1.1.6\Editor\Common\ImagePacker\ImagePackNode.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Library\PackageCache\com.unity.2d.aseprite@1.1.6\Editor\Common\Unity.2D.Aseprite.Common.asmdef" />
@@ -969,19 +969,19 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.Mathematics.csproj">
-      <Project>{AEF82F1D-598C-4044-ED87-F33974D8EDBD}</Project>
+      <Project>{AFC26735-A9F0-AB04-6DD8-D3C2D04DFD38}</Project>
       <Name>Unity.Mathematics</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Burst.csproj">
-      <Project>{CA758711-782F-763B-20C6-3705E2FA7F2F}</Project>
+      <Project>{344728AC-0D39-A92A-EAA9-3C9632F9AEEA}</Project>
       <Name>Unity.Burst</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
-      <Project>{DC0896C6-0D8A-40E0-571E-5BC1AC85C165}</Project>
+      <Project>{44425BDD-E5DB-5DC9-FC4D-662127416CE2}</Project>
       <Name>UnityEditor.TestRunner</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{B5F4359A-B4A4-435C-2B96-2592CD43989C}</Project>
+      <Project>{CF87CC5C-BA17-C34C-3523-F79043CDF121}</Project>
       <Name>UnityEngine.TestRunner</Name>
     </ProjectReference>
   </ItemGroup>

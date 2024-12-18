@@ -8,6 +8,7 @@ public class EnemyController : MonoBehaviour
     public float speed = 3.0f;
     public bool vertical;
     Rigidbody2D rigidbody2d;
+    public bool isIdle;
     int direction = 1;
     float movingTimer;
     public float movingTime = 2.0f;
@@ -53,13 +54,14 @@ public class EnemyController : MonoBehaviour
         {
             position.x = position.x + speed * Time.deltaTime * direction;
         }
-        rigidbody2d.MovePosition(position);
+        rigidbody2d.MovePosition(position); 
     }
-    private void OnTriggerEnter2D(Collider2D other)
+    private void OnCollisionEnter2D(Collision2D other)
     {
-        PlayerController player = other.GetComponent<PlayerController>();
+        PlayerController player = other.gameObject.GetComponent<PlayerController>();
         if (player != null)
         {
+            Debug.Log("Player Hit");
             player.ChangeHealth(-1);
         }
     }

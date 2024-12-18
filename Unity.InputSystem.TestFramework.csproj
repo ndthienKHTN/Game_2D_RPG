@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{9E1F4FCD-685C-2D95-E971-26A4526A6181}</ProjectGuid>
+    <ProjectGuid>{D287E720-8F00-6D54-B6F1-1B6CCE87FE0B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.InputSystem.TestFramework</AssemblyName>
@@ -60,12 +60,12 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.53f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Library\PackageCache\com.unity.inputsystem@1.11.2\Tests\TestFixture\ScopedDisposable.cs" />
-    <Compile Include="Library\PackageCache\com.unity.inputsystem@1.11.2\Tests\TestFixture\InputTestFixture.cs" />
-    <Compile Include="Library\PackageCache\com.unity.inputsystem@1.11.2\Tests\TestFixture\AssetDatabaseUtils.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.11.2\Tests\TestFixture\WinUserInput.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.11.2\Tests\TestFixture\AssemblyInfo.cs" />
     <Compile Include="Library\PackageCache\com.unity.inputsystem@1.11.2\Tests\TestFixture\InputTestRuntime.cs" />
+    <Compile Include="Library\PackageCache\com.unity.inputsystem@1.11.2\Tests\TestFixture\ScopedDisposable.cs" />
+    <Compile Include="Library\PackageCache\com.unity.inputsystem@1.11.2\Tests\TestFixture\InputTestFixture.cs" />
+    <Compile Include="Library\PackageCache\com.unity.inputsystem@1.11.2\Tests\TestFixture\AssetDatabaseUtils.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Library\PackageCache\com.unity.inputsystem@1.11.2\Tests\TestFixture\Unity.InputSystem.TestFramework.asmdef" />
@@ -906,15 +906,15 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.InputSystem.csproj">
-      <Project>{27A62E74-A8F0-F111-FC44-EDE739A321EE}</Project>
+      <Project>{056B9B90-125B-1CEB-F6D3-84880AC699D7}</Project>
       <Name>Unity.InputSystem</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{B5F4359A-B4A4-435C-2B96-2592CD43989C}</Project>
+      <Project>{CF87CC5C-BA17-C34C-3523-F79043CDF121}</Project>
       <Name>UnityEngine.TestRunner</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
-      <Project>{DC0896C6-0D8A-40E0-571E-5BC1AC85C165}</Project>
+      <Project>{44425BDD-E5DB-5DC9-FC4D-662127416CE2}</Project>
       <Name>UnityEditor.TestRunner</Name>
     </ProjectReference>
   </ItemGroup>
