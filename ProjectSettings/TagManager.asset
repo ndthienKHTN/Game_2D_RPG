@@ -3,20 +3,22 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - LargeTile
+  - LevelChanger
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Camera
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - UI
+  - NPC
+  - Player
+  - Confiner
+  - Grass_And_Path
+  - Tree
   - 
   - 
   - 
