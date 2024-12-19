@@ -5,12 +5,15 @@ using UnityEngine;
 
 public class DamageZone : MonoBehaviour
 {
+    public int Damage { get; private set; } = 20;
+    public AudioClip collectSound;
     private void OnTriggerStay2D(Collider2D collision)
     {
         //PlayerController player = collision.GetComponent<PlayerController>();
-        /*if (player != null)
+        /*if (player != null)*/
         {
-            player.ChangeHealth(-1);
-        }*/
+            player.ChangeHealth(-Damage);
+            player.PlaySound(collectSound);
+        }
     }
 }
