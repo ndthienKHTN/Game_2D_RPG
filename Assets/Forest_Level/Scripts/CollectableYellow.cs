@@ -1,7 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
-using Assets.Forest_Level.Scripts;
 using UnityEngine;
+using Assets.Player.Scripts;
+
 public class CollectableYellow : MonoBehaviour
 {
     public int HP { get; private set; } = 30;

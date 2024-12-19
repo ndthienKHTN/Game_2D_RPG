@@ -115,7 +115,6 @@
     <Compile Include="Assets\Forest_Level\Scripts\Tile.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
     <Compile Include="Assets\Forest_Level\Scripts\CheckPoint.cs" />
-    <Compile Include="Assets\Common\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Forest_Level\Scripts\EnemySpawner.cs" />
     <Compile Include="Assets\Winter_Level\Scripts\Enemy\Bullet.cs" />
     <Compile Include="Assets\Desert_Level\Scripts\UI\UICanvasController.cs" />

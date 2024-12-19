@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
 namespace Assets.Desert_Level.Scripts
 {
     public class Singleton<T> : MonoBehaviour where T : Singleton<T>
