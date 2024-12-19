@@ -211,7 +211,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 366048774, guid: 5ff33453431bc20469cc630da65e450a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -316,7 +316,7 @@ SortingGroup:
   m_Enabled: 1
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_SortAtRoot: 0
 --- !u!114 &8762728268985869514
 MonoBehaviour:
@@ -330,9 +330,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f39837c3856a26645ba26c2ebaac96bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 4
-  timeInvincible: 2
+  moveSpeed: 2
+  speedBoostMultiplier: 2
+  speedBoostDuration: 5
+  speedBoostCooldown: 10
+  teleportDistance: 5
+  teleportCooldown: 10
   maxHealth: 100
+  timeInvincible: 2
 --- !u!82 &4348434412771530520
 AudioSource:
   m_ObjectHideFlags: 0
@@ -550,7 +555,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   slashAnimPrefab: {fileID: 497013944059296499, guid: fadc888d3359e944aa0427c0d1c4f042, type: 3}
   slashAnimSpawnPoint: {fileID: 4590148681272170700}
-  weaponCollider: {fileID: 0}
+  weaponCollider: {fileID: 4637116348518892259}
   arrowPrefab: {fileID: 8241492510688663686, guid: f57c28014f7c8a249918a74e8da03cc1, type: 3}
 --- !u!1 &7103508732607058162
 GameObject:
