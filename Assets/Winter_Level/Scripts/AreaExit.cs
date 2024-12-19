@@ -2,20 +2,23 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-
+using Assets.Winter_Level.Scripts;
 using Assets.Winter_Level.Scripts.Player;
 
-public class AreaExit : MonoBehaviour
+namespace Assets.Winter_Level.Scripts
 {
-    [SerializeField] private string sceneToLoad;
-    [SerializeField] private string sceneTransitionname;
-
-    private void OnTriggerEnter2D(Collider2D other)
+    public class AreaExit : MonoBehaviour
     {
-        if (other.gameObject.GetComponent<PlayerController>())
+        [SerializeField] private string sceneToLoad;
+        [SerializeField] private string sceneTransitionname;
+
+        private void OnTriggerEnter2D(Collider2D other)
         {
-            SceneManager.LoadScene(sceneToLoad);
-            SceneManagement.Instance.SetTransitionName(sceneTransitionname);
+            if (other.gameObject.GetComponent<PlayerController>())
+            {
+                SceneManager.LoadScene(sceneToLoad);
+                SceneManagement.Instance.SetTransitionName(sceneTransitionname);
+            }
         }
     }
 }

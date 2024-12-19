@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Assets.Common.Scripts;
+
 public class WeaponCollider: MonoBehaviour, IPlayerController
 {
     [SerializeField] private int atkAmount = 1;

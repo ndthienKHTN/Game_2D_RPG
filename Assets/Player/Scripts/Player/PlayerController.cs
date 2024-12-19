@@ -1,7 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
+using Assets.Common.Scripts;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.InputSystem;
 using Assets.Common.Scripts;
 using Assets.Player.Scripts;
 using Assets.Desert_Level.Scripts;
@@ -22,7 +24,8 @@ namespace Assets.Player.Scripts
         private Animator myAnimator;
         private SpriteRenderer mySpriteRender;
 
-        private bool facingLeft = false;
+    private bool facingLeft = false;
+    AudioSource audioSource;
 
         Vector2 lookDirection;
         private float horizontal;
@@ -57,6 +60,7 @@ namespace Assets.Player.Scripts
         float invincibleTimer;
         void Start()
         {
+            audioSource = GetComponent<AudioSource>();
             currentHealth = maxHealth;
             UpdateHealthSlider();
         }
@@ -223,5 +227,9 @@ namespace Assets.Player.Scripts
             goldText.SetText(goldCounter.ToString());
             Debug.Log("Gold: " + goldCounter);
         }
+        public void PlaySound(AudioClip clip)
+    {
+        audioSource.PlayOneShot(clip);
+    }
     }
 }

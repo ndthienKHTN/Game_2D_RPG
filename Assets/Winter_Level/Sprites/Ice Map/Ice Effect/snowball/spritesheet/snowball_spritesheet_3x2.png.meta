@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -43,12 +43,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 300
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -108,7 +108,133 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: snowball_spritesheet_3x2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 385.5
+        width: 512
+        height: 385.5
+      alignment: 9
+      pivot: {x: 0.25, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aee62abfd0602134db4becb846e4c371
+      internalID: 1810390242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snowball_spritesheet_3x2_1
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 385.5
+        width: 512
+        height: 385.5
+      alignment: 9
+      pivot: {x: 0.25, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afafd11148795fb4ca8e06d02470a751
+      internalID: 1761917864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snowball_spritesheet_3x2_2
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 385.5
+        width: 512
+        height: 385.5
+      alignment: 9
+      pivot: {x: 0.25, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dca74f322bb0bec42884f5bce2597cd2
+      internalID: -731194025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snowball_spritesheet_3x2_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0.5
+        width: 512
+        height: 385.5
+      alignment: 9
+      pivot: {x: 0.25, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fc7ea7ab200d5f47b4509fdc57f6ccd
+      internalID: -900928142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snowball_spritesheet_3x2_4
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0.5
+        width: 512
+        height: 385.5
+      alignment: 9
+      pivot: {x: 0.25, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a167623c8b69bb40bfe6b2a883f1ad5
+      internalID: -1572169014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snowball_spritesheet_3x2_5
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0.5
+        width: 512
+        height: 385.5
+      alignment: 9
+      pivot: {x: 0.25, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4cdbb69be0dc654b9cba2dc1ba8d4c7
+      internalID: 1687462322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +245,13 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      snowball_spritesheet_3x2_0: 1810390242
+      snowball_spritesheet_3x2_1: 1761917864
+      snowball_spritesheet_3x2_2: -731194025
+      snowball_spritesheet_3x2_3: -900928142
+      snowball_spritesheet_3x2_4: -1572169014
+      snowball_spritesheet_3x2_5: 1687462322
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -127,10 +127,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 2968001808441583502}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5054c4e60dd70134c9d75791b1374e2e, type: 3}
+  m_Script: {fileID: 11500000, guid: 33f85e61d0edd5a419412d27645994dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damageAmount: 1
+  atkAmount: 1
 --- !u!1 &3412714443259742891
 GameObject:
   m_ObjectHideFlags: 0
@@ -453,7 +453,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   slashAnimPrefab: {fileID: 497013944059296499, guid: fadc888d3359e944aa0427c0d1c4f042, type: 3}
   slashAnimSpawnPoint: {fileID: 4590148681272170700}
-  weaponCollider: {fileID: 0}
+  weaponCollider: {fileID: 4637116348518892259}
   arrowPrefab: {fileID: 8241492510688663686, guid: f57c28014f7c8a249918a74e8da03cc1, type: 3}
 --- !u!1 &7103508732607058162
 GameObject:

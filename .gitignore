@@ -70,6 +70,78 @@ Desktop.ini
 
 # User-specific files
 *.prefs
+# Unity generated files
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+
+# Auto-generated VS/VSCode project files
+ExportedObj/
+.consulo/
+.vscode/
+*.csproj
+!Assembly-CSharp.csproj
+/*.unityproj
+/*.sln
+/*.suo
+/*.tmp
+/*.user
+/*.userprefs
+/*.pidb
+/*.booproj
+/*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Crashlytics generated files
+crashlytics-build.properties
+
+# Packed Assets
+*.unitypackage
+
+# Temporary files
+*.bak
+*.swp
+*.tmp
+*.temp
+*.tmp~
+
+# Build files
+*.apk
+*.aab
+*.xcuserdatad
+*.DS_Store
+
+# JetBrains Rider files
+.idea/
+.idea/*
+*.iml
+out/
+
+# MacOS-specific files
+.DS_Store
+
+# Windows-specific files
+Thumbs.db
+Desktop.ini
+
+# Godot (if used in the same repo)
+.godot/
+.import/
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# User-specific files
+*.prefs
 /.vs/
 /Logs/
 /obj/
@@ -78,6 +150,9 @@ Desktop.ini
 /.vs/
 /.vscode/
 **/*.csproj
+
+*.csproj
+!Assembly-CSharp.csproj
 
 *.csproj
 !Assembly-CSharp.csproj

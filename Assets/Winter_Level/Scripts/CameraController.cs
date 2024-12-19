@@ -3,13 +3,17 @@ using System.Collections.Generic;
 using UnityEngine;
 using Cinemachine;
 using Assets.Winter_Level.Scripts.Player;
+using Assets.Winter_Level.Scripts;
 
-public class CameraController : Singleton<CameraController>
+namespace Assets.Winter_Level.Scripts
 {
-    private CinemachineVirtualCamera cinemachineVirtualCamera;
-    public void SetPlayerCameraFollow()
+    public class CameraController : Singleton<CameraController>
     {
-        cinemachineVirtualCamera = FindObjectOfType<CinemachineVirtualCamera>();
-        cinemachineVirtualCamera.Follow = PlayerController.Instance.transform;
+        private CinemachineVirtualCamera cinemachineVirtualCamera;
+        public void SetPlayerCameraFollow()
+        {
+            cinemachineVirtualCamera = FindObjectOfType<CinemachineVirtualCamera>();
+            cinemachineVirtualCamera.Follow = PlayerController.Instance.transform;
+        }
     }
 }
