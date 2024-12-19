@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Assets.Desert_Level.Scripts;
 
 public class InventoryController : Singleton<InventoryController>
 {

@@ -209,7 +209,10 @@ namespace Assets.Desert_Level.Scripts
             Destroy(gameObject);
         }
 
-       
+        public void DetectDeath()
+        {
+            
+        }
     }
 
 }

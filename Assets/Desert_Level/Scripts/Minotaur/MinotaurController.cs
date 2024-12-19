@@ -229,5 +229,10 @@ namespace Assets.Desert_Level.Scripts
                 Instantiate(goldRewardPrefab, transform.position, Quaternion.identity);
             }
         }
+
+        public void DetectDeath()
+        {
+            return;
+        }
     }
 }

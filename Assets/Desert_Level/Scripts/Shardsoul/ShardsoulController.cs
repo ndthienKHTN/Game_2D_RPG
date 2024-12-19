@@ -186,5 +186,10 @@ namespace Assets.Desert_Level.Scripts
             Instantiate(reward, transform.position, Quaternion.identity);
             Destroy(gameObject);
         }
+
+        public void DetectDeath()
+        {
+            return;
+        }
     }
 }

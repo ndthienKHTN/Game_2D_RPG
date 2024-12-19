@@ -228,8 +228,8 @@ namespace Assets.Player.Scripts
             Debug.Log("Gold: " + goldCounter);
         }
         public void PlaySound(AudioClip clip)
-    {
-        audioSource.PlayOneShot(clip);
-    }
+        {
+            audioSource.PlayOneShot(clip);
+        }
     }
 }

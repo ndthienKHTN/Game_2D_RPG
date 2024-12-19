@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
+using Assets.Desert_Level.Scripts;
 public class QuitButtonBehavior : MonoBehaviour
 {
     public GameObject inventoryWindow;

@@ -3,7 +3,7 @@ using Assets.Desert_Level.Scripts;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using Assets.Common.Scripts;
 namespace Assets.Desert_Level.Scripts
 {
     public class BringerController : MonoBehaviour, IEnemyController
@@ -186,6 +186,11 @@ namespace Assets.Desert_Level.Scripts
             animator.SetBool("Idle", true);
             yield return new WaitForSeconds(1.5f);
             Destroy(gameObject);
+        }
+
+        public void DetectDeath()
+        {
+            return;
         }
     }
 }
