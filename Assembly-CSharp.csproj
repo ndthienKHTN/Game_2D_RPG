@@ -60,6 +60,7 @@
     <Analyzer Include="E:\UnityEditor\Install\2022.3.53f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Winter_Level\Scripts\Enemy\Shooting.cs" />
     <Compile Include="Assets\Winter_Level\Scripts\Misc\TransparentDetection.cs" />
     <Compile Include="Assets\Desert_Level\Scripts\Enemy\EnemyUIHealthBar.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
@@ -87,6 +88,7 @@
     <Compile Include="Assets\Player\Scripts\Misc\Knockback.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
     <Compile Include="Assets\Forest_Level\Scripts\PlayerController.cs" />
+    <Compile Include="Assets\Winter_Level\Scripts\Enemy\Bat.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
     <Compile Include="Assets\Desert_Level\Scripts\Minotaur\AnimationController.cs" />
@@ -105,6 +107,7 @@
     <Compile Include="Assets\Forest_Level\Scripts\Tile.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
     <Compile Include="Assets\Common\Scripts\PlayerController.cs" />
+    <Compile Include="Assets\Winter_Level\Scripts\Enemy\Bullet.cs" />
     <Compile Include="Assets\Winter_Level\Scripts\Enemy\Flash.cs" />
     <Compile Include="Assets\Desert_Level\Scripts\Cobra\CobraController.cs" />
     <Compile Include="Assets\Player\Scripts\DamageTrigger.cs" />

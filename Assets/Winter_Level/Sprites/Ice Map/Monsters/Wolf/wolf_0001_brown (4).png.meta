@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 9f8d1d7471fa781438b6dea37c1d0e97
+guid: dd8c61b77d7dc14469e82a9460274aa0
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 300
+  spritePixelsToUnits: 45
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -93,144 +93,68 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: snowball_spritesheet_3x2_0
+      name: wolf_0001_brown (4)_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 385.5
-        width: 512
-        height: 385.5
+        y: 0
+        width: 300
+        height: 200
       alignment: 9
-      pivot: {x: 0.25, y: 0.5}
+      pivot: {x: 0.5, y: 0.2}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aee62abfd0602134db4becb846e4c371
-      internalID: 1810390242
+      spriteID: 17a46f098f37db5429fc848b707e9c16
+      internalID: 1201485424
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: snowball_spritesheet_3x2_1
+      name: wolf_0001_brown (4)_1
       rect:
         serializedVersion: 2
-        x: 512
-        y: 385.5
-        width: 512
-        height: 385.5
+        x: 300
+        y: 0
+        width: 300
+        height: 200
       alignment: 9
-      pivot: {x: 0.25, y: 0.5}
+      pivot: {x: 0.5, y: 0.2}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: afafd11148795fb4ca8e06d02470a751
-      internalID: 1761917864
+      spriteID: 5be507087a674cb4ba3b658310d44a48
+      internalID: -2055237456
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: snowball_spritesheet_3x2_2
+      name: wolf_0001_brown (4)_2
       rect:
         serializedVersion: 2
-        x: 1024
-        y: 385.5
-        width: 512
-        height: 385.5
+        x: 600
+        y: 0
+        width: 300
+        height: 200
       alignment: 9
-      pivot: {x: 0.25, y: 0.5}
+      pivot: {x: 0.5, y: 0.2}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dca74f322bb0bec42884f5bce2597cd2
-      internalID: -731194025
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: snowball_spritesheet_3x2_3
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0.5
-        width: 512
-        height: 385.5
-      alignment: 9
-      pivot: {x: 0.25, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6fc7ea7ab200d5f47b4509fdc57f6ccd
-      internalID: -900928142
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: snowball_spritesheet_3x2_4
-      rect:
-        serializedVersion: 2
-        x: 512
-        y: 0.5
-        width: 512
-        height: 385.5
-      alignment: 9
-      pivot: {x: 0.25, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6a167623c8b69bb40bfe6b2a883f1ad5
-      internalID: -1572169014
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: snowball_spritesheet_3x2_5
-      rect:
-        serializedVersion: 2
-        x: 1024
-        y: 0.5
-        width: 512
-        height: 385.5
-      alignment: 9
-      pivot: {x: 0.25, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b4cdbb69be0dc654b9cba2dc1ba8d4c7
-      internalID: 1687462322
+      spriteID: 58077fb44d3a6a64ca0497fe82be7dfe
+      internalID: 1929670193
       vertices: []
       indices: 
       edges: []
@@ -246,12 +170,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      snowball_spritesheet_3x2_0: 1810390242
-      snowball_spritesheet_3x2_1: 1761917864
-      snowball_spritesheet_3x2_2: -731194025
-      snowball_spritesheet_3x2_3: -900928142
-      snowball_spritesheet_3x2_4: -1572169014
-      snowball_spritesheet_3x2_5: 1687462322
+      wolf_0001_brown (4)_0: 1201485424
+      wolf_0001_brown (4)_1: -2055237456
+      wolf_0001_brown (4)_2: 1929670193
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

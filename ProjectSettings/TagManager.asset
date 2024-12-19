@@ -6,22 +6,18 @@ TagManager:
   tags:
   - LargeTile
   - LevelChanger
-  tags:
-  - LargeTile
-  - LevelChanger
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
   - Camera
-  - Camera
   - Water
+  - UI
   - UI
   - NPC
   - Player
-  - 
-  - 
-  - 
+  - Bullet
+  - Enemy
   - 
   - 
   - 

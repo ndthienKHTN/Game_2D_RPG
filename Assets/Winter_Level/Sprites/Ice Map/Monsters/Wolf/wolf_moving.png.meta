@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 9f8d1d7471fa781438b6dea37c1d0e97
+guid: 1707f671f772ed34997b9e722e64834f
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 300
+  spritePixelsToUnits: 45
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -93,144 +93,194 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: snowball_spritesheet_3x2_0
+      name: wolf_moving_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 385.5
-        width: 512
-        height: 385.5
+        y: 0
+        width: 300
+        height: 200
       alignment: 9
-      pivot: {x: 0.25, y: 0.5}
+      pivot: {x: 0.5, y: 0.2}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aee62abfd0602134db4becb846e4c371
-      internalID: 1810390242
+      spriteID: c034a5d5d90bd8d45944d379160d9cf7
+      internalID: 942751577
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: snowball_spritesheet_3x2_1
+      name: wolf_moving_1
       rect:
         serializedVersion: 2
-        x: 512
-        y: 385.5
-        width: 512
-        height: 385.5
+        x: 300
+        y: 0
+        width: 300
+        height: 200
       alignment: 9
-      pivot: {x: 0.25, y: 0.5}
+      pivot: {x: 0.5, y: 0.2}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: afafd11148795fb4ca8e06d02470a751
-      internalID: 1761917864
+      spriteID: 8c15de347c4a1e445a048ee4b2fb4a36
+      internalID: 726441317
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: snowball_spritesheet_3x2_2
+      name: wolf_moving_2
       rect:
         serializedVersion: 2
-        x: 1024
-        y: 385.5
-        width: 512
-        height: 385.5
+        x: 600
+        y: 0
+        width: 300
+        height: 200
       alignment: 9
-      pivot: {x: 0.25, y: 0.5}
+      pivot: {x: 0.5, y: 0.2}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dca74f322bb0bec42884f5bce2597cd2
-      internalID: -731194025
+      spriteID: 4b3a99fe078b42e45b9ba8a21f5e671b
+      internalID: 988516172
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: snowball_spritesheet_3x2_3
+      name: wolf_moving_3
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0.5
-        width: 512
-        height: 385.5
+        x: 900
+        y: 0
+        width: 300
+        height: 200
       alignment: 9
-      pivot: {x: 0.25, y: 0.5}
+      pivot: {x: 0.5, y: 0.2}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6fc7ea7ab200d5f47b4509fdc57f6ccd
-      internalID: -900928142
+      spriteID: d69c5d3440bd44844a83a83432617210
+      internalID: 2003170698
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: snowball_spritesheet_3x2_4
+      name: wolf_moving_4
       rect:
         serializedVersion: 2
-        x: 512
-        y: 0.5
-        width: 512
-        height: 385.5
+        x: 1200
+        y: 0
+        width: 300
+        height: 200
       alignment: 9
-      pivot: {x: 0.25, y: 0.5}
+      pivot: {x: 0.5, y: 0.2}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6a167623c8b69bb40bfe6b2a883f1ad5
-      internalID: -1572169014
+      spriteID: f24ba9d9b6344ef459e2cd8b24cf6b5f
+      internalID: -1401824101
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: snowball_spritesheet_3x2_5
+      name: wolf_moving_5
       rect:
         serializedVersion: 2
-        x: 1024
-        y: 0.5
-        width: 512
-        height: 385.5
+        x: 1500
+        y: 0
+        width: 300
+        height: 200
       alignment: 9
-      pivot: {x: 0.25, y: 0.5}
+      pivot: {x: 0.5, y: 0.2}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b4cdbb69be0dc654b9cba2dc1ba8d4c7
-      internalID: 1687462322
+      spriteID: 4bd60498ac72d134d91ff77b0a14f1ee
+      internalID: -1720536785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolf_moving_6
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 0
+        width: 300
+        height: 200
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b80f1fcc3c544246a5c8d236ff456d5
+      internalID: -1757832380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolf_moving_7
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 0
+        width: 300
+        height: 200
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e54230ace147c24aa5c0ecf1dd9044f
+      internalID: -2145000843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolf_moving_8
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 0
+        width: 300
+        height: 200
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be40d2afbe5b03d4ca10f242bf4c1bdc
+      internalID: -1361766973
       vertices: []
       indices: 
       edges: []
@@ -246,12 +296,15 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      snowball_spritesheet_3x2_0: 1810390242
-      snowball_spritesheet_3x2_1: 1761917864
-      snowball_spritesheet_3x2_2: -731194025
-      snowball_spritesheet_3x2_3: -900928142
-      snowball_spritesheet_3x2_4: -1572169014
-      snowball_spritesheet_3x2_5: 1687462322
+      wolf_moving_0: 942751577
+      wolf_moving_1: 726441317
+      wolf_moving_2: 988516172
+      wolf_moving_3: 2003170698
+      wolf_moving_4: -1401824101
+      wolf_moving_5: -1720536785
+      wolf_moving_6: -1757832380
+      wolf_moving_7: -2145000843
+      wolf_moving_8: -1361766973
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

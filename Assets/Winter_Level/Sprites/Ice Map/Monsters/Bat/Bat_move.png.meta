@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 9f8d1d7471fa781438b6dea37c1d0e97
+guid: e302f1c53328ffe46898c25ae0bf4947
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 300
+  spritePixelsToUnits: 36
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -93,144 +93,131 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: snowball_spritesheet_3x2_0
+      name: Bat_idle_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 385.5
-        width: 512
-        height: 385.5
-      alignment: 9
-      pivot: {x: 0.25, y: 0.5}
+        y: 0
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aee62abfd0602134db4becb846e4c371
-      internalID: 1810390242
+      spriteID: 7c601d3f5e7946149b1cf453c2f61bea
+      internalID: -592312833
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: snowball_spritesheet_3x2_1
+      name: Bat_idle_1
       rect:
         serializedVersion: 2
-        x: 512
-        y: 385.5
-        width: 512
-        height: 385.5
-      alignment: 9
-      pivot: {x: 0.25, y: 0.5}
+        x: 150
+        y: 0
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: afafd11148795fb4ca8e06d02470a751
-      internalID: 1761917864
+      spriteID: de26d97820b76a74c9721ca038d00697
+      internalID: 1125238516
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: snowball_spritesheet_3x2_2
+      name: Bat_idle_2
       rect:
         serializedVersion: 2
-        x: 1024
-        y: 385.5
-        width: 512
-        height: 385.5
-      alignment: 9
-      pivot: {x: 0.25, y: 0.5}
+        x: 300
+        y: 0
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dca74f322bb0bec42884f5bce2597cd2
-      internalID: -731194025
+      spriteID: c82fdb629217b0d4b8760037e0f2790e
+      internalID: 944820348
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: snowball_spritesheet_3x2_3
+      name: Bat_idle_3
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0.5
-        width: 512
-        height: 385.5
-      alignment: 9
-      pivot: {x: 0.25, y: 0.5}
+        x: 450
+        y: 0
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6fc7ea7ab200d5f47b4509fdc57f6ccd
-      internalID: -900928142
+      spriteID: c02f76f43123ecb4e8ba628952c0f876
+      internalID: 1868784460
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: snowball_spritesheet_3x2_4
+      name: Bat_idle_4
       rect:
         serializedVersion: 2
-        x: 512
-        y: 0.5
-        width: 512
-        height: 385.5
-      alignment: 9
-      pivot: {x: 0.25, y: 0.5}
+        x: 600
+        y: 0
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6a167623c8b69bb40bfe6b2a883f1ad5
-      internalID: -1572169014
+      spriteID: cb222c2b79625b246b5bc68544455c6b
+      internalID: -2056056943
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: snowball_spritesheet_3x2_5
+      name: Bat_idle_5
       rect:
         serializedVersion: 2
-        x: 1024
-        y: 0.5
-        width: 512
-        height: 385.5
-      alignment: 9
-      pivot: {x: 0.25, y: 0.5}
+        x: 750
+        y: 0
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b4cdbb69be0dc654b9cba2dc1ba8d4c7
-      internalID: 1687462322
+      spriteID: 82434fe547102af42a0ca0535e873f6b
+      internalID: -603769613
       vertices: []
       indices: 
       edges: []
@@ -246,12 +233,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      snowball_spritesheet_3x2_0: 1810390242
-      snowball_spritesheet_3x2_1: 1761917864
-      snowball_spritesheet_3x2_2: -731194025
-      snowball_spritesheet_3x2_3: -900928142
-      snowball_spritesheet_3x2_4: -1572169014
-      snowball_spritesheet_3x2_5: 1687462322
+      Bat_idle_0: -592312833
+      Bat_idle_1: 1125238516
+      Bat_idle_2: 944820348
+      Bat_idle_3: 1868784460
+      Bat_idle_4: -2056056943
+      Bat_idle_5: -603769613
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
