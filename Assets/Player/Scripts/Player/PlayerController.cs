@@ -5,6 +5,7 @@ using UnityEngine.UI;
 using Assets.Common.Scripts;
 using Assets.Player.Scripts;
 using Assets.Desert_Level.Scripts;
+using TMPro;
 // public class PlayerController : Singleton<PlayerController>
 namespace Assets.Player.Scripts
 {
@@ -27,6 +28,8 @@ namespace Assets.Player.Scripts
         private float horizontal;
         private float vertical;
 
+        public int goldCounter=0;
+        public TextMeshProUGUI goldText;
         //--------------------------Health--------------------------
 
         public int maxHealth = 100;
@@ -210,6 +213,15 @@ namespace Assets.Player.Scripts
         {
             ChangeHealth(-atk);
             return currentHealth;
+        }
+
+        public void AddGold(int amount)
+        {
+
+            goldCounter += amount;
+            //goldText.text = goldCounter.ToString();
+            goldText.SetText(goldCounter.ToString());
+            Debug.Log("Gold: " + goldCounter);
         }
     }
 }

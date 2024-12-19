@@ -68,10 +68,14 @@
     <Compile Include="Assets\Forest_Level\Scripts\Trigger.cs" />
     <Compile Include="Assets\Winter_Level\Scripts\BaseSingleton.cs" />
     <Compile Include="Assets\Player\Scripts\MrClockwork.cs" />
+    <Compile Include="Assets\Desert_Level\Scripts\UI\EquipController.cs" />
     <Compile Include="Assets\Winter_Level\Scripts\AreaEntrance.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
     <Compile Include="Assets\Common\Scripts\IEnemyController.cs" />
+    <Compile Include="Assets\Desert_Level\Scripts\UI\QuitButtonBehavior.cs" />
     <Compile Include="Assets\Desert_Level\Scripts\Player2\PlayerController2.cs" />
+    <Compile Include="Assets\Desert_Level\Scripts\Door\DoorController.cs" />
+    <Compile Include="Assets\Desert_Level\Scripts\UI\InventoryController.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
@@ -81,6 +85,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
     <Compile Include="Assets\Forest_Level\Scripts\EnemyController.cs" />
     <Compile Include="Assets\Player\Scripts\Player\ActiveWeapon.cs" />
+    <Compile Include="Assets\Desert_Level\Scripts\Bringer\BringerController.cs" />
     <Compile Include="Assets\Desert_Level\Scripts\Singleton.cs" />
     <Compile Include="Assets\Winter_Level\Scripts\Player\Player Controls.cs" />
     <Compile Include="Assets\Desert_Level\Scripts\NPC\NPCController.cs" />
@@ -104,8 +109,10 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
     <Compile Include="Assets\Desert_Level\Scripts\Collectables\ChickenController.cs" />
     <Compile Include="Assets\Desert_Level\Scripts\Collectables\GoldCollectable.cs" />
+    <Compile Include="Assets\Desert_Level\Scripts\UI\FrameController.cs" />
     <Compile Include="Assets\Forest_Level\Scripts\Tile.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
+    <Compile Include="Assets\Desert_Level\Scripts\UI\UICanvasController.cs" />
     <Compile Include="Assets\Desert_Level\Scripts\Cobra\CobraController.cs" />
     <Compile Include="Assets\Player\Scripts\DamageTrigger.cs" />
     <Compile Include="Assets\Desert_Level\Scripts\Collectables\GoldManager.cs" />
@@ -122,6 +129,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
     <Compile Include="Assets\Player\Scripts\Player\PotionCollect.cs" />
     <Compile Include="Assets\Player\Scripts\Enemies\EnemyAILong.cs" />
+    <Compile Include="Assets\Desert_Level\Scripts\UI\RemoveEquipmentController.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextConsoleSimulator.cs" />
     <Compile Include="Assets\Player\Scripts\Enemies\EnemyControllerLong.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TeleType.cs" />
@@ -140,6 +148,7 @@
     <Compile Include="Assets\Desert_Level\Scripts\Minotaur\MinotaurController.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
     <Compile Include="Assets\Desert_Level\Scripts\Trap\BearTrapController.cs" />
+    <Compile Include="Assets\Desert_Level\Scripts\Bringer\DeathSpellController.cs" />
     <Compile Include="Assets\Player\Scripts\Player\WeaponCollider.cs" />
     <Compile Include="Assets\Forest_Level\Scripts\TimedAnimations.cs" />
     <Compile Include="Assets\Player\Scripts\Player\PlayerController.cs" />

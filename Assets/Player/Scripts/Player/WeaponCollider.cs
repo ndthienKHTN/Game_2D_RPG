@@ -8,10 +8,17 @@ public class WeaponCollider: MonoBehaviour, IPlayerController
 
     public int attack(GameObject enemy, int atk)
     {
-        EnemyControllerLong controller = enemy.GetComponent<EnemyControllerLong>();
+        /*EnemyControllerLong controller = enemy.GetComponent<EnemyControllerLong>();
         if (controller != null)
         {
             controller.beAttacked(atk);
+        }
+        return 0;*/
+
+        IEnemyController controller = enemy.GetComponent<IEnemyController>();
+        if (controller != null)
+        {
+            return controller.beAttacked(atk);
         }
         return 0;
     }
@@ -22,9 +29,17 @@ public class WeaponCollider: MonoBehaviour, IPlayerController
     }
 
     private void OnTriggerEnter2D(Collider2D other) {
-        if (other.gameObject.GetComponent<EnemyControllerLong>()) {
+        /*if (other.gameObject.GetComponent<EnemyControllerLong>()) {
+            attack(other.gameObject, atkAmount);
+        }*/
+        if(other.gameObject != null)
+        {
             attack(other.gameObject, atkAmount);
         }
+        
+        /*if (other.gameObject.GetComponent<IEnemyController>()) {
+           
+        }*/
     }
 }
 

@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using Assets.Player.Scripts;
 namespace Assets.Desert_Level.Scripts
 {
     public class GoldCollectable : MonoBehaviour
@@ -24,7 +24,17 @@ namespace Assets.Desert_Level.Scripts
             //Debug.Log("Collision with: " + other.tag + " - " + other.gameObject.tag);
             if (other.CompareTag("Player"))
             {
-                //other.GetComponent<PlayerController>().ChangeGold(goldValue);
+                other.GetComponent<PlayerController>().AddGold(goldValue);
+                GoldManager.Instance.RemoveGold(gameObject);
+                Destroy(gameObject);
+            }
+        }
+
+        private void OnCollisionEnter2D(Collision2D collision)
+        {
+            if (collision.gameObject.CompareTag("Player"))
+            {
+                collision.gameObject.GetComponent<PlayerController>().AddGold(goldValue);
                 GoldManager.Instance.RemoveGold(gameObject);
                 Destroy(gameObject);
             }

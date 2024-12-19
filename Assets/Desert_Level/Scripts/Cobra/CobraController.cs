@@ -32,6 +32,7 @@ namespace Assets.Desert_Level.Scripts
 
         bool playerInCollision = false;
         EnemyUIHealthBar enemyUIHealthBar;
+        public GameObject reward;
         // Start is called before the first frame update
         void Start()
         {
@@ -189,12 +190,13 @@ namespace Assets.Desert_Level.Scripts
 
         public int beAttacked(int atk)
         {
-            currentHealth -= atk;
+            currentHealth = Mathf.Clamp(currentHealth - atk, 0, maxHealth);
             if (currentHealth <= 0)
             {
                 StartCoroutine(DieAnimation());
-                //Destroy(gameObject);
             }
+            Debug.Log(currentHealth + "/" + maxHealth);
+            enemyUIHealthBar.SetValue(currentHealth / (float)maxHealth);
             return currentHealth;
         }
 
@@ -203,6 +205,7 @@ namespace Assets.Desert_Level.Scripts
             rigidbody2d.simulated = false;
             animator.SetTrigger("Die");
             yield return new WaitForSeconds(1.1f);
+            Instantiate(reward, transform.position, Quaternion.identity);
             Destroy(gameObject);
         }
 

@@ -13,7 +13,8 @@ namespace Assets.Desert_Level.Scripts
         Animator animator;
         private bool playerInCollision = false;
         float restartTrapTimer;
-        public float restartTrapDelay = 1f;
+        public float restartTrapDelay = 30f;
+        public float rootedTime = 3f;
 
         // Start is called before the first frame update
         void Start()
@@ -90,8 +91,12 @@ namespace Assets.Desert_Level.Scripts
             yield return new WaitForSeconds(0.15f);
             if (playerInCollision)
             {
+                animator.SetBool("Close", true);
                 Debug.Log("Player is still in collision with bear trap");
-                playerController.beAttacked(1);
+                playerController.beAttacked(5);
+
+                yield return new WaitForSeconds(rootedTime);
+                animator.SetBool("Close", false);
                 // Cause damage to the player
                 //playerController.ChangeHealth(-1);
             }

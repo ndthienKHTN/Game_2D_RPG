@@ -37,7 +37,7 @@ public class FireTrapController : MonoBehaviour
                 return;
             }
 
-            playerController.beAttacked(1);
+            playerController.beAttacked(damage);
         }
     }
 

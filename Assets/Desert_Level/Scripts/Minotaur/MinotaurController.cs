@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Assets.Common.Scripts;
+using static UnityEngine.InputSystem.LowLevel.InputStateHistory;
 
 namespace Assets.Desert_Level.Scripts
 {
@@ -31,6 +32,10 @@ namespace Assets.Desert_Level.Scripts
         Vector2 lookDirection;
 
         bool playerInCollision = false;
+        public GameObject reward;
+        
+        public GameObject chickenRewardPrefab;
+        public GameObject goldRewardPrefab;
 
         // Start is called before the first frame update
         void Start()
@@ -183,13 +188,13 @@ namespace Assets.Desert_Level.Scripts
 
         public int beAttacked(int atk)
         {
-            currentHealth -= atk;
+            currentHealth = Mathf.Clamp(currentHealth - atk, 0, maxHealth);
             if (currentHealth <= 0)
             {
-                
                 StartCoroutine(DieAnimation());
-                //Destroy(gameObject);
             }
+            Debug.Log(currentHealth + "/" + maxHealth);
+            enemyUIHealthBar.SetValue(currentHealth / (float)maxHealth);
             return currentHealth;
         }
 
@@ -197,8 +202,32 @@ namespace Assets.Desert_Level.Scripts
         {
             rigidbody2d.simulated = false;
             animator.SetTrigger("Die");
-            yield return new WaitForSeconds(1.05f);
+            yield return new WaitForSeconds(1.00f);
+            GenerateReward();
+            //Instantiate(reward, transform.position, Quaternion.identity);
             Destroy(gameObject);
+        }
+
+        void GenerateReward()
+        {
+            float randomValue = Random.Range(0f, 1f);
+
+            if (randomValue <= 0.3f)
+            {
+                // 30% chance to generate chicken reward
+                Instantiate(chickenRewardPrefab, transform.position, Quaternion.identity);
+            }
+            else if (randomValue <= 0.9f)
+            {
+                // 60% chance to generate gold reward
+                Instantiate(goldRewardPrefab, transform.position, Quaternion.identity);
+            }
+            else
+            {
+                // 10% chance to generate both rewards
+                Instantiate(chickenRewardPrefab, transform.position, Quaternion.identity);
+                Instantiate(goldRewardPrefab, transform.position, Quaternion.identity);
+            }
         }
     }
 }
