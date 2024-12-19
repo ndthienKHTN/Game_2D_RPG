@@ -155,7 +155,7 @@ namespace Assets.Desert_Level.Scripts
             IPlayerController controller =  player.GetComponent<IPlayerController>();
             if (controller != null)
             {
-                controller.beAttacked(atk);
+                controller.beAttacked(null, atk);
                 ChangeHealth(20);
             }
             return 0;

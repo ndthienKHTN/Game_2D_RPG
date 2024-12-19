@@ -93,7 +93,7 @@ namespace Assets.Desert_Level.Scripts
             {
                 animator.SetBool("Close", true);
                 Debug.Log("Player is still in collision with bear trap");
-                playerController.beAttacked(5);
+                playerController.beAttacked(null, 5);
 
                 yield return new WaitForSeconds(rootedTime);
                 animator.SetBool("Close", false);

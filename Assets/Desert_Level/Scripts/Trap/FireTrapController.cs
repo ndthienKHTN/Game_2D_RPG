@@ -37,7 +37,7 @@ public class FireTrapController : MonoBehaviour
                 return;
             }
 
-            playerController.beAttacked(damage);
+            playerController.beAttacked(null, damage);
         }
     }
 
@@ -48,7 +48,7 @@ public class FireTrapController : MonoBehaviour
             IPlayerController playerController = collision.GetComponent<IPlayerController>();
             if (playerController != null)
             {
-                playerController.beAttacked(damage);
+                playerController.beAttacked(null, damage);
             }
         }
     }

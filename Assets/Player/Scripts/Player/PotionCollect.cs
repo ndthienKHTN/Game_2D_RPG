@@ -2,20 +2,22 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Assets.Player.Scripts;
-public class PotionCollect : MonoBehaviour
-{
-    //Detect collision trigger with player
-    private void  OnTriggerEnter2D(Collider2D collision)
+namespace Assets.Player.Scripts {
+    public class PotionCollect : MonoBehaviour
     {
-        PlayerController player = collision.GetComponent<PlayerController>();
-        if (player != null)
+        //Detect collision trigger with player
+        private void  OnTriggerEnter2D(Collider2D collision)
         {
-            if (player.health < player.maxHealth)
+            PlayerController player = collision.GetComponent<PlayerController>();
+            if (player != null)
             {
-                player.ChangeHealth(40);
-                Destroy(gameObject);
+                if (player.health < player.maxHealth)
+                {
+                    player.ChangeHealth(40);
+                    Destroy(gameObject);
+                }
             }
+            // Debug.Log("Collision with player");
         }
-        // Debug.Log("Collision with player");
     }
-}
+} 

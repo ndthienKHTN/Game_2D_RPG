@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Assets.Common.Scripts;
+using Assets.Common.Scripts;
 
 public class WeaponCollider: MonoBehaviour, IPlayerController
 {
@@ -24,7 +25,7 @@ public class WeaponCollider: MonoBehaviour, IPlayerController
         return 0;
     }
 
-    public int beAttacked(int atk)
+    public int beAttacked(GameObject enemy, int atk)
     {
         return 0;
     }

@@ -18,7 +18,7 @@ namespace Assets.Winter_Level.Scripts.Enemy
                 IPlayerController playerController = collision.collider.GetComponent<IPlayerController>();
                 if (playerController != null)
                 {
-                    playerController.beAttacked(attackPower);
+                    playerController.beAttacked(null, attackPower);
                 }
             }
 

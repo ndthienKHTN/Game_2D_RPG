@@ -2,8 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Tilemaps;
-using Assets.Winter_Level.Scripts.Player;
+//using Assets.Winter_Level.Scripts.Player;
 using Assets.Winter_Level.Scripts;
+using Assets.Player.Scripts;
 
 namespace Assets.Winter_Level.Scripts
 {

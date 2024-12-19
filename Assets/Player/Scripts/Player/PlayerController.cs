@@ -1,6 +1,5 @@
 using System.Collections;
 using System.Collections.Generic;
-using Assets.Common.Scripts;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.InputSystem;
@@ -55,12 +54,24 @@ namespace Assets.Player.Scripts
         //--------------------------Health--------------------------
 
         public int maxHealth = 100;
+        [SerializeField] private float knockBackThrustAmount = 10f;
+        [SerializeField] private float damageRecoveryTime = 1f;
         int currentHealth;
         public int health
         {
             get { return currentHealth; }
             set { currentHealth = value; }
         }
+
+        public int maxHP
+        {
+            get { return maxHealth; }
+        }
+
+        private bool canTakeDamage = true;
+        private Knockback knockback;
+        private Flash flash;
+
         public Slider healthSlider;
         // --health-bar-
 
@@ -116,37 +127,19 @@ namespace Assets.Player.Scripts
             Debug.Log("Player respawned at: " + checkpointPosition);
         }
 
-        public void ChangeHealth(int amount)
-        {
-            if (amount < 0)
-            {
-                if (isInvincible)
-                    return;
-                isInvincible = true;
-                invincibleTimer = timeInvincible;
-            }
-            currentHealth = Mathf.Clamp(currentHealth + amount, 0, maxHealth);
-            Debug.Log(currentHealth + "/" + maxHealth);
-            //test
-            if (currentHealth <= 0)
-            {
-                currentHealth = 100;
-            }
-            UpdateHealthSlider();
-            if (currentHealth == 0)
-            {
-                Respawn();
-            }
-        }
+        
 
-        private void Awake()
-
-        {
+        // protected override void Awake()
+        private void Awake() {
+            //base.Awake();
             Instance = this;
             playerControls = new PlayerControls();
             rb = GetComponent<Rigidbody2D>();
             myAnimator = GetComponent<Animator>();
             mySpriteRender = GetComponent<SpriteRenderer>();
+            //hieu ung khi bi tan cong
+            flash = GetComponent<Flash>();
+            knockback = GetComponent<Knockback>();
         }
 
         private void OnEnable()
@@ -160,16 +153,6 @@ namespace Assets.Player.Scripts
             PlayerInput();
             HandleSpeedBoost();
             HandleTeleportCooldown();
-
-            if (isInvincible)
-            {
-                invincibleTimer -= Time.deltaTime;
-                if (invincibleTimer < 0)
-                {
-                    isInvincible = false;
-                }
-            }
-
             AdjustLookDirection();
 
             if (Input.GetKeyDown(KeyCode.C))
@@ -207,10 +190,10 @@ namespace Assets.Player.Scripts
 
         private void Move()
         {
+            if (knockback!=null && knockback.GettingKnockedBack) { return; }
             float currentMoveSpeed = isSpeedBoostActive ? moveSpeed * speedBoostMultiplier : moveSpeed;
             rb.MovePosition(rb.position + movement * (currentMoveSpeed * Time.fixedDeltaTime));
         }
-
 
         private void AdjustPlayerFacingDirection()
         {
@@ -278,10 +261,24 @@ namespace Assets.Player.Scripts
             }
             return 0;
         }
-
-        public int beAttacked(int atk)
+        
+        public int beAttacked(GameObject enemy, int atk)
         {
-            ChangeHealth(-atk);
+            if ((canTakeDamage))
+            {
+                ChangeHealth(-atk);
+                if (enemy == null)
+                {
+                    knockback.GetKnockedBack(this.gameObject.transform, knockBackThrustAmount);
+                }
+                else
+                {
+                    IEnemyController Ienemy = enemy.GetComponent<IEnemyController>();
+                    knockback.GetKnockedBack(enemy.gameObject.transform, knockBackThrustAmount);
+                }
+                // StartCoroutine(flash.FlashRoutine());
+
+            }
             return 0;
         }
 
@@ -377,5 +374,39 @@ namespace Assets.Player.Scripts
             goldText.SetText(goldCounter.ToString());
             Debug.Log("Gold: " + goldCounter);
         }
+
+        private IEnumerator DamageRecoveryRoutine()
+        {
+            yield return new WaitForSeconds(damageRecoveryTime);
+            canTakeDamage = true;
+        }
+
+        public void ChangeHealth(int amount)
+        {
+            if (amount < 0)
+            {
+                if (!canTakeDamage) return;
+
+                canTakeDamage = false;
+                StartCoroutine(DamageRecoveryRoutine());
+                if (flash != null)
+                {
+                    StartCoroutine(flash.FlashRoutine());
+                }
+                
+            }
+            currentHealth = Mathf.Clamp(currentHealth + amount, 0, maxHealth);
+            Debug.Log(currentHealth + "/" + maxHealth);
+            if (currentHealth <= 0)
+            {
+                currentHealth = 100;
+            }
+            UpdateHealthSlider();
+            if (currentHealth == 0)
+            {
+                Respawn();
+            }
+        }
     }
+    
 }

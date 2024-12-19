@@ -147,6 +147,8 @@ GameObject:
   - component: {fileID: 5941175044631305778}
   - component: {fileID: 8762728268985869514}
   - component: {fileID: 4348434412771530520}
+  - component: {fileID: 5933802478436202214}
+  - component: {fileID: 3005795543993651888}
   m_Layer: 8
   m_Name: Player 1
   m_TagString: Untagged
@@ -339,7 +341,12 @@ MonoBehaviour:
   teleportCooldown: 10
   dashSpeed: 4
   myTrailRenderer: {fileID: 3562453835211752395}
+  goldCounter: 0
+  goldText: {fileID: 0}
   maxHealth: 100
+  knockBackThrustAmount: 10
+  damageRecoveryTime: 1
+  healthSlider: {fileID: 0}
   timeInvincible: 2
 --- !u!82 &4348434412771530520
 AudioSource:
@@ -437,6 +444,33 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &5933802478436202214
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3412714443259742891}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62f3a8f1b93b1e14a8b9cf83da5963ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  knockBackTime: 0.2
+--- !u!114 &3005795543993651888
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3412714443259742891}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fb74deeb37227540b4bbba21578501a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  whiteFlashMat: {fileID: 2100000, guid: adea451d42376004ebf69c6960d166aa, type: 2}
+  restoreDefaultMatTime: 0.2
 --- !u!1 &3609806212702872068
 GameObject:
   m_ObjectHideFlags: 0

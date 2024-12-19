@@ -90,7 +90,7 @@ namespace Assets.Forest_Level.Scripts
             if (playerController != null)
             {
                 Debug.Log("Enemy attacking player");
-                return playerController.beAttacked(atk);
+                return playerController.beAttacked(null, atk);
             }
             return 0;
         }
@@ -103,8 +103,10 @@ namespace Assets.Forest_Level.Scripts
             HP -= damage;
 
             HP = Math.Max(HP, 0);
-            StartCoroutine(flash.FlashRoutine());
-
+            if (flash != null)
+            {
+                StartCoroutine(flash.FlashRoutine());
+            }
             Debug.Log($"Orc 1 nhận {damage} sát thương! HP còn lại: {HP}");
             return damage;
         }

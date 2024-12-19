@@ -161,7 +161,7 @@ namespace Assets.Desert_Level.Scripts
             if (playerController != null)
             {
                 Debug.Log("Cobra attacking player");
-                return playerController.beAttacked(atk);
+                return playerController.beAttacked(null, atk);
             }
             return 0;
         }

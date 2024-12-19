@@ -32,6 +32,7 @@ public class Sword : MonoBehaviour, IPlayerController
     void Start()
     {
         playerControls.Combat.Attack.started += _ => Attack();
+        //FIX BUG NHA LONG
         playerControls.Combat.Shoot.started += _ => ShootArrow();
     }
 
@@ -40,15 +41,16 @@ public class Sword : MonoBehaviour, IPlayerController
     }
 
     private void Attack() {
-        if (myAnimator != null)
-        {
-            myAnimator.SetTrigger("Attack");
+        //check  animater and weaponCollider
+        if (myAnimator == null || weaponCollider == null){
+            return;
         }
-
+        myAnimator.SetTrigger("Attack");
         weaponCollider.gameObject.SetActive(true);
-
-        slashAnim = Instantiate(slashAnimPrefab, slashAnimSpawnPoint.position, Quaternion.identity);
-        slashAnim.transform.parent = this.transform.parent;
+        if (slashAnimPrefab != null) {
+            slashAnim = Instantiate(slashAnimPrefab, slashAnimSpawnPoint.position, Quaternion.identity);
+            slashAnim.transform.parent = this.transform.parent;
+        }
     }
 
     public void DoneAttackingAnimEvent() {
@@ -76,6 +78,10 @@ public class Sword : MonoBehaviour, IPlayerController
     private void MouseFollowWithOffset() {
         Vector3 mousePos = Input.mousePosition;
         Vector3 playerScreenPoint = Camera.main.WorldToScreenPoint(playerController.transform.position);
+        if (activeWeapon == null || weaponCollider == null) {
+            return;
+        }
+
 
         float angle = Mathf.Atan2(mousePos.y, mousePos.x) * Mathf.Rad2Deg;
 
@@ -88,6 +94,10 @@ public class Sword : MonoBehaviour, IPlayerController
         }
     }
     private void ShootArrow() {
+        Debug.Log(slashAnimSpawnPoint);
+        if (slashAnimSpawnPoint == null) {
+            return;
+        }
         Vector3 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         Vector2 direction = (mousePosition - slashAnimSpawnPoint.position).normalized;
 
@@ -105,7 +115,7 @@ public class Sword : MonoBehaviour, IPlayerController
         return 0;
     }
 
-    public int beAttacked(int atk)
+    public int beAttacked(GameObject enemy, int atk)
     {
         return 0;
     }
