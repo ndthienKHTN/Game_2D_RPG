@@ -209,5 +209,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   vertical: 1
-  movingTime: 2
+  movingTime: 1.5
   deathVFXPrefab: {fileID: 1698634917931367144, guid: 59802b838efeb564c9383ed4788c509d, type: 3}

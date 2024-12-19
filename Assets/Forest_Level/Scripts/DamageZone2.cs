@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using Assets.Desert_Level.Scripts;
 using UnityEngine;
 
-public class DamageZone : MonoBehaviour
+public class DamageZone2 : MonoBehaviour
 {
-    public int Damage { get; private set; } = 20;
     public AudioClip collectSound;
+    public int Damage { get; private set; } = 30;
     private void OnTriggerStay2D(Collider2D collision)
     {
         PlayerController player = collision.GetComponent<PlayerController>();

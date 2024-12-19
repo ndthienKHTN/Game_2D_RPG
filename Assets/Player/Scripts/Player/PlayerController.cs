@@ -16,6 +16,8 @@ public class PlayerController : MonoBehaviour, IPlayerController, ICheckpoint
     [SerializeField] private float speedBoostCooldown = 10f;
     [SerializeField] private float teleportDistance = 5f;
     [SerializeField] private float teleportCooldown = 10f;
+    [SerializeField] private float dashSpeed = 10f;
+    [SerializeField] private TrailRenderer myTrailRenderer;
 
     private PlayerControls playerControls;
     private Vector2 movement;
@@ -24,6 +26,7 @@ public class PlayerController : MonoBehaviour, IPlayerController, ICheckpoint
     private SpriteRenderer mySpriteRender;
 
     private bool facingLeft = false;
+    private bool isDashing = false;
     public bool FacingLeft { get { return facingLeft; } set { facingLeft = value; } }
     AudioSource audioSource;
 
@@ -66,9 +69,30 @@ public class PlayerController : MonoBehaviour, IPlayerController, ICheckpoint
     void Start()
     {
         audioSource = GetComponent<AudioSource>();
-        currentHealth = 50;
+        currentHealth = maxHealth;
         checkpointPosition = transform.position;
         UpdateHealthSlider();
+        playerControls.Combat.Dash.performed += _ => Dash();
+    }
+    private void Dash()
+    {
+        if (!isDashing)
+        {
+            isDashing = true;
+            moveSpeed *= dashSpeed;
+            myTrailRenderer.emitting = true;
+            StartCoroutine(EndDashRoutine());
+        }
+    }
+    private IEnumerator EndDashRoutine()
+    {
+        float dashTime = 0.2f;
+        float dashCD = 0.25f;
+        yield return new WaitForSeconds(dashTime);
+        moveSpeed /= dashSpeed;
+        myTrailRenderer.emitting = false;
+        yield return new WaitForSeconds(dashCD);
+        isDashing = false;
     }
     public void SetCheckpoint(Vector3 newCheckpointPosition)
     {
