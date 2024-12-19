@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 3442084171876950449}
   - component: {fileID: 422169539537277797}
   - component: {fileID: 1007481637010136251}
+  - component: {fileID: 574153422609243499}
   - component: {fileID: 2194266693788797034}
   m_Layer: 0
   m_Name: orc1_walk_attack_front _full_0
@@ -114,7 +115,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!61 &422169539537277797
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -181,6 +182,20 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &574153422609243499
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 573968625779433450}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a87763d87511b542bed22f69d50b403, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  whiteFlashMat: {fileID: 2100000, guid: 0bf28c37cd8b9404283b8e68d3393fc7, type: 2}
+  restoreDefaultMatTime: 0.2
 --- !u!114 &2194266693788797034
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -193,6 +208,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61f430f923f28c240bc087a873808759, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 3
-  vertical: 0
-  movingTime: 2
+  vertical: 1
+  movingTime: 1.5
+  deathVFXPrefab: {fileID: 1698634917931367144, guid: 59802b838efeb564c9383ed4788c509d, type: 3}

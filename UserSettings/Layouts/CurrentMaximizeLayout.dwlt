@@ -9,6 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
+  m_EditorHideFlags: 0
   m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -358,6 +359,7 @@ MonoBehaviour:
       collapsed: 0
       displayed: 1
       snapOffset: {x: 0, y: 24.8}
+      snapOffset: {x: 0, y: 24.8}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: Tool Settings
@@ -384,7 +386,9 @@ MonoBehaviour:
       collapsed: 0
       displayed: 1
       snapOffset: {x: -322, y: -276}
+      snapOffset: {x: -322, y: -276}
       snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 3
       snapCorner: 3
       id: unity-scene-view-toolbar
       index: 0
@@ -618,9 +622,11 @@ MonoBehaviour:
       collapsed: 0
       displayed: 1
       snapOffset: {x: 508.80002, y: 10.399994}
+      snapOffset: {x: 508.80002, y: 10.399994}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: UnityEditor.SceneViewCameraOverlay
+      index: 12
       index: 12
       layout: 4
       size: {x: 0, y: 0}
@@ -642,6 +648,7 @@ MonoBehaviour:
       containerId: overlay-container--right
       floating: 0
       collapsed: 0
+      displayed: 1
       displayed: 1
       snapOffset: {x: 48, y: 48}
       snapOffsetDelta: {x: 0, y: 0}
@@ -674,6 +681,19 @@ MonoBehaviour:
       snapCorner: 0
       id: Scene View/TrailRenderer
       index: 10
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 48, y: 48}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: APV Overlay
+      index: 11
       layout: 4
       size: {x: 0, y: 0}
       sizeOverriden: 0
@@ -740,11 +760,14 @@ MonoBehaviour:
     zGrid:
       m_Fade:
         m_Target: 0
+        m_Target: 0
         speed: 2
+        m_Value: 0
         m_Value: 0
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
       m_Size: {x: 1, y: 1}
+    m_ShowGrid: 0
     m_ShowGrid: 0
     m_GridAxis: 1
     m_gridOpacity: 0.5
@@ -1222,6 +1245,7 @@ MonoBehaviour:
     m_FilterByTypeIntersection: 0
   m_ViewMode: 1
   m_StartGridSize: 57
+  m_StartGridSize: 57
   m_LastFolders:
   - Assets/Winter_Level/Sprites/Ice Map/Monsters/Wolf
   m_LastFoldersGridSize: 57
@@ -1314,6 +1338,7 @@ MonoBehaviour:
     m_NewAssetIndexInList: -1
     m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 57
+    m_GridSize: 57
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 207
 --- !u!114 &16
@@ -1326,7 +1351,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: InspectorWindow
+  m_Name: AnimationWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -1335,7 +1360,7 @@ MonoBehaviour:
     y: 0
     width: 580
     height: 722.8
-  m_MinSize: {x: 276, y: 71}
+  m_MinSize: {x: 101, y: 121}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 17}
   m_Panes:
@@ -1343,6 +1368,7 @@ MonoBehaviour:
   - {fileID: 18}
   m_Selected: 0
   m_LastSelected: 1
+--- !u!114 &17
 --- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -1390,6 +1416,7 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_PreviewWindow: {fileID: 0}
+--- !u!114 &18
 --- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 52

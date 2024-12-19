@@ -22,7 +22,7 @@ namespace Assets.Forest_Level.Scripts
 
         //--------------------------Health--------------------------
 
-        public int maxHealth = 5;
+        public int maxHealth = 2;
         int currentHealth;
         public int health
         {
@@ -48,7 +48,7 @@ namespace Assets.Forest_Level.Scripts
         float invincibleTimer;
         void Start()
         {
-            currentHealth = 2;
+            currentHealth = 1;
             audioSource = GetComponent<AudioSource>();
             UpdateHealthSlider();
         }
