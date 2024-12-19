@@ -1,145 +1,168 @@
 using System.Collections;
 using System.Collections.Generic;
 using Assets.Common.Scripts;
+using Assets.Player.Scripts;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace Assets.Player.Scripts
+
+
+public class PlayerController : Singleton<PlayerController>,IPlayerController
+// public class PlayerController : MonoBehaviour, IPlayerController
 {
-    public class PlayerController : Singleton<PlayerController>,IPlayerController
-    // public class PlayerController : MonoBehaviour
+    public bool FacingLeft { get { return facingLeft; } set { facingLeft = value; } }
+    public static PlayerController Instance;
+
+    // --------------------------Movement--------------------------
+    [SerializeField] private float moveSpeed = 4f;
+
+    private PlayerControls playerControls;
+    private Vector2 movement;
+    private Rigidbody2D rb;
+    private Animator myAnimator;
+    private SpriteRenderer mySpriteRender;
+
+    private bool facingLeft = false;
+
+    //--------------------------Health--------------------------
+    
+    public int maxHealth = 100;
+    [SerializeField] private float knockBackThrustAmount = 10f;
+    [SerializeField] private float damageRecoveryTime = 1f;
+
+    private int currentHealth;
+    public int health
     {
-        public bool FacingLeft { get { return facingLeft; } set { facingLeft = value; } }
-        public static PlayerController Instance;
+        get { return currentHealth; }
+        set { currentHealth = value; }
+    }
+    public int maxHP
+    {
+        get { return maxHealth; }
+    }
+    private bool canTakeDamage = true;
+    private Knockback knockback;
+    private Flash flash;
 
-        [SerializeField] private float moveSpeed = 4f;
+    private Slider healthSlider;
+    // --health-bar-
+    
+    private void UpdateHealthSlider() {
+        if (healthSlider == null) {
+            healthSlider = GameObject.Find("Health Slider").GetComponent<Slider>();
+        }
 
-        private PlayerControls playerControls;
-        private Vector2 movement;
-        private Rigidbody2D rb;
-        private Animator myAnimator;
-        private SpriteRenderer mySpriteRender;
+        healthSlider.maxValue = maxHealth;
+        healthSlider.value = currentHealth;
+    }
 
-        private bool facingLeft = false;
+    void Start()
+    {
+        currentHealth = maxHealth;
+        UpdateHealthSlider();
+    }  
+    
+    // -----------------------------------------------------
 
-        //--------------------------Health--------------------------
+
+    protected override void Awake() {
+    // private void Awake() {
+        base.Awake();
+        Instance = this;
+        playerControls = new PlayerControls();
+        rb = GetComponent<Rigidbody2D>();
+        myAnimator = GetComponent<Animator>();
+        mySpriteRender = GetComponent<SpriteRenderer>();
+        //hieu ung khi bi tan cong
+        flash = GetComponent<Flash>();
+        knockback = GetComponent<Knockback>();
+    }
+
+    private void OnEnable()
+    {
+        playerControls.Enable();
+    }
+
+    private void Update()
+    {
+        PlayerInput();
+    }
+
+    private void FixedUpdate()
+    {
+        AdjustPlayerFacingDirection();
+        Move();
         
-        public int maxHealth = 100;
-        int currentHealth;
-        public int health
-        {
-            get { return currentHealth; }
-            set { currentHealth = value; }
+    }
+
+    private void PlayerInput()
+    {
+        movement = playerControls.Movement.Move.ReadValue<Vector2>();
+
+        myAnimator.SetFloat("moveX", movement.x);
+        myAnimator.SetFloat("moveY", movement.y);
+    }
+
+    private void Move()
+    {
+        if (knockback.GettingKnockedBack) { return; }
+
+        rb.MovePosition(rb.position + movement * (moveSpeed * Time.fixedDeltaTime));
+    }
+
+
+    private void AdjustPlayerFacingDirection() {
+        Vector3 mousePos = Input.mousePosition;
+        Vector3 playerScreenPoint = Camera.main.WorldToScreenPoint(transform.position);
+
+        if (mousePos.x < playerScreenPoint.x) {
+            mySpriteRender.flipX = true;
+            FacingLeft = true;
+        } else {
+            mySpriteRender.flipX = false;
+            FacingLeft = false;
         }
-        private Slider healthSlider;
-        // --health-bar-
-        
-        private void UpdateHealthSlider() {
-            if (healthSlider == null) {
-                healthSlider = GameObject.Find("Health Slider").GetComponent<Slider>();
-            }
+    }
 
-            healthSlider.maxValue = maxHealth;
-            healthSlider.value = currentHealth;
-        }
-        // Timer for invincibility
-        public float timeInvincible = 2.0f;
-        bool isInvincible;
-        float invincibleTimer;
-        void Start()
-        {
-            currentHealth = maxHealth;
-            UpdateHealthSlider();
-        }
-        public void ChangeHealth(int amount)
-        {
-            if (amount < 0)
-            {
-                if (isInvincible)
-                    return;
-                isInvincible = true;
-                invincibleTimer = timeInvincible;
-            }
-            currentHealth = Mathf.Clamp(currentHealth + amount, 0, maxHealth);
-            Debug.Log(currentHealth + "/" + maxHealth);
-            UpdateHealthSlider();
-        }
-        
-        
-        // -----------------------------------------------------
+    public int attack(GameObject enemy, int atk)
+    {
+        //enemy.GetComponent<IEnemyController>().beAttacked(atk);
+        return 0;
+    }
 
-
-        protected override void Awake() {
-        // private void Awake() {
-            base.Awake();
-            Instance = this;
-            playerControls = new PlayerControls();
-            rb = GetComponent<Rigidbody2D>();
-            myAnimator = GetComponent<Animator>();
-            mySpriteRender = GetComponent<SpriteRenderer>();
-        }
-
-        private void OnEnable()
-        {
-            playerControls.Enable();
-        }
-
-        private void Update()
-        {
-            PlayerInput();
-            if (isInvincible)
-            {
-                invincibleTimer -= Time.deltaTime;
-                if (invincibleTimer < 0)
-                {
-                    isInvincible = false;
-                }
-            } 
-        }
-
-        private void FixedUpdate()
-        {
-            AdjustPlayerFacingDirection();
-            Move();
-            
-        }
-
-        private void PlayerInput()
-        {
-            movement = playerControls.Movement.Move.ReadValue<Vector2>();
-
-            myAnimator.SetFloat("moveX", movement.x);
-            myAnimator.SetFloat("moveY", movement.y);
-        }
-
-        private void Move()
-        {
-            rb.MovePosition(rb.position + movement * (moveSpeed * Time.fixedDeltaTime));
-        }
-
-
-        private void AdjustPlayerFacingDirection() {
-            Vector3 mousePos = Input.mousePosition;
-            Vector3 playerScreenPoint = Camera.main.WorldToScreenPoint(transform.position);
-
-            if (mousePos.x < playerScreenPoint.x) {
-                mySpriteRender.flipX = true;
-                FacingLeft = true;
-            } else {
-                mySpriteRender.flipX = false;
-                FacingLeft = false;
-            }
-        }
-
-        public int attack(GameObject enemy, int atk)
-        {
-            throw new System.NotImplementedException();
-        }
-
-        public int beAttacked(int atk)
-        {   
+    public int beAttacked(GameObject enemy,int atk)
+    {   
+        if ((canTakeDamage)) {
             ChangeHealth(-atk);
-            return 0;        
+            if (enemy == null) {
+                knockback.GetKnockedBack(this.gameObject.transform, knockBackThrustAmount);
+            } else{
+                IEnemyController Ienemy = enemy.GetComponent<IEnemyController>();
+                knockback.GetKnockedBack(enemy.gameObject.transform, knockBackThrustAmount);
+            }
+            // StartCoroutine(flash.FlashRoutine());
+            
+        }       
+        return 0;        
+    }
+
+    public void ChangeHealth(int amount)
+    {
+        if (amount < 0)
+        {
+            if (!canTakeDamage) return;
+
+            canTakeDamage = false;
+            StartCoroutine(DamageRecoveryRoutine());
+            StartCoroutine(flash.FlashRoutine());
         }
+        currentHealth = Mathf.Clamp(currentHealth + amount, 0, maxHealth);
+        Debug.Log(currentHealth + "/" + maxHealth);
+        UpdateHealthSlider();
+    }
+      
+    private IEnumerator DamageRecoveryRoutine() {
+        yield return new WaitForSeconds(damageRecoveryTime);
+        canTakeDamage = true;
     }
 }

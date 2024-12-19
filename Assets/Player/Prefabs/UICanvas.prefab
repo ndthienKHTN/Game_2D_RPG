@@ -142,7 +142,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 802b07d6436a90f41bc3471e1314a266, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d29c383ac6c549e48b94dee9e9be246a, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -676,7 +676,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 0cef39f76c4a3c04bb64c8534bdae158, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 91132b20c97a314459a9df70caad6cec, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -896,7 +896,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 802b07d6436a90f41bc3471e1314a266, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d29c383ac6c549e48b94dee9e9be246a, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1297,7 +1297,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 802b07d6436a90f41bc3471e1314a266, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d29c383ac6c549e48b94dee9e9be246a, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1374,7 +1374,7 @@ GameObject:
   - component: {fileID: 9149108196169520231}
   - component: {fileID: 2489848106506257873}
   m_Layer: 5
-  m_Name: Heart Slider
+  m_Name: Health Slider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1440,7 +1440,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 0}
   m_FillRect: {fileID: 7060203677765367646}
   m_HandleRect: {fileID: 0}
@@ -1604,10 +1604,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 4859638706008883347}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7354691932fab1140aadb27a9aa5c31a, type: 3}
+  m_Script: {fileID: 11500000, guid: 5be78af3cb2e0dc47b3594a30c0e2ad7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pauseMenu: {fileID: 0}
 --- !u!1 &4939747090065513859
 GameObject:
   m_ObjectHideFlags: 0
@@ -1749,7 +1748,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6b67ba464b04f164f9c4fc0557df3c85, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 3e1619d8eeaa4e04788cd67423a699a7, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1826,7 +1825,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 802b07d6436a90f41bc3471e1314a266, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d29c383ac6c549e48b94dee9e9be246a, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

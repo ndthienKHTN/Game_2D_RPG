@@ -73,6 +73,7 @@
     <Compile Include="Assets\Winter_Level\Scripts\Enemy\EnemyPathfinding.cs" />
     <Compile Include="Assets\Winter_Level\Scripts\CameraController.cs" />
     <Compile Include="Assets\Forest_Level\Scripts\EnemyController.cs" />
+    <Compile Include="Assets\Player\Scripts\MainMenu\BackgroundMusic.cs" />
     <Compile Include="Assets\Player\Scripts\Player\ActiveWeapon.cs" />
     <Compile Include="Assets\Desert_Level\Scripts\Singleton.cs" />
     <Compile Include="Assets\Winter_Level\Scripts\Player\Player Controls.cs" />
@@ -97,14 +98,15 @@
     <Compile Include="Assets\Forest_Level\Scripts\Tile.cs" />
     <Compile Include="Assets\Common\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Desert_Level\Scripts\Cobra\CobraController.cs" />
-    <Compile Include="Assets\Player\Scripts\PauseMenu.cs" />
     <Compile Include="Assets\Desert_Level\Scripts\Collectables\GoldManager.cs" />
+    <Compile Include="Assets\Player\Scripts\MainMenu\PauseMenu.cs" />
     <Compile Include="Assets\Common\Scripts\EnemyController.cs" />
     <Compile Include="Assets\Player\Scripts\Player\Sword.cs" />
     <Compile Include="Assets\Winter_Level\Scripts\Enemy\EnemyAI.cs" />
     <Compile Include="Assets\Player\Scripts\Player\PotionCollect.cs" />
     <Compile Include="Assets\Player\Scripts\Enemies\EnemyAILong.cs" />
     <Compile Include="Assets\Player\Scripts\Enemies\EnemyControllerLong.cs" />
+    <Compile Include="Assets\Player\Scripts\MainMenu\ImageHover.cs" />
     <Compile Include="Assets\Player\Scripts\Player\Projectile.cs" />
     <Compile Include="Assets\Forest_Level\Scripts\DamageZone.cs" />
     <Compile Include="Assets\Forest_Level\Scripts\Door.cs" />

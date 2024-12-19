@@ -19,7 +19,7 @@ namespace Assets.Player.Scripts
 
         private void FixedUpdate()
         {
-            if (knockback.gettingKnockedBack) { return; }
+            if (knockback.GettingKnockedBack) { return; }
             rb.MovePosition(rb.position + moveDir * (moveSpeed * Time.fixedDeltaTime));
         }
 

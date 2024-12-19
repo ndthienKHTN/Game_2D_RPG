@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-namespace Assets.Player.Scripts 
+namespace Assets.Player.Scripts
 {
     public class PauseMenu : MonoBehaviour
     {
@@ -31,7 +31,7 @@ namespace Assets.Player.Scripts
         }
         public void Button_Options()
         {
-            Application.Quit();
+            Debug.Log("Open Options");
         }
     }
 }

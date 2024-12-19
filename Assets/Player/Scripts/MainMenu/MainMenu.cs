@@ -11,6 +11,9 @@ namespace Assets.Player.Scripts
         {
             SceneManager.LoadScene("DayTime_DemoScene");
         }
+        public void Button_Options(){
+            
+        }
 
         public void Button_Quit()
         {
