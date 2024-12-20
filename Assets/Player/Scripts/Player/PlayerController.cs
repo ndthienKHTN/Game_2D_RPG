@@ -12,6 +12,7 @@ namespace Assets.Player.Scripts
 {
     public class PlayerController : MonoBehaviour, IPlayerController, ICheckpoint
     {
+        public AudioClip hitSound;
         //public bool FacingLeft { get { return facingLeft; } set { facingLeft = value; } }
         public static PlayerController Instance;
 
@@ -393,19 +394,17 @@ namespace Assets.Player.Scripts
                 {
                     StartCoroutine(flash.FlashRoutine());
                 }
+                PlaySound(hitSound);
                 
             }
             currentHealth = Mathf.Clamp(currentHealth + amount, 0, maxHealth);
             Debug.Log(currentHealth + "/" + maxHealth);
-            if (currentHealth <= 0)
-            {
-                currentHealth = 100;
-            }
-            UpdateHealthSlider();
             if (currentHealth == 0)
             {
+                currentHealth = maxHealth;
                 Respawn();
             }
+            UpdateHealthSlider();
         }
     }
     

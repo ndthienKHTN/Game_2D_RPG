@@ -17,7 +17,7 @@ namespace Assets.Player.Scripts
         {   
             Time.timeScale = 1;
             SceneManager.LoadScene("MainMenu");
-            ///gameObject.SetActive(false);
+            // gameObject.SetActive(false);
 
         }
         public void Button_Continue()
