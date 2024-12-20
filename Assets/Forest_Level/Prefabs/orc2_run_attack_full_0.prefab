@@ -13,7 +13,8 @@ GameObject:
   - component: {fileID: 3282933361019449634}
   - component: {fileID: 1921753718192207529}
   - component: {fileID: 4158737770403957929}
-  - component: {fileID: 2234157390318336952}
+  - component: {fileID: 4376624011269838236}
+  - component: {fileID: 1768901775059587653}
   m_Layer: 0
   m_Name: orc2_run_attack_full_0
   m_TagString: Untagged
@@ -135,7 +136,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!61 &4158737770403957929
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -168,7 +169,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.012567103, y: 0.05780822}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -179,9 +180,9 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.34651637, y: 0.59534276}
   m_EdgeRadius: 0
---- !u!114 &2234157390318336952
+--- !u!114 &4376624011269838236
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -190,10 +191,23 @@ MonoBehaviour:
   m_GameObject: {fileID: 4420684842918223437}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 61f430f923f28c240bc087a873808759, type: 3}
+  m_Script: {fileID: 11500000, guid: 2f9697cebd407044d9f6c9c6c878f8ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 3
-  vertical: 0
-  isIdle: 0
+  vertical: 1
   movingTime: 2
+  deathVFXPrefab: {fileID: 1698634917931367144, guid: 59802b838efeb564c9383ed4788c509d, type: 3}
+--- !u!114 &1768901775059587653
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4420684842918223437}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a87763d87511b542bed22f69d50b403, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  whiteFlashMat: {fileID: 2100000, guid: 0bf28c37cd8b9404283b8e68d3393fc7, type: 2}
+  restoreDefaultMatTime: 0.2

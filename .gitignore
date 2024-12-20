@@ -11,20 +11,12 @@
 ExportedObj/
 .consulo/
 .vscode/
-*.csproj
-!Assembly-CSharp.csproj
-/*.unityproj
-/*.sln
-/*.suo
-/*.tmp
-/*.user
-/*.userprefs
-/*.pidb
-/*.booproj
-/*.svd
-*.pdb
-*.mdb
-*.opendb
+*.user
+*.userprefs
+*.suo
+*.tmp
+*.pidb
+*.booproj
 *.VC.db
 
 # Crashlytics generated files
@@ -46,38 +38,11 @@ crashlytics-build.properties
 *.xcuserdatad
 *.DS_Store
 
-# JetBrains Rider files
-.idea/
-.idea/*
-*.iml
-out/
-
-# MacOS-specific files
-.DS_Store
-
-# Windows-specific files
-Thumbs.db
-Desktop.ini
-
-# Godot (if used in the same repo)
-.godot/
-.import/
-
-# Logs and databases
-*.log
-*.sql
-*.sqlite
-
-# User-specific files
-*.prefs
-/.vs/
-/Logs/
-/obj/
-/Library/
-*.csproj
-/.vs/
-/.vscode/
-**/*.csproj
-
-*.csproj
+# Keep important project files
+!Assets/
+!ProjectSettings/
+!Packages/
+!*.meta
+!*.unity
 !Assembly-CSharp.csproj
+!*.sln

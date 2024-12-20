@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+// namespace Assets.Player.Scripts
 
 public class Flash : MonoBehaviour
 {
@@ -9,18 +10,20 @@ public class Flash : MonoBehaviour
 
     private Material defaultMat;
     private SpriteRenderer spriteRenderer;
-    private EnemyControllerLong enemyController;
 
     private void Awake() {
-        enemyController = GetComponent<EnemyControllerLong>();
         spriteRenderer = GetComponent<SpriteRenderer>();
         defaultMat = spriteRenderer.material;
+    }
+
+    public float GetRestoreMatTime() {
+        return restoreDefaultMatTime;
     }
 
     public IEnumerator FlashRoutine() {
         spriteRenderer.material = whiteFlashMat;
         yield return new WaitForSeconds(restoreDefaultMatTime);
         spriteRenderer.material = defaultMat;
-        enemyController.DetectDeath();
+        // enemyController.DetectDeath();
     }
 }

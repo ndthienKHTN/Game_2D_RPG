@@ -7,8 +7,6 @@ using Assets.Winter_Level.Scripts;
 
 namespace Assets.Winter_Level.Scripts.Player
 {
-
-
     public class PlayerController : Singleton<PlayerController>
     {
         [SerializeField] private float moveSpeed = 1f;

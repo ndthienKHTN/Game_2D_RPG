@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5187078778986535721}
-  m_Layer: 10
+  m_Layer: 12
   m_Name: FirePoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -49,7 +49,7 @@ GameObject:
   - component: {fileID: 449511478268050341}
   - component: {fileID: 4630635509457084985}
   - component: {fileID: 5818851742450209530}
-  m_Layer: 10
+  m_Layer: 12
   m_Name: Bat
   m_TagString: Untagged
   m_Icon: {fileID: 0}
