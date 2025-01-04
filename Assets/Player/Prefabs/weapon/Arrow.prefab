@@ -302,4 +302,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33f85e61d0edd5a419412d27645994dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  atkAmount: 50
+  atkAmount: 10

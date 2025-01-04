@@ -6,8 +6,9 @@ namespace Assets.Player.Scripts {
     public class PotionCollect : MonoBehaviour
     {
         //Detect collision trigger with player
+        public AudioClip collectSound;
         private void  OnTriggerEnter2D(Collider2D collision)
-        {
+        {   
             PlayerController player = collision.GetComponent<PlayerController>();
             if (player != null)
             {
@@ -15,6 +16,7 @@ namespace Assets.Player.Scripts {
                 {
                     player.ChangeHealth(40);
                     Destroy(gameObject);
+                    player.PlaySound(collectSound);
                 }
             }
             // Debug.Log("Collision with player");
