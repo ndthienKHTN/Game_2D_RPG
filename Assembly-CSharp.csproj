@@ -91,7 +91,9 @@
     <Compile Include="Assets\Player\Scripts\Misc\Knockback.cs" />
     <Compile Include="Assets\Player\Scripts\MainMenu\MainMenu.cs" />
     <Compile Include="Assets\Forest_Level\Scripts\PlayerController.cs" />
+    <Compile Include="Assets\Player\Scripts\Player\Indestructible.cs" />
     <Compile Include="Assets\Winter_Level\Scripts\Enemy\Bat.cs" />
+    <Compile Include="Assets\Player\Scripts\UI\ActiveInventory.cs" />
     <Compile Include="Assets\Desert_Level\Scripts\Minotaur\AnimationController.cs" />
     <Compile Include="Assets\Desert_Level\Scripts\Collectables\HealthPotionController.cs" />
     <Compile Include="Assets\Player\Scripts\Misc\Flash.cs" />
@@ -99,14 +101,19 @@
     <Compile Include="Assets\Desert_Level\Scripts\Shardsoul\ShardsoulController.cs" />
     <Compile Include="Assets\Player\Scripts\Player\SlashAnim.cs" />
     <Compile Include="Assets\Winter_Level\Scripts\AreaExit.cs" />
+    <Compile Include="Assets\Player\Scripts\UI\InventorySlot.cs" />
     <Compile Include="Assets\Forest_Level\Scripts\Collectable.cs" />
+    <Compile Include="Assets\Player\Scripts\Player\DamageSource.cs" />
     <Compile Include="Assets\Player\Scripts\Enemies\DamageTrigger.cs" />
+    <Compile Include="Assets\Player\Scripts\Player\MouseFollow.cs" />
     <Compile Include="Assets\Forest_Level\Scripts\SpikeTrap.cs" />
+    <Compile Include="Assets\Player\Scripts\UI\WeaponInfo.cs" />
     <Compile Include="Assets\Desert_Level\Scripts\Collectables\ChickenController.cs" />
     <Compile Include="Assets\Desert_Level\Scripts\Collectables\GoldCollectable.cs" />
     <Compile Include="Assets\Desert_Level\Scripts\UI\FrameController.cs" />
     <Compile Include="Assets\Forest_Level\Scripts\Tile.cs" />
     <Compile Include="Assets\Forest_Level\Scripts\CheckPoint.cs" />
+    <Compile Include="Assets\Player\Scripts\Player\Staff.cs" />
     <Compile Include="Assets\Forest_Level\Scripts\EnemySpawner.cs" />
     <Compile Include="Assets\Winter_Level\Scripts\Enemy\Bullet.cs" />
     <Compile Include="Assets\Desert_Level\Scripts\UI\UICanvasController.cs" />
@@ -118,12 +125,14 @@
     <Compile Include="Assets\Forest_Level\Scripts\EnemyBoss.cs" />
     <Compile Include="Assets\Common\Scripts\IPlayerController.cs" />
     <Compile Include="Assets\Player\Scripts\Player\Sword.cs" />
+    <Compile Include="Assets\Player\Scripts\Player\Magic Laser.cs" />
     <Compile Include="Assets\Forest_Level\Scripts\Flash.cs" />
     <Compile Include="Assets\Winter_Level\Scripts\Enemy\EnemyAI.cs" />
     <Compile Include="Assets\Player\Scripts\Player\PotionCollect.cs" />
     <Compile Include="Assets\Winter_Level\Scripts\Enemy\Slime.cs" />
     <Compile Include="Assets\Player\Scripts\Enemies\EnemyAILong.cs" />
     <Compile Include="Assets\Desert_Level\Scripts\UI\RemoveEquipmentController.cs" />
+    <Compile Include="Assets\Player\Scripts\Player\SpriteFade.cs" />
     <Compile Include="Assets\Player\Scripts\Enemies\EnemyControllerLong.cs" />
     <Compile Include="Assets\Forest_Level\Scripts\CollectableYellow.cs" />
     <Compile Include="Assets\Forest_Level\Scripts\DamageZone2.cs" />
@@ -135,10 +144,11 @@
     <Compile Include="Assets\Desert_Level\Scripts\Minotaur\MinotaurController.cs" />
     <Compile Include="Assets\Desert_Level\Scripts\Trap\BearTrapController.cs" />
     <Compile Include="Assets\Desert_Level\Scripts\Bringer\DeathSpellController.cs" />
-    <Compile Include="Assets\Player\Scripts\Player\WeaponCollider.cs" />
+    <Compile Include="Assets\Player\Scripts\Player\IWeapon.cs" />
     <Compile Include="Assets\Forest_Level\Scripts\TimedAnimations.cs" />
     <Compile Include="Assets\Player\Scripts\Player\PlayerController.cs" />
     <Compile Include="Assets\Player\Scripts\Enemies\EnemyPathfindingLong.cs" />
+    <Compile Include="Assets\Player\Scripts\Player\Bow.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
