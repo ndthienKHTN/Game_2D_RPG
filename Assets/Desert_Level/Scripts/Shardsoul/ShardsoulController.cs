@@ -33,6 +33,8 @@ namespace Assets.Desert_Level.Scripts
         bool playerInCollision = false;
         EnemyUIHealthBar enemyUIHealthBar;
         public GameObject reward;
+        public GameObject chickenRewardPrefab;
+        public GameObject healPortionRewardPrefab;
 
         // Start is called before the first frame update
         void Start()
@@ -139,7 +141,7 @@ namespace Assets.Desert_Level.Scripts
 
         private IEnumerator Attacking(GameObject player)
         {
-            yield return new WaitForSeconds(0.65f);
+            yield return new WaitForSeconds(0.9f);//0.65
             if (playerInCollision)
             {
                 attack(player, atk);
@@ -184,12 +186,35 @@ namespace Assets.Desert_Level.Scripts
             animator.SetTrigger("Die");
             yield return new WaitForSeconds(1.2f);
             Instantiate(reward, transform.position, Quaternion.identity);
+            GenerateReward();
             Destroy(gameObject);
         }
 
         public void DetectDeath()
         {
             return;
+        }
+
+        void GenerateReward()
+        {
+            float randomValue = Random.Range(0f, 1f);
+
+            if (randomValue <= 0.3f)
+            {
+                // 30% chance to generate chicken reward
+                Instantiate(chickenRewardPrefab, transform.position, Quaternion.identity);
+            }
+            else if (randomValue <= 0.9f)
+            {
+                // 60% chance to generate gold reward
+                Instantiate(healPortionRewardPrefab, transform.position, Quaternion.identity);
+            }
+            else
+            {
+                // 10% chance to generate both rewards
+                Instantiate(chickenRewardPrefab, transform.position, Quaternion.identity);
+                Instantiate(healPortionRewardPrefab, transform.position, Quaternion.identity);
+            }
         }
     }
 }

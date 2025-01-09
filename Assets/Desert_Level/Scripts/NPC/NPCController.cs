@@ -1,10 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using Assets.Common.Scripts;
 namespace Assets.Desert_Level.Scripts
 {
-    public class NPCController : MonoBehaviour
+    public class NPCController : MonoBehaviour, INPCController
     {
         public float displayTime = 4.0f;
         public GameObject dialogBox;

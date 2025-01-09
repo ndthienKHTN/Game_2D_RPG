@@ -5,12 +5,12 @@ using UnityEngine.UI;
 using UnityEngine.InputSystem;
 using Assets.Common.Scripts;
 using Assets.Player.Scripts;
-using Assets.Desert_Level.Scripts;
+//using Assets.Desert_Level.Scripts;
 using TMPro;
 // public class PlayerController : Singleton<PlayerController>
 namespace Assets.Player.Scripts
 {
-    public class PlayerController : MonoBehaviour, IPlayerController, ICheckpoint
+    public class PlayerController : MonoBehaviour, IPlayerController, ICheckpoint, IPlayerStatController
     {
         //public bool FacingLeft { get { return facingLeft; } set { facingLeft = value; } }
         public static PlayerController Instance;
@@ -51,6 +51,8 @@ namespace Assets.Player.Scripts
 
         public int goldCounter = 0;
         public TextMeshProUGUI goldText;
+
+        public int defense = 0;
         //--------------------------Health--------------------------
 
         public int maxHealth = 100;
@@ -239,8 +241,8 @@ namespace Assets.Player.Scripts
             if (hit.collider != null)
             {
                 Debug.Log("Raycast has hit the object " + hit.collider.name);
-                NPCController npc = hit.collider.GetComponent<NPCController>();
-
+                INPCController npc = hit.collider.GetComponent<INPCController>();
+                //Debug.Log("NPC: " + npc);
                 if (npc != null)
                 {
                     npc.DisplayDialog();
@@ -406,6 +408,18 @@ namespace Assets.Player.Scripts
             {
                 Respawn();
             }
+        }
+
+        public int increaseHealth(int increasedHealth)
+        {
+            ChangeHealth(increasedHealth);
+            return 0;
+        }
+
+        public int increaseDefense(int value)
+        {
+            defense += value;
+            return 0;
         }
     }
     

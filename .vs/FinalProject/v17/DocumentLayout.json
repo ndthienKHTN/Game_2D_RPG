@@ -3,132 +3,100 @@
   "WorkspaceRootPath": "D:\\UnityProjects\\FinalProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UnityProjects\\FinalProject\\Assets\\Player\\Scripts\\Player\\Sword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Player\\Scripts\\Player\\Sword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|D:\\UnityProjects\\FinalProject\\assets\\common\\scripts\\ui\\inventorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|solutionrelative:assets\\common\\scripts\\ui\\inventorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UnityProjects\\FinalProject\\Library\\PackageCache\\com.unity.inputsystem@1.11.2\\InputSystem\\Utilities\\DelegateHelpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.inputsystem@1.11.2\\InputSystem\\Utilities\\DelegateHelpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|D:\\UnityProjects\\FinalProject\\assets\\common\\scripts\\ui\\uiinventorypage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|solutionrelative:assets\\common\\scripts\\ui\\uiinventorypage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UnityProjects\\FinalProject\\Assets\\Winter_Level\\Scripts\\Misc\\TransparentDetection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Winter_Level\\Scripts\\Misc\\TransparentDetection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|D:\\UnityProjects\\FinalProject\\assets\\common\\scripts\\ui\\uiinventoryitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|solutionrelative:assets\\common\\scripts\\ui\\uiinventoryitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UnityProjects\\FinalProject\\Assets\\Winter_Level\\Scripts\\AreaEntrance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Winter_Level\\Scripts\\AreaEntrance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|D:\\UnityProjects\\FinalProject\\assets\\common\\scripts\\iweaponsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|solutionrelative:assets\\common\\scripts\\iweaponsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UnityProjects\\FinalProject\\Assets\\Winter_Level\\Scripts\\SceneManagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Winter_Level\\Scripts\\SceneManagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|D:\\UnityProjects\\FinalProject\\assets\\common\\scripts\\model\\inventoryso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|solutionrelative:assets\\common\\scripts\\model\\inventoryso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UnityProjects\\FinalProject\\Assets\\Player\\Scripts\\Player\\PlayerController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Player\\Scripts\\Player\\PlayerController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|D:\\UnityProjects\\FinalProject\\assets\\common\\scripts\\model\\equippableitemso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|solutionrelative:assets\\common\\scripts\\model\\equippableitemso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UnityProjects\\FinalProject\\Assets\\Winter_Level\\Scripts\\CameraController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Winter_Level\\Scripts\\CameraController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|D:\\UnityProjects\\FinalProject\\assets\\common\\scripts\\model\\itemmodifiers\\playerstatmodifierso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|solutionrelative:assets\\common\\scripts\\model\\itemmodifiers\\playerstatmodifierso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UnityProjects\\FinalProject\\Assets\\Winter_Level\\Scripts\\AreaExit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Winter_Level\\Scripts\\AreaExit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|D:\\UnityProjects\\FinalProject\\assets\\player\\scripts\\player\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|solutionrelative:assets\\player\\scripts\\player\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UnityProjects\\FinalProject\\Assets\\Player\\Scripts\\MainMenu\\PauseMenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Player\\Scripts\\MainMenu\\PauseMenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|D:\\UnityProjects\\FinalProject\\assets\\player\\scripts\\player\\sword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|solutionrelative:assets\\player\\scripts\\player\\sword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UnityProjects\\FinalProject\\Assets\\Desert_Level\\Scripts\\Bringer\\BringerController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Desert_Level\\Scripts\\Bringer\\BringerController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|D:\\UnityProjects\\FinalProject\\assets\\common\\scripts\\iplayerstatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|solutionrelative:assets\\common\\scripts\\iplayerstatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UnityProjects\\FinalProject\\Assets\\Forest_Level\\Scripts\\EnemyController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Forest_Level\\Scripts\\EnemyController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|D:\\UnityProjects\\FinalProject\\assets\\common\\scripts\\model\\edibleitemso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|solutionrelative:assets\\common\\scripts\\model\\edibleitemso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UnityProjects\\FinalProject\\Assets\\Player\\Scripts\\Misc\\Flash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Player\\Scripts\\Misc\\Flash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|D:\\UnityProjects\\FinalProject\\assets\\common\\scripts\\iplayercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|solutionrelative:assets\\common\\scripts\\iplayercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UnityProjects\\FinalProject\\Assets\\Forest_Level\\Scripts\\DamageZone2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Forest_Level\\Scripts\\DamageZone2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|D:\\UnityProjects\\FinalProject\\assets\\common\\scripts\\model\\itemso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|solutionrelative:assets\\common\\scripts\\model\\itemso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UnityProjects\\FinalProject\\Assets\\Winter_Level\\Scripts\\Enemy\\Bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Winter_Level\\Scripts\\Enemy\\Bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|d:\\unityprojects\\finalproject\\assets\\common\\scripts\\model\\itemmodifiers\\playerdefensemodifierso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|solutionrelative:assets\\common\\scripts\\model\\itemmodifiers\\playerdefensemodifierso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UnityProjects\\FinalProject\\Assets\\Desert_Level\\Scripts\\Shardsoul\\ShardsoulController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Desert_Level\\Scripts\\Shardsoul\\ShardsoulController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|d:\\unityprojects\\finalproject\\assets\\common\\scripts\\model\\itemmodifiers\\playerstathealthmodifierso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|solutionrelative:assets\\common\\scripts\\model\\itemmodifiers\\playerstathealthmodifierso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UnityProjects\\FinalProject\\Assets\\Winter_Level\\Scripts\\Enemy\\Slime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Winter_Level\\Scripts\\Enemy\\Slime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|D:\\UnityProjects\\FinalProject\\assets\\player\\scripts\\player\\weaponcollider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|solutionrelative:assets\\player\\scripts\\player\\weaponcollider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UnityProjects\\FinalProject\\Assets\\Desert_Level\\Scripts\\Cobra\\CobraController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Desert_Level\\Scripts\\Cobra\\CobraController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|D:\\UnityProjects\\FinalProject\\assets\\common\\scripts\\ui\\uiinventorydescription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|solutionrelative:assets\\common\\scripts\\ui\\uiinventorydescription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UnityProjects\\FinalProject\\Assets\\Desert_Level\\Scripts\\Minotaur\\MinotaurController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Desert_Level\\Scripts\\Minotaur\\MinotaurController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|D:\\UnityProjects\\FinalProject\\assets\\common\\scripts\\ui\\itemactionpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|solutionrelative:assets\\common\\scripts\\ui\\itemactionpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UnityProjects\\FinalProject\\Assets\\Desert_Level\\Scripts\\Trap\\BearTrapController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Desert_Level\\Scripts\\Trap\\BearTrapController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|D:\\UnityProjects\\FinalProject\\assets\\desert_level\\scripts\\collectables\\goldmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|solutionrelative:assets\\desert_level\\scripts\\collectables\\goldmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UnityProjects\\FinalProject\\Assets\\Winter_Level\\Scripts\\Enemy\\Bat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Winter_Level\\Scripts\\Enemy\\Bat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|D:\\UnityProjects\\FinalProject\\assets\\common\\scripts\\pickupsystem\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|solutionrelative:assets\\common\\scripts\\pickupsystem\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UnityProjects\\FinalProject\\Assets\\Forest_Level\\Scripts\\EnemyOrc2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Forest_Level\\Scripts\\EnemyOrc2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|D:\\UnityProjects\\FinalProject\\assets\\common\\scripts\\model\\itemparameters\\itemparameterso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|solutionrelative:assets\\common\\scripts\\model\\itemparameters\\itemparameterso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UnityProjects\\FinalProject\\Assets\\Desert_Level\\Scripts\\Bringer\\DeathSpellController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Desert_Level\\Scripts\\Bringer\\DeathSpellController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|D:\\UnityProjects\\FinalProject\\assets\\desert_level\\scripts\\bringer\\bringercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|solutionrelative:assets\\desert_level\\scripts\\bringer\\bringercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UnityProjects\\FinalProject\\Assets\\Desert_Level\\Scripts\\Trap\\FireTrapController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Desert_Level\\Scripts\\Trap\\FireTrapController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|D:\\UnityProjects\\FinalProject\\assets\\common\\scripts\\pickupsystem\\pickupsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|solutionrelative:assets\\common\\scripts\\pickupsystem\\pickupsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UnityProjects\\FinalProject\\Assets\\Player\\Scripts\\Player\\WeaponCollider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Player\\Scripts\\Player\\WeaponCollider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UnityProjects\\FinalProject\\Assets\\Common\\Scripts\\IPlayerController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Common\\Scripts\\IPlayerController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UnityProjects\\FinalProject\\Assets\\Common\\Scripts\\IEnemyController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Common\\Scripts\\IEnemyController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UnityProjects\\FinalProject\\Assets\\Desert_Level\\Scripts\\Collectables\\GoldCollectable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Desert_Level\\Scripts\\Collectables\\GoldCollectable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UnityProjects\\FinalProject\\Assets\\Forest_Level\\Scripts\\CollectableYellow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Forest_Level\\Scripts\\CollectableYellow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UnityProjects\\FinalProject\\Assets\\Forest_Level\\Scripts\\DamageZone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Forest_Level\\Scripts\\DamageZone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UnityProjects\\FinalProject\\Assets\\Forest_Level\\Scripts\\Collectable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Forest_Level\\Scripts\\Collectable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UnityProjects\\FinalProject\\Assets\\Forest_Level\\Scripts\\CheckPoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Forest_Level\\Scripts\\CheckPoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UnityProjects\\FinalProject\\Assets\\Desert_Level\\Scripts\\Singleton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Desert_Level\\Scripts\\Singleton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|D:\\UnityProjects\\FinalProject\\assets\\common\\scripts\\ui\\mousefollower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|solutionrelative:assets\\common\\scripts\\ui\\mousefollower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -138,7 +106,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -158,356 +126,150 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Sword.cs",
-              "DocumentMoniker": "D:\\UnityProjects\\FinalProject\\Assets\\Player\\Scripts\\Player\\Sword.cs",
-              "RelativeDocumentMoniker": "Assets\\Player\\Scripts\\Player\\Sword.cs",
-              "ToolTip": "D:\\UnityProjects\\FinalProject\\Assets\\Player\\Scripts\\Player\\Sword.cs",
-              "RelativeToolTip": "Assets\\Player\\Scripts\\Player\\Sword.cs",
-              "ViewState": "AQIAAFAAAAAAAAAAAAAqwFgAAAA4AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T17:26:37.63Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DelegateHelpers.cs",
-              "DocumentMoniker": "D:\\UnityProjects\\FinalProject\\Library\\PackageCache\\com.unity.inputsystem@1.11.2\\InputSystem\\Utilities\\DelegateHelpers.cs",
-              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.inputsystem@1.11.2\\InputSystem\\Utilities\\DelegateHelpers.cs",
-              "ToolTip": "D:\\UnityProjects\\FinalProject\\Library\\PackageCache\\com.unity.inputsystem@1.11.2\\InputSystem\\Utilities\\DelegateHelpers.cs",
-              "RelativeToolTip": "Library\\PackageCache\\com.unity.inputsystem@1.11.2\\InputSystem\\Utilities\\DelegateHelpers.cs",
-              "ViewState": "AQIAACIAAAAAAAAAAAAqwEIAAAA2AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T18:47:57.341Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "TransparentDetection.cs",
-              "DocumentMoniker": "D:\\UnityProjects\\FinalProject\\Assets\\Winter_Level\\Scripts\\Misc\\TransparentDetection.cs",
-              "RelativeDocumentMoniker": "Assets\\Winter_Level\\Scripts\\Misc\\TransparentDetection.cs",
-              "ToolTip": "D:\\UnityProjects\\FinalProject\\Assets\\Winter_Level\\Scripts\\Misc\\TransparentDetection.cs",
-              "RelativeToolTip": "Assets\\Winter_Level\\Scripts\\Misc\\TransparentDetection.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Title": "UIInventoryItem.cs",
+              "DocumentMoniker": "D:\\UnityProjects\\FinalProject\\Assets\\Common\\Scripts\\UI\\UIInventoryItem.cs",
+              "RelativeDocumentMoniker": "Assets\\Common\\Scripts\\UI\\UIInventoryItem.cs",
+              "ToolTip": "D:\\UnityProjects\\FinalProject\\Assets\\Common\\Scripts\\UI\\UIInventoryItem.cs",
+              "RelativeToolTip": "Assets\\Common\\Scripts\\UI\\UIInventoryItem.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwCIAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T18:44:44.285Z",
+              "WhenOpened": "2025-01-06T12:41:03.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "InventoryController.cs",
+              "DocumentMoniker": "D:\\UnityProjects\\FinalProject\\Assets\\Common\\Scripts\\UI\\InventoryController.cs",
+              "RelativeDocumentMoniker": "Assets\\Common\\Scripts\\UI\\InventoryController.cs",
+              "ToolTip": "D:\\UnityProjects\\FinalProject\\Assets\\Common\\Scripts\\UI\\InventoryController.cs",
+              "RelativeToolTip": "Assets\\Common\\Scripts\\UI\\InventoryController.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAWwB4AAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T13:29:47.402Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "SceneManagement.cs",
-              "DocumentMoniker": "D:\\UnityProjects\\FinalProject\\Assets\\Winter_Level\\Scripts\\SceneManagement.cs",
-              "RelativeDocumentMoniker": "Assets\\Winter_Level\\Scripts\\SceneManagement.cs",
-              "ToolTip": "D:\\UnityProjects\\FinalProject\\Assets\\Winter_Level\\Scripts\\SceneManagement.cs",
-              "RelativeToolTip": "Assets\\Winter_Level\\Scripts\\SceneManagement.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Title": "InventorySO.cs",
+              "DocumentMoniker": "D:\\UnityProjects\\FinalProject\\Assets\\Common\\Scripts\\Model\\InventorySO.cs",
+              "RelativeDocumentMoniker": "Assets\\Common\\Scripts\\Model\\InventorySO.cs",
+              "ToolTip": "D:\\UnityProjects\\FinalProject\\Assets\\Common\\Scripts\\Model\\InventorySO.cs",
+              "RelativeToolTip": "Assets\\Common\\Scripts\\Model\\InventorySO.cs",
+              "ViewState": "AQIAAJYAAAAAAAAAAADwv6AAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T18:35:28.044Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AreaEntrance.cs",
-              "DocumentMoniker": "D:\\UnityProjects\\FinalProject\\Assets\\Winter_Level\\Scripts\\AreaEntrance.cs",
-              "RelativeDocumentMoniker": "Assets\\Winter_Level\\Scripts\\AreaEntrance.cs",
-              "ToolTip": "D:\\UnityProjects\\FinalProject\\Assets\\Winter_Level\\Scripts\\AreaEntrance.cs",
-              "RelativeToolTip": "Assets\\Winter_Level\\Scripts\\AreaEntrance.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T18:24:58.798Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CameraController.cs",
-              "DocumentMoniker": "D:\\UnityProjects\\FinalProject\\Assets\\Winter_Level\\Scripts\\CameraController.cs",
-              "RelativeDocumentMoniker": "Assets\\Winter_Level\\Scripts\\CameraController.cs",
-              "ToolTip": "D:\\UnityProjects\\FinalProject\\Assets\\Winter_Level\\Scripts\\CameraController.cs",
-              "RelativeToolTip": "Assets\\Winter_Level\\Scripts\\CameraController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAABSAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T18:26:19.727Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "PlayerController.cs",
-              "DocumentMoniker": "D:\\UnityProjects\\FinalProject\\Assets\\Player\\Scripts\\Player\\PlayerController.cs",
-              "RelativeDocumentMoniker": "Assets\\Player\\Scripts\\Player\\PlayerController.cs",
-              "ToolTip": "D:\\UnityProjects\\FinalProject\\Assets\\Player\\Scripts\\Player\\PlayerController.cs",
-              "RelativeToolTip": "Assets\\Player\\Scripts\\Player\\PlayerController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T16:46:28.533Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "PauseMenu.cs",
-              "DocumentMoniker": "D:\\UnityProjects\\FinalProject\\Assets\\Player\\Scripts\\MainMenu\\PauseMenu.cs",
-              "RelativeDocumentMoniker": "Assets\\Player\\Scripts\\MainMenu\\PauseMenu.cs",
-              "ToolTip": "D:\\UnityProjects\\FinalProject\\Assets\\Player\\Scripts\\MainMenu\\PauseMenu.cs",
-              "RelativeToolTip": "Assets\\Player\\Scripts\\MainMenu\\PauseMenu.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABIAAAAvAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T18:13:31.946Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "BringerController.cs",
-              "DocumentMoniker": "D:\\UnityProjects\\FinalProject\\Assets\\Desert_Level\\Scripts\\Bringer\\BringerController.cs",
-              "RelativeDocumentMoniker": "Assets\\Desert_Level\\Scripts\\Bringer\\BringerController.cs",
-              "ToolTip": "D:\\UnityProjects\\FinalProject\\Assets\\Desert_Level\\Scripts\\Bringer\\BringerController.cs",
-              "RelativeToolTip": "Assets\\Desert_Level\\Scripts\\Bringer\\BringerController.cs",
-              "ViewState": "AQIAAJ4AAAAAAAAAAAAqwK8AAAAvAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T17:23:15.579Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "EnemyController.cs",
-              "DocumentMoniker": "D:\\UnityProjects\\FinalProject\\Assets\\Forest_Level\\Scripts\\EnemyController.cs",
-              "RelativeDocumentMoniker": "Assets\\Forest_Level\\Scripts\\EnemyController.cs",
-              "ToolTip": "D:\\UnityProjects\\FinalProject\\Assets\\Forest_Level\\Scripts\\EnemyController.cs",
-              "RelativeToolTip": "Assets\\Forest_Level\\Scripts\\EnemyController.cs",
-              "ViewState": "AQIAAGAAAAAAAAAAAAAAAGwAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T17:36:22.085Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Flash.cs",
-              "DocumentMoniker": "D:\\UnityProjects\\FinalProject\\Assets\\Player\\Scripts\\Misc\\Flash.cs",
-              "RelativeDocumentMoniker": "Assets\\Player\\Scripts\\Misc\\Flash.cs",
-              "ToolTip": "D:\\UnityProjects\\FinalProject\\Assets\\Player\\Scripts\\Misc\\Flash.cs",
-              "RelativeToolTip": "Assets\\Player\\Scripts\\Misc\\Flash.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T17:51:13.901Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Bullet.cs",
-              "DocumentMoniker": "D:\\UnityProjects\\FinalProject\\Assets\\Winter_Level\\Scripts\\Enemy\\Bullet.cs",
-              "RelativeDocumentMoniker": "Assets\\Winter_Level\\Scripts\\Enemy\\Bullet.cs",
-              "ToolTip": "D:\\UnityProjects\\FinalProject\\Assets\\Winter_Level\\Scripts\\Enemy\\Bullet.cs",
-              "RelativeToolTip": "Assets\\Winter_Level\\Scripts\\Enemy\\Bullet.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAA2AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T17:40:49.482Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ShardsoulController.cs",
-              "DocumentMoniker": "D:\\UnityProjects\\FinalProject\\Assets\\Desert_Level\\Scripts\\Shardsoul\\ShardsoulController.cs",
-              "RelativeDocumentMoniker": "Assets\\Desert_Level\\Scripts\\Shardsoul\\ShardsoulController.cs",
-              "ToolTip": "D:\\UnityProjects\\FinalProject\\Assets\\Desert_Level\\Scripts\\Shardsoul\\ShardsoulController.cs",
-              "RelativeToolTip": "Assets\\Desert_Level\\Scripts\\Shardsoul\\ShardsoulController.cs",
-              "ViewState": "AQIAAJIAAAAAAAAAAAAqwKMAAAA5AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T17:40:42.701Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Slime.cs",
-              "DocumentMoniker": "D:\\UnityProjects\\FinalProject\\Assets\\Winter_Level\\Scripts\\Enemy\\Slime.cs",
-              "RelativeDocumentMoniker": "Assets\\Winter_Level\\Scripts\\Enemy\\Slime.cs",
-              "ToolTip": "D:\\UnityProjects\\FinalProject\\Assets\\Winter_Level\\Scripts\\Enemy\\Slime.cs",
-              "RelativeToolTip": "Assets\\Winter_Level\\Scripts\\Enemy\\Slime.cs",
-              "ViewState": "AQIAADIAAAAAAAAAAAAqwEMAAAA5AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T17:38:38.522Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "CobraController.cs",
-              "DocumentMoniker": "D:\\UnityProjects\\FinalProject\\Assets\\Desert_Level\\Scripts\\Cobra\\CobraController.cs",
-              "RelativeDocumentMoniker": "Assets\\Desert_Level\\Scripts\\Cobra\\CobraController.cs",
-              "ToolTip": "D:\\UnityProjects\\FinalProject\\Assets\\Desert_Level\\Scripts\\Cobra\\CobraController.cs",
-              "RelativeToolTip": "Assets\\Desert_Level\\Scripts\\Cobra\\CobraController.cs",
-              "ViewState": "AQIAAKgAAAAAAAAAAAAqwLkAAAA5AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T17:38:23.739Z",
+              "WhenOpened": "2025-01-06T13:12:58.147Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "AreaExit.cs",
-              "DocumentMoniker": "D:\\UnityProjects\\FinalProject\\Assets\\Winter_Level\\Scripts\\AreaExit.cs",
-              "RelativeDocumentMoniker": "Assets\\Winter_Level\\Scripts\\AreaExit.cs",
-              "ToolTip": "D:\\UnityProjects\\FinalProject\\Assets\\Winter_Level\\Scripts\\AreaExit.cs",
-              "RelativeToolTip": "Assets\\Winter_Level\\Scripts\\AreaExit.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAZAAAA",
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "D:\\UnityProjects\\FinalProject\\Assets\\Player\\Scripts\\Player\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\Player\\Scripts\\Player\\PlayerController.cs",
+              "ToolTip": "D:\\UnityProjects\\FinalProject\\Assets\\Player\\Scripts\\Player\\PlayerController.cs",
+              "RelativeToolTip": "Assets\\Player\\Scripts\\Player\\PlayerController.cs",
+              "ViewState": "AQIAAHkBAAAAAAAAAAD4v4EBAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T16:39:09.973Z",
+              "WhenOpened": "2025-01-09T13:53:38.473Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "MinotaurController.cs",
-              "DocumentMoniker": "D:\\UnityProjects\\FinalProject\\Assets\\Desert_Level\\Scripts\\Minotaur\\MinotaurController.cs",
-              "RelativeDocumentMoniker": "Assets\\Desert_Level\\Scripts\\Minotaur\\MinotaurController.cs",
-              "ToolTip": "D:\\UnityProjects\\FinalProject\\Assets\\Desert_Level\\Scripts\\Minotaur\\MinotaurController.cs",
-              "RelativeToolTip": "Assets\\Desert_Level\\Scripts\\Minotaur\\MinotaurController.cs",
-              "ViewState": "AQIAAKYAAAAAAAAAAAAqwLcAAAA5AAAA",
+              "DocumentIndex": 6,
+              "Title": "PlayerStatModifierSO.cs",
+              "DocumentMoniker": "D:\\UnityProjects\\FinalProject\\Assets\\Common\\Scripts\\Model\\ItemModifiers\\PlayerStatModifierSO.cs",
+              "RelativeDocumentMoniker": "Assets\\Common\\Scripts\\Model\\ItemModifiers\\PlayerStatModifierSO.cs",
+              "ToolTip": "D:\\UnityProjects\\FinalProject\\Assets\\Common\\Scripts\\Model\\ItemModifiers\\PlayerStatModifierSO.cs",
+              "RelativeToolTip": "Assets\\Common\\Scripts\\Model\\ItemModifiers\\PlayerStatModifierSO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T17:38:03.72Z",
+              "WhenOpened": "2025-01-09T10:46:25.72Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "BearTrapController.cs",
-              "DocumentMoniker": "D:\\UnityProjects\\FinalProject\\Assets\\Desert_Level\\Scripts\\Trap\\BearTrapController.cs",
-              "RelativeDocumentMoniker": "Assets\\Desert_Level\\Scripts\\Trap\\BearTrapController.cs",
-              "ToolTip": "D:\\UnityProjects\\FinalProject\\Assets\\Desert_Level\\Scripts\\Trap\\BearTrapController.cs",
-              "RelativeToolTip": "Assets\\Desert_Level\\Scripts\\Trap\\BearTrapController.cs",
-              "ViewState": "AQIAAE4AAAAAAAAAAAAqwF8AAAAyAAAA",
+              "DocumentIndex": 3,
+              "Title": "IWeaponSystem.cs",
+              "DocumentMoniker": "D:\\UnityProjects\\FinalProject\\Assets\\Common\\Scripts\\IWeaponSystem.cs",
+              "RelativeDocumentMoniker": "Assets\\Common\\Scripts\\IWeaponSystem.cs",
+              "ToolTip": "D:\\UnityProjects\\FinalProject\\Assets\\Common\\Scripts\\IWeaponSystem.cs",
+              "RelativeToolTip": "Assets\\Common\\Scripts\\IWeaponSystem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T17:37:50.282Z",
+              "WhenOpened": "2025-01-09T12:26:11.701Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Bat.cs",
-              "DocumentMoniker": "D:\\UnityProjects\\FinalProject\\Assets\\Winter_Level\\Scripts\\Enemy\\Bat.cs",
-              "RelativeDocumentMoniker": "Assets\\Winter_Level\\Scripts\\Enemy\\Bat.cs",
-              "ToolTip": "D:\\UnityProjects\\FinalProject\\Assets\\Winter_Level\\Scripts\\Enemy\\Bat.cs",
-              "RelativeToolTip": "Assets\\Winter_Level\\Scripts\\Enemy\\Bat.cs",
-              "ViewState": "AQIAADMAAAAAAAAAAAAqwEQAAAA5AAAA",
+              "DocumentIndex": 1,
+              "Title": "UIInventoryPage.cs",
+              "DocumentMoniker": "D:\\UnityProjects\\FinalProject\\Assets\\Common\\Scripts\\UI\\UIInventoryPage.cs",
+              "RelativeDocumentMoniker": "Assets\\Common\\Scripts\\UI\\UIInventoryPage.cs",
+              "ToolTip": "D:\\UnityProjects\\FinalProject\\Assets\\Common\\Scripts\\UI\\UIInventoryPage.cs",
+              "RelativeToolTip": "Assets\\Common\\Scripts\\UI\\UIInventoryPage.cs",
+              "ViewState": "AQIAALMAAAAAAAAAAAAWwMIAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T17:37:42.855Z",
+              "WhenOpened": "2025-01-06T12:48:05.54Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "DamageZone2.cs",
-              "DocumentMoniker": "D:\\UnityProjects\\FinalProject\\Assets\\Forest_Level\\Scripts\\DamageZone2.cs",
-              "RelativeDocumentMoniker": "Assets\\Forest_Level\\Scripts\\DamageZone2.cs",
-              "ToolTip": "D:\\UnityProjects\\FinalProject\\Assets\\Forest_Level\\Scripts\\DamageZone2.cs",
-              "RelativeToolTip": "Assets\\Forest_Level\\Scripts\\DamageZone2.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAApAAAA",
+              "DocumentIndex": 8,
+              "Title": "Sword.cs",
+              "DocumentMoniker": "D:\\UnityProjects\\FinalProject\\Assets\\Player\\Scripts\\Player\\Sword.cs",
+              "RelativeDocumentMoniker": "Assets\\Player\\Scripts\\Player\\Sword.cs",
+              "ToolTip": "D:\\UnityProjects\\FinalProject\\Assets\\Player\\Scripts\\Player\\Sword.cs",
+              "RelativeToolTip": "Assets\\Player\\Scripts\\Player\\Sword.cs",
+              "ViewState": "AQIAAFQAAAAAAAAAAAAwwGUAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T16:49:16.02Z",
+              "WhenOpened": "2025-01-09T12:05:29.044Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "EnemyOrc2.cs",
-              "DocumentMoniker": "D:\\UnityProjects\\FinalProject\\Assets\\Forest_Level\\Scripts\\EnemyOrc2.cs",
-              "RelativeDocumentMoniker": "Assets\\Forest_Level\\Scripts\\EnemyOrc2.cs",
-              "ToolTip": "D:\\UnityProjects\\FinalProject\\Assets\\Forest_Level\\Scripts\\EnemyOrc2.cs",
-              "RelativeToolTip": "Assets\\Forest_Level\\Scripts\\EnemyOrc2.cs",
-              "ViewState": "AQIAAEIAAAAAAAAAAAAqwFkAAAA5AAAA",
+              "DocumentIndex": 5,
+              "Title": "EquippableItemSO.cs",
+              "DocumentMoniker": "D:\\UnityProjects\\FinalProject\\Assets\\Common\\Scripts\\Model\\EquippableItemSO.cs",
+              "RelativeDocumentMoniker": "Assets\\Common\\Scripts\\Model\\EquippableItemSO.cs",
+              "ToolTip": "D:\\UnityProjects\\FinalProject\\Assets\\Common\\Scripts\\Model\\EquippableItemSO.cs",
+              "RelativeToolTip": "Assets\\Common\\Scripts\\Model\\EquippableItemSO.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAwwCgAAABHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T17:37:24.181Z",
+              "WhenOpened": "2025-01-09T10:41:22.83Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "DeathSpellController.cs",
-              "DocumentMoniker": "D:\\UnityProjects\\FinalProject\\Assets\\Desert_Level\\Scripts\\Bringer\\DeathSpellController.cs",
-              "RelativeDocumentMoniker": "Assets\\Desert_Level\\Scripts\\Bringer\\DeathSpellController.cs",
-              "ToolTip": "D:\\UnityProjects\\FinalProject\\Assets\\Desert_Level\\Scripts\\Bringer\\DeathSpellController.cs",
-              "RelativeToolTip": "Assets\\Desert_Level\\Scripts\\Bringer\\DeathSpellController.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAqwDEAAAAyAAAA",
+              "DocumentIndex": 9,
+              "Title": "IPlayerStatController.cs",
+              "DocumentMoniker": "D:\\UnityProjects\\FinalProject\\Assets\\Common\\Scripts\\IPlayerStatController.cs",
+              "RelativeDocumentMoniker": "Assets\\Common\\Scripts\\IPlayerStatController.cs",
+              "ToolTip": "D:\\UnityProjects\\FinalProject\\Assets\\Common\\Scripts\\IPlayerStatController.cs",
+              "RelativeToolTip": "Assets\\Common\\Scripts\\IPlayerStatController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAoAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T17:36:58.169Z",
+              "WhenOpened": "2025-01-09T13:55:41.342Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "FireTrapController.cs",
-              "DocumentMoniker": "D:\\UnityProjects\\FinalProject\\Assets\\Desert_Level\\Scripts\\Trap\\FireTrapController.cs",
-              "RelativeDocumentMoniker": "Assets\\Desert_Level\\Scripts\\Trap\\FireTrapController.cs",
-              "ToolTip": "D:\\UnityProjects\\FinalProject\\Assets\\Desert_Level\\Scripts\\Trap\\FireTrapController.cs",
-              "RelativeToolTip": "Assets\\Desert_Level\\Scripts\\Trap\\FireTrapController.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAiwDIAAAAwAAAA",
+              "DocumentIndex": 10,
+              "Title": "EdibleItemSO.cs",
+              "DocumentMoniker": "D:\\UnityProjects\\FinalProject\\Assets\\Common\\Scripts\\Model\\EdibleItemSO.cs",
+              "RelativeDocumentMoniker": "Assets\\Common\\Scripts\\Model\\EdibleItemSO.cs",
+              "ToolTip": "D:\\UnityProjects\\FinalProject\\Assets\\Common\\Scripts\\Model\\EdibleItemSO.cs",
+              "RelativeToolTip": "Assets\\Common\\Scripts\\Model\\EdibleItemSO.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAgwCgAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T17:36:41.16Z",
+              "WhenOpened": "2025-01-09T10:40:06.521Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "WeaponCollider.cs",
-              "DocumentMoniker": "D:\\UnityProjects\\FinalProject\\Assets\\Player\\Scripts\\Player\\WeaponCollider.cs",
-              "RelativeDocumentMoniker": "Assets\\Player\\Scripts\\Player\\WeaponCollider.cs",
-              "ToolTip": "D:\\UnityProjects\\FinalProject\\Assets\\Player\\Scripts\\Player\\WeaponCollider.cs",
-              "RelativeToolTip": "Assets\\Player\\Scripts\\Player\\WeaponCollider.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAABsAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T17:35:44.121Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "IEnemyController.cs",
-              "DocumentMoniker": "D:\\UnityProjects\\FinalProject\\Assets\\Common\\Scripts\\IEnemyController.cs",
-              "RelativeDocumentMoniker": "Assets\\Common\\Scripts\\IEnemyController.cs",
-              "ToolTip": "D:\\UnityProjects\\FinalProject\\Assets\\Common\\Scripts\\IEnemyController.cs",
-              "RelativeToolTip": "Assets\\Common\\Scripts\\IEnemyController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T17:23:33.995Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "DamageZone.cs",
-              "DocumentMoniker": "D:\\UnityProjects\\FinalProject\\Assets\\Forest_Level\\Scripts\\DamageZone.cs",
-              "RelativeDocumentMoniker": "Assets\\Forest_Level\\Scripts\\DamageZone.cs",
-              "ToolTip": "D:\\UnityProjects\\FinalProject\\Assets\\Forest_Level\\Scripts\\DamageZone.cs",
-              "RelativeToolTip": "Assets\\Forest_Level\\Scripts\\DamageZone.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T16:48:42.939Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "Collectable.cs",
-              "DocumentMoniker": "D:\\UnityProjects\\FinalProject\\Assets\\Forest_Level\\Scripts\\Collectable.cs",
-              "RelativeDocumentMoniker": "Assets\\Forest_Level\\Scripts\\Collectable.cs",
-              "ToolTip": "D:\\UnityProjects\\FinalProject\\Assets\\Forest_Level\\Scripts\\Collectable.cs",
-              "RelativeToolTip": "Assets\\Forest_Level\\Scripts\\Collectable.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T16:39:59.982Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 11,
               "Title": "IPlayerController.cs",
               "DocumentMoniker": "D:\\UnityProjects\\FinalProject\\Assets\\Common\\Scripts\\IPlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\Common\\Scripts\\IPlayerController.cs",
@@ -515,57 +277,155 @@
               "RelativeToolTip": "Assets\\Common\\Scripts\\IPlayerController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T16:38:27.472Z",
+              "WhenOpened": "2025-01-09T13:54:26.319Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "GoldCollectable.cs",
-              "DocumentMoniker": "D:\\UnityProjects\\FinalProject\\Assets\\Desert_Level\\Scripts\\Collectables\\GoldCollectable.cs",
-              "RelativeDocumentMoniker": "Assets\\Desert_Level\\Scripts\\Collectables\\GoldCollectable.cs",
-              "ToolTip": "D:\\UnityProjects\\FinalProject\\Assets\\Desert_Level\\Scripts\\Collectables\\GoldCollectable.cs",
-              "RelativeToolTip": "Assets\\Desert_Level\\Scripts\\Collectables\\GoldCollectable.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAATAAAA",
+              "DocumentIndex": 12,
+              "Title": "ItemSO.cs",
+              "DocumentMoniker": "D:\\UnityProjects\\FinalProject\\Assets\\Common\\Scripts\\Model\\ItemSO.cs",
+              "RelativeDocumentMoniker": "Assets\\Common\\Scripts\\Model\\ItemSO.cs",
+              "ToolTip": "D:\\UnityProjects\\FinalProject\\Assets\\Common\\Scripts\\Model\\ItemSO.cs",
+              "RelativeToolTip": "Assets\\Common\\Scripts\\Model\\ItemSO.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAgwCgAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T16:36:54.303Z",
+              "WhenOpened": "2025-01-06T13:04:41.203Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "CollectableYellow.cs",
-              "DocumentMoniker": "D:\\UnityProjects\\FinalProject\\Assets\\Forest_Level\\Scripts\\CollectableYellow.cs",
-              "RelativeDocumentMoniker": "Assets\\Forest_Level\\Scripts\\CollectableYellow.cs",
-              "ToolTip": "D:\\UnityProjects\\FinalProject\\Assets\\Forest_Level\\Scripts\\CollectableYellow.cs",
-              "RelativeToolTip": "Assets\\Forest_Level\\Scripts\\CollectableYellow.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAhAAAA",
+              "DocumentIndex": 13,
+              "Title": "PlayerDefenseModifierSO.cs",
+              "DocumentMoniker": "D:\\UnityProjects\\FinalProject\\Assets\\Common\\Scripts\\Model\\ItemModifiers\\PlayerDefenseModifierSO.cs",
+              "RelativeDocumentMoniker": "Assets\\Common\\Scripts\\Model\\ItemModifiers\\PlayerDefenseModifierSO.cs",
+              "ToolTip": "D:\\UnityProjects\\FinalProject\\Assets\\Common\\Scripts\\Model\\ItemModifiers\\PlayerDefenseModifierSO.cs",
+              "RelativeToolTip": "Assets\\Common\\Scripts\\Model\\ItemModifiers\\PlayerDefenseModifierSO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA8AAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T16:40:04.483Z"
+              "WhenOpened": "2025-01-09T14:00:19.768Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "Singleton.cs",
-              "DocumentMoniker": "D:\\UnityProjects\\FinalProject\\Assets\\Desert_Level\\Scripts\\Singleton.cs",
-              "RelativeDocumentMoniker": "Assets\\Desert_Level\\Scripts\\Singleton.cs",
-              "ToolTip": "D:\\UnityProjects\\FinalProject\\Assets\\Desert_Level\\Scripts\\Singleton.cs",
-              "RelativeToolTip": "Assets\\Desert_Level\\Scripts\\Singleton.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAASAAAA",
+              "DocumentIndex": 14,
+              "Title": "PlayerStatHealthModifierSO.cs",
+              "DocumentMoniker": "D:\\UnityProjects\\FinalProject\\Assets\\Common\\Scripts\\Model\\ItemModifiers\\PlayerStatHealthModifierSO.cs",
+              "RelativeDocumentMoniker": "Assets\\Common\\Scripts\\Model\\ItemModifiers\\PlayerStatHealthModifierSO.cs",
+              "ToolTip": "D:\\UnityProjects\\FinalProject\\Assets\\Common\\Scripts\\Model\\ItemModifiers\\PlayerStatHealthModifierSO.cs",
+              "RelativeToolTip": "Assets\\Common\\Scripts\\Model\\ItemModifiers\\PlayerStatHealthModifierSO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T16:38:45.544Z"
+              "WhenOpened": "2025-01-09T10:57:00.484Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "CheckPoint.cs",
-              "DocumentMoniker": "D:\\UnityProjects\\FinalProject\\Assets\\Forest_Level\\Scripts\\CheckPoint.cs",
-              "RelativeDocumentMoniker": "Assets\\Forest_Level\\Scripts\\CheckPoint.cs",
-              "ToolTip": "D:\\UnityProjects\\FinalProject\\Assets\\Forest_Level\\Scripts\\CheckPoint.cs",
-              "RelativeToolTip": "Assets\\Forest_Level\\Scripts\\CheckPoint.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAATAAAA",
+              "DocumentIndex": 15,
+              "Title": "WeaponCollider.cs",
+              "DocumentMoniker": "D:\\UnityProjects\\FinalProject\\Assets\\Player\\Scripts\\Player\\WeaponCollider.cs",
+              "RelativeDocumentMoniker": "Assets\\Player\\Scripts\\Player\\WeaponCollider.cs",
+              "ToolTip": "D:\\UnityProjects\\FinalProject\\Assets\\Player\\Scripts\\Player\\WeaponCollider.cs",
+              "RelativeToolTip": "Assets\\Player\\Scripts\\Player\\WeaponCollider.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T16:37:46.132Z"
+              "WhenOpened": "2025-01-09T13:52:55.404Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ItemActionPanel.cs",
+              "DocumentMoniker": "D:\\UnityProjects\\FinalProject\\Assets\\Common\\Scripts\\UI\\ItemActionPanel.cs",
+              "RelativeDocumentMoniker": "Assets\\Common\\Scripts\\UI\\ItemActionPanel.cs",
+              "ToolTip": "D:\\UnityProjects\\FinalProject\\Assets\\Common\\Scripts\\UI\\ItemActionPanel.cs",
+              "RelativeToolTip": "Assets\\Common\\Scripts\\UI\\ItemActionPanel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T12:41:28.738Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UIInventoryDescription.cs",
+              "DocumentMoniker": "D:\\UnityProjects\\FinalProject\\Assets\\Common\\Scripts\\UI\\UIInventoryDescription.cs",
+              "RelativeDocumentMoniker": "Assets\\Common\\Scripts\\UI\\UIInventoryDescription.cs",
+              "ToolTip": "D:\\UnityProjects\\FinalProject\\Assets\\Common\\Scripts\\UI\\UIInventoryDescription.cs",
+              "RelativeToolTip": "Assets\\Common\\Scripts\\UI\\UIInventoryDescription.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAwCAAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T13:48:19.217Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "GoldManager.cs",
+              "DocumentMoniker": "D:\\UnityProjects\\FinalProject\\Assets\\Desert_Level\\Scripts\\Collectables\\GoldManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Desert_Level\\Scripts\\Collectables\\GoldManager.cs",
+              "ToolTip": "D:\\UnityProjects\\FinalProject\\Assets\\Desert_Level\\Scripts\\Collectables\\GoldManager.cs",
+              "RelativeToolTip": "Assets\\Desert_Level\\Scripts\\Collectables\\GoldManager.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAD4vykAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T12:09:24.872Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Item.cs",
+              "DocumentMoniker": "D:\\UnityProjects\\FinalProject\\Assets\\Common\\Scripts\\PickUpSystem\\Item.cs",
+              "RelativeDocumentMoniker": "Assets\\Common\\Scripts\\PickUpSystem\\Item.cs",
+              "ToolTip": "D:\\UnityProjects\\FinalProject\\Assets\\Common\\Scripts\\PickUpSystem\\Item.cs",
+              "RelativeToolTip": "Assets\\Common\\Scripts\\PickUpSystem\\Item.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAD4vxsAAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T14:23:41.796Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ItemParameterSO.cs",
+              "DocumentMoniker": "D:\\UnityProjects\\FinalProject\\Assets\\Common\\Scripts\\Model\\ItemParameters\\ItemParameterSO.cs",
+              "RelativeDocumentMoniker": "Assets\\Common\\Scripts\\Model\\ItemParameters\\ItemParameterSO.cs",
+              "ToolTip": "D:\\UnityProjects\\FinalProject\\Assets\\Common\\Scripts\\Model\\ItemParameters\\ItemParameterSO.cs",
+              "RelativeToolTip": "Assets\\Common\\Scripts\\Model\\ItemParameters\\ItemParameterSO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T11:29:02.81Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "BringerController.cs",
+              "DocumentMoniker": "D:\\UnityProjects\\FinalProject\\Assets\\Desert_Level\\Scripts\\Bringer\\BringerController.cs",
+              "RelativeDocumentMoniker": "Assets\\Desert_Level\\Scripts\\Bringer\\BringerController.cs",
+              "ToolTip": "D:\\UnityProjects\\FinalProject\\Assets\\Desert_Level\\Scripts\\Bringer\\BringerController.cs",
+              "RelativeToolTip": "Assets\\Desert_Level\\Scripts\\Bringer\\BringerController.cs",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAowAUAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T11:05:25.505Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "PickUpSystem.cs",
+              "DocumentMoniker": "D:\\UnityProjects\\FinalProject\\Assets\\Common\\Scripts\\PickUpSystem\\PickUpSystem.cs",
+              "RelativeDocumentMoniker": "Assets\\Common\\Scripts\\PickUpSystem\\PickUpSystem.cs",
+              "ToolTip": "D:\\UnityProjects\\FinalProject\\Assets\\Common\\Scripts\\PickUpSystem\\PickUpSystem.cs",
+              "RelativeToolTip": "Assets\\Common\\Scripts\\PickUpSystem\\PickUpSystem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T14:29:39.53Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "MouseFollower.cs",
+              "DocumentMoniker": "D:\\UnityProjects\\FinalProject\\Assets\\Common\\Scripts\\UI\\MouseFollower.cs",
+              "RelativeDocumentMoniker": "Assets\\Common\\Scripts\\UI\\MouseFollower.cs",
+              "ToolTip": "D:\\UnityProjects\\FinalProject\\Assets\\Common\\Scripts\\UI\\MouseFollower.cs",
+              "RelativeToolTip": "Assets\\Common\\Scripts\\UI\\MouseFollower.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T13:48:18.585Z"
             }
           ]
         },

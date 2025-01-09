@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using Assets.Player.Scripts;
 using Assets.Common.Scripts;
-public class Sword : MonoBehaviour, IPlayerController
+using Common.Scripts.UI.Model;
+public class Sword : MonoBehaviour, IPlayerController, IWeaponSystem
 {
     [SerializeField] private GameObject slashAnimPrefab;
     [SerializeField] private Transform slashAnimSpawnPoint;
@@ -17,6 +18,11 @@ public class Sword : MonoBehaviour, IPlayerController
     private GameObject slashAnim;
     //---------arrow
     [SerializeField] private GameObject arrowPrefab;
+
+    [SerializeField] private EquippableItemSO weaponItem;
+    [SerializeField] private InventorySO inventoryData;
+    [SerializeField] private List<ItemParameter> parametersToModify;
+    [SerializeField] private List<ItemParameter> itemCurrentState;
 
     private void Awake() {
         playerController = GetComponentInParent<PlayerController>();
@@ -32,7 +38,6 @@ public class Sword : MonoBehaviour, IPlayerController
     void Start()
     {
         playerControls.Combat.Attack.started += _ => Attack();
-        //FIX BUG NHA LONG
         playerControls.Combat.Shoot.started += _ => ShootArrow();
     }
 
@@ -123,5 +128,40 @@ public class Sword : MonoBehaviour, IPlayerController
     private void OnTriggerEnter2D(Collider2D collision)
     {
         attack(collision.gameObject, 1);
+    }
+
+    public int increaseHealth(int increasedHealth)
+    {
+        return 0;
+    }
+
+    public void SetWeapon(EquippableItemSO weaponItemSO, List<ItemParameter> itemState)
+    {
+        if (weaponItemSO != null)
+        {
+            inventoryData.AddItem(weaponItemSO, 1, itemCurrentState);
+        }
+
+        this.weaponItem = weaponItemSO;
+        this.itemCurrentState = new List<ItemParameter>(itemState);
+        ModifyParameters();
+    }
+
+    private void ModifyParameters()
+    {
+
+        foreach (ItemParameter parameter in parametersToModify)
+        {
+            if (itemCurrentState.Contains(parameter))
+            {
+                int index = itemCurrentState.IndexOf(parameter);
+                int newValue = itemCurrentState[index].value + parameter.value;
+                itemCurrentState[index] = new ItemParameter
+                {
+                    itemParameter = parameter.itemParameter,
+                    value = newValue
+                };
+            }
+        }
     }
 }

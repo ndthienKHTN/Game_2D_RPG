@@ -98,11 +98,12 @@ namespace Assets.Desert_Level.Scripts
                     }
 
                     GameObject spell2 = Instantiate(deathSpellPrefabs,  endPosition + gapDistance, Quaternion.identity);
+                    spawnedDeathSpells.Add(spell2);
 
                     // animation spell attack
                     yield return new WaitForSeconds(1.2f);
 
-                    Destroy(spell2);
+                    //Destroy(spell2);
                     foreach (GameObject spell in spawnedDeathSpells)
                     {
                         Destroy(spell);
@@ -185,6 +186,10 @@ namespace Assets.Desert_Level.Scripts
             sparkEffect.Play();
             animator.SetBool("Idle", true);
             yield return new WaitForSeconds(1.5f);
+            for (int i = spawnedDeathSpells.Count - 1; i >= 0; i--)
+            {
+                Destroy(spawnedDeathSpells[i]);
+            }
             Destroy(gameObject);
         }
 
