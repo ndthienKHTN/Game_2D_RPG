@@ -1,8 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using Assets.Desert_Level.Scripts;
+//using Assets.Desert_Level.Scripts;
 using System.Threading;
+using Assets.Player.Scripts;
+using Assets.Common.Scripts;
 
 namespace Assets.Desert_Level.Scripts
 {
@@ -11,7 +13,8 @@ namespace Assets.Desert_Level.Scripts
         Animator animator;
         private bool playerInCollision = false;
         float restartTrapTimer;
-        public float restartTrapDelay = 1f;
+        public float restartTrapDelay = 30f;
+        public float rootedTime = 3f;
 
         // Start is called before the first frame update
         void Start()
@@ -34,7 +37,9 @@ namespace Assets.Desert_Level.Scripts
             {
                 return;
             }
-            PlayerController playerController = collision.GetComponent<PlayerController>();
+
+            IPlayerController playerController = collision.GetComponent<IPlayerController>();
+
             if (playerController != null)
             {
                 //playerController.ChangeHealth(-1);
@@ -81,12 +86,17 @@ namespace Assets.Desert_Level.Scripts
             restartTrapTimer = restartTrapDelay;
         }
 
-        private IEnumerator CheckPlayerCollisionAfterDelay(PlayerController playerController)
+        private IEnumerator CheckPlayerCollisionAfterDelay(IPlayerController playerController)
         {
             yield return new WaitForSeconds(0.15f);
             if (playerInCollision)
             {
+                animator.SetBool("Close", true);
                 Debug.Log("Player is still in collision with bear trap");
+                playerController.beAttacked(null, 5);
+
+                yield return new WaitForSeconds(rootedTime);
+                animator.SetBool("Close", false);
                 // Cause damage to the player
                 //playerController.ChangeHealth(-1);
             }

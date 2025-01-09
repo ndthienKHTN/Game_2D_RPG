@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Assets.Player.Scripts;
 
 namespace Assets.Desert_Level.Scripts
 {
@@ -22,7 +23,7 @@ namespace Assets.Desert_Level.Scripts
         {
             if (other.CompareTag("Player"))
             {
-                //other.GetComponent<PlayerController>().ChangeGold(goldValue);
+                other.GetComponent<PlayerController>().ChangeHealth(20);
                 Destroy(gameObject);
             }
         }

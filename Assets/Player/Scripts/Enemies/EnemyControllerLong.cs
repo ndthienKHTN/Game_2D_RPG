@@ -1,34 +1,57 @@
 using System.Collections;
 using System.Collections.Generic;
+using Assets.Common.Scripts;
+using Unity.VisualScripting;
 using UnityEngine;
+using Assets.Player.Scripts;
 
-
-public class EnemyControllerLong : MonoBehaviour
+namespace Assets.Player.Scripts
 {
-    [SerializeField] private int startingHealth = 3;
+    public class SlimeController : MonoBehaviour, IEnemyController
+    {
+        [SerializeField] private int startingHealth = 100;
+        
+        private int currentHealth;
+        private Knockback knockback;
 
-    private int currentHealth;
-    private Knockback knockback;
-    private Flash flash;
 
-    private void Awake() {
-        flash = GetComponent<Flash>();
-        knockback = GetComponent<Knockback>();
-    }
+        private void Awake() {
+            knockback = GetComponent<Knockback>();
+        }
 
-    private void Start() {
-        currentHealth = startingHealth;
-    }
+        private void Start() {
+            currentHealth = startingHealth;
+        }
 
-    public void beAttacked(int atk) {
-        currentHealth -= atk;
-        knockback.GetKnockedBack(PlayerController.Instance.transform, 15f);
-        StartCoroutine(flash.FlashRoutine());
-    }
+        public void beAttacked(int atk) {
+            currentHealth -= atk;
+            knockback.GetKnockedBack(PlayerController.Instance.transform, 15f);
+        }
 
-    public void DetectDeath() {
-        if (currentHealth <= 0) {
-            Destroy(gameObject);
+        public void DetectDeath() {
+            if (currentHealth <= 0) {
+                Destroy(gameObject);
+            }
+        }
+
+        public int attack(GameObject player, int atk)
+        {
+            return 0;
+        }
+
+        int IEnemyController.beAttacked(int atk)
+        {
+            return 0;
+        }
+
+        void OnTriggerStay2D(Collider2D other)
+        {
+            IPlayerController player = other.gameObject.GetComponent<IPlayerController>();
+            if (player != null)
+            {
+                player.beAttacked(this.gameObject,5);
+            }
+            // Debug.Log("Collision with DamageZone");
         }
     }
 }

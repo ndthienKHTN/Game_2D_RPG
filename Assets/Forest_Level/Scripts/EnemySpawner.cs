@@ -22,7 +22,16 @@ public class EnemySpawner : MonoBehaviour
             SpawnEnemy();
         }
     }
-
+    //private void SpawnEnemy()
+    //{
+    //    foreach (Transform spawnPoint in spawnPoints)
+    //    {
+    //        if (spawnPoint.childCount == 0)
+    //        {
+    //            Instantiate(enemyPrefab, spawnPoint.position, spawnPoint.rotation, spawnPoint);
+    //        }
+    //    }
+    //}
     private void SpawnEnemy()
     {
         int spawnIndex = Random.Range(0, spawnPoints.Length);

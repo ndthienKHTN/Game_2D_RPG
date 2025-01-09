@@ -17,7 +17,9 @@ TagManager:
   - NPC
   - Player
   - Confiner
+  - Bullet
   - Grass_And_Path
+  - Enemy
   - Tree
   - 
   - 

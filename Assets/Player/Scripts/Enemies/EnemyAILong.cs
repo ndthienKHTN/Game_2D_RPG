@@ -1,40 +1,42 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
-public class EnemyAILong : MonoBehaviour
+namespace Assets.Player.Scripts
 {
-    private enum State
+    public class EnemyAI : MonoBehaviour
     {
-        Roaming
-    }
-
-    private State state;
-    private EnemyPathfindingLong enemyPathfinding;
-
-    private void Awake()
-    {
-        enemyPathfinding = GetComponent<EnemyPathfindingLong>();
-        state = State.Roaming;
-    }
-
-    private void Start()
-    {
-        StartCoroutine(RoamingRoutine());
-    }
-
-    private IEnumerator RoamingRoutine()
-    {
-        while(state == State.Roaming)
+        private enum State
         {
-            Vector2 roamPosition = GetRoamingPosition();
-            enemyPathfinding.MoveTo(roamPosition);
-            yield return new WaitForSeconds(2f);
+            Roaming
         }
-    }
 
-    private Vector2 GetRoamingPosition()
-    {
-        return new Vector2(Random.Range(-1f, 1f), Random.Range(-1f, 1f)).normalized;
+        private State state;
+        private EnemyPathfinding enemyPathfinding;
+
+        private void Awake()
+        {
+            enemyPathfinding = GetComponent<EnemyPathfinding>();
+            state = State.Roaming;
+        }
+
+        private void Start()
+        {
+            StartCoroutine(RoamingRoutine());
+        }
+
+        private IEnumerator RoamingRoutine()
+        {
+            while(state == State.Roaming)
+            {
+                Vector2 roamPosition = GetRoamingPosition();
+                enemyPathfinding.MoveTo(roamPosition);
+                yield return new WaitForSeconds(2f);
+            }
+        }
+
+        private Vector2 GetRoamingPosition()
+        {
+            return new Vector2(Random.Range(-1f, 1f), Random.Range(-1f, 1f)).normalized;
+        }
     }
 }

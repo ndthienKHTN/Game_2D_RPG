@@ -71,12 +71,10 @@ namespace Assets.Forest_Level.Scripts
         }
         private void OnCollisionEnter2D(Collision2D other)
         {
-            PlayerController player = other.gameObject.GetComponent<PlayerController>();
-            if (player != null)
-            {
-                Debug.Log("Player Hit");
-                player.ChangeHealth(-1);
-            }
+            int atk = 15;//Lấy ví dụ chưa có số liệu
+            int damage = Mathf.RoundToInt(atk * (15f / (10f + Mathf.Sqrt(Defence))));
+            Debug.Log($"Player Hit Damage: {Attack}");
+            attack(other.gameObject, Attack);
         }
         public void Fix()
         {
@@ -87,24 +85,28 @@ namespace Assets.Forest_Level.Scripts
 
         public int attack(GameObject player, int atk)
         {
+            int attack = Attack;
             IPlayerController playerController = player.GetComponent<IPlayerController>();
             if (playerController != null)
             {
                 Debug.Log("Enemy attacking player");
-                return playerController.beAttacked(atk);
+                return playerController.beAttacked(null, atk);
             }
             return 0;
         }
 
         public int beAttacked(int atk)
         {
-            atk = 20;
-            int damage = Mathf.RoundToInt(atk * (20f / (10f + Mathf.Sqrt(Defence))));
+            atk = 15;//Lấy ví dụ chưa có số liệu
+            float randomFactor = UnityEngine.Random.Range(0.8f, 1.2f);
+            int damage = Mathf.RoundToInt((atk * atk / (atk + Defence)) * randomFactor);
             HP -= damage;
 
             HP = Math.Max(HP, 0);
-            StartCoroutine(flash.FlashRoutine());
-
+            if (flash != null)
+            {
+                StartCoroutine(flash.FlashRoutine());
+            }
             Debug.Log($"Orc 1 nhận {damage} sát thương! HP còn lại: {HP}");
             return damage;
         }
