@@ -75,6 +75,9 @@ namespace Assets.Player.Scripts
         public Slider healthSlider;
         // --health-bar-
 
+        public int currentLevel { get; set; } = 1;
+        public int currentScene { get; set; } = 1;
+
         private void UpdateHealthSlider()
         {
             if (healthSlider == null) {

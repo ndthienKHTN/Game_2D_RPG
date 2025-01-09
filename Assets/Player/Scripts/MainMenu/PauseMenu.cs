@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -7,7 +7,14 @@ namespace Assets.Player.Scripts
     public class PauseMenu : MonoBehaviour
     {
         // [SerializeField] GameObject pauseMenu;
-                
+        SavingFile savingFile;
+         
+        private void Start()
+        {
+            savingFile = FindObjectOfType<SavingFile>();
+            savingFile.loadData();
+
+        }
         public void Button_Pause()
         {
             Time.timeScale = 0;
@@ -28,7 +35,15 @@ namespace Assets.Player.Scripts
 
         public void Button_SaveGame()
         {
-            Debug.Log("Game Saved");
+            if (savingFile != null)
+            {
+                // Gọi hàm SaveGame trong SavingFile
+                savingFile.SaveGame();
+            }
+            else
+            {
+                Debug.LogError("SavingFile không được tìm thấy trong scene!");
+            }
         }
         public void Button_Options()
         {
