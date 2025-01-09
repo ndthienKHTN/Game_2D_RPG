@@ -13,8 +13,6 @@ public class Sword : MonoBehaviour, IWeapon, IWeaponSystem
     
     private Animator myAnimator;
     private GameObject slashAnim;
-    //---------arrow
-    [SerializeField] private GameObject arrowPrefab;
 
     [SerializeField] private EquippableItemSO weaponItem;
     [SerializeField] private InventorySO inventoryData;
@@ -22,23 +20,15 @@ public class Sword : MonoBehaviour, IWeapon, IWeaponSystem
     [SerializeField] private List<ItemParameter> itemCurrentState;
 
     private void Awake() {
-        playerController = GetComponentInParent<PlayerController>();
-        activeWeapon = GetComponentInParent<ActiveWeapon>();
         myAnimator = GetComponent<Animator>();
-        playerControls = new PlayerControls();
     }
 
-    private void OnEnable() {
-        playerControls.Enable();
-    }
 
     void Start()
     {
         weaponCollider = PlayerController.Instance.GetWeaponCollider();
         slashAnimSpawnPoint = GameObject.Find("SlashSpawnPoint").transform;
-        playerControls.Combat.Attack.started += _ => Attack();
-        //FIX BUG NHA LONG
-        playerControls.Combat.Shoot.started += _ => ShootArrow();
+       
     }
     private void Update() {
         MouseFollowWithOffset();

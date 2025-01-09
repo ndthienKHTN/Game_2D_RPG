@@ -5,6 +5,7 @@ using UnityEngine.UI;
 using UnityEngine.InputSystem;
 using Assets.Common.Scripts;
 using Assets.Player.Scripts;
+using Assets.Winter_Level.Scripts;
 //using Assets.Desert_Level.Scripts;
 using TMPro;
 namespace Assets.Player.Scripts
@@ -482,17 +483,7 @@ namespace Assets.Player.Scripts
             return 0;
         }
 
-        public int increaseHealth(int increasedHealth)
-        {
-            ChangeHealth(increasedHealth);
-            return 0;
-        }
-
-        public int increaseDefense(int value)
-        {
-            defense += value;
-            return 0;
-        }
+      
     }
     
 }
