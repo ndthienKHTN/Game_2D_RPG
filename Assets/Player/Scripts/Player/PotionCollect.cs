@@ -6,9 +6,8 @@ namespace Assets.Player.Scripts {
     public class PotionCollect : MonoBehaviour
     {
         //Detect collision trigger with player
-        public AudioClip collectSound;
         private void  OnTriggerEnter2D(Collider2D collision)
-        {   
+        {
             PlayerController player = collision.GetComponent<PlayerController>();
             if (player != null)
             {

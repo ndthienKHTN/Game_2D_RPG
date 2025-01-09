@@ -23,12 +23,10 @@ namespace Assets.Desert_Level.Scripts
         {
             //Debug.Log("Collision with: " + other.tag + " - " + other.gameObject.tag);
             if (other.CompareTag("Player"))
-            {   
-                if (other.gameObject.GetComponent<PlayerController>() != null){
-                    other.GetComponent<PlayerController>().AddGold(goldValue);
-                    GoldManager.Instance.RemoveGold(gameObject);
-                    Destroy(gameObject);
-                }
+            {
+                other.GetComponent<PlayerController>().AddGold(goldValue);
+                GoldManager.Instance.RemoveGold(gameObject);
+                Destroy(gameObject);
             }
         }
 

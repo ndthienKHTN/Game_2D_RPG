@@ -13,7 +13,6 @@ namespace Assets.Player.Scripts
     // public class PlayerController : MonoBehaviour, IPlayerController, ICheckpoint, IPlayerStatController
     public class PlayerController : Singleton<PlayerController>, IPlayerController, ICheckpoint, IPlayerStatController
     {
-        public AudioClip hitSound;
         //public bool FacingLeft { get { return facingLeft; } set { facingLeft = value; } }
         // public static PlayerController Instance;
 
@@ -80,6 +79,9 @@ namespace Assets.Player.Scripts
 
         public Slider healthSlider;
         // --health-bar-
+
+        public int currentLevel { get; set; } = 1;
+        public int currentScene { get; set; } = 1;
 
         private void UpdateHealthSlider()
         {
@@ -426,10 +428,10 @@ namespace Assets.Player.Scripts
             }
             currentHealth = Mathf.Clamp(currentHealth + amount, 0, maxHealth);
             Debug.Log(currentHealth + "/" + maxHealth);
-            if (currentHealth == 0)
+            if (currentHealth <= 0)
             {
-                currentHealth = maxHealth;
                 Respawn();
+                currentHealth = 100;
             }
             UpdateHealthSlider();
         }
