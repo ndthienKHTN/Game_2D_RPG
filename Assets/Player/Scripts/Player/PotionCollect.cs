@@ -16,7 +16,8 @@ namespace Assets.Player.Scripts {
                 {
                     player.ChangeHealth(40);
                     Destroy(gameObject);
-                    player.PlaySound(collectSound);
+                    //player.PlaySound(collectSound);
+                    AudioManager.Instance.PlaySFX("collectable");
                 }
             }
             // Debug.Log("Collision with player");

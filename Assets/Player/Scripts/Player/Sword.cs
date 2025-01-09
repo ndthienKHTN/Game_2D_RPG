@@ -121,4 +121,9 @@ public class Sword : MonoBehaviour, IWeapon, IWeaponSystem
             }
         }
     }
+
+    public void DisableMovement(float duration)
+    {
+        return;
+    }
 }
