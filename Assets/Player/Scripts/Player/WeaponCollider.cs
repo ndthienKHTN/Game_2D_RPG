@@ -43,5 +43,10 @@ public class WeaponCollider: MonoBehaviour, IPlayerController
            
         }*/
     }
+
+    public void DisableMovement(float duration)
+    {
+        return;
+    }
 }
 

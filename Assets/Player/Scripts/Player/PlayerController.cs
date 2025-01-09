@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -16,6 +16,7 @@ namespace Assets.Player.Scripts
         //public bool FacingLeft { get { return facingLeft; } set { facingLeft = value; } }
         public static PlayerController Instance;
 
+        private bool isMovementDisabled = false;
         [SerializeField] private float moveSpeed = 4f;
         [SerializeField] private float speedBoostMultiplier = 2f;
         [SerializeField] private float speedBoostDuration = 5f;
@@ -394,8 +395,9 @@ namespace Assets.Player.Scripts
                 {
                     StartCoroutine(flash.FlashRoutine());
                 }
-                PlaySound(hitSound);
-                
+                //PlaySound(hitSound);
+                AudioManager.Instance.PlaySFX("p_hurt");
+
             }
             currentHealth = Mathf.Clamp(currentHealth + amount, 0, maxHealth);
             Debug.Log(currentHealth + "/" + maxHealth);
@@ -406,6 +408,30 @@ namespace Assets.Player.Scripts
             }
             UpdateHealthSlider();
         }
+
+        public void DisableMovement(float duration)
+        {
+            if (isMovementDisabled) return;
+
+            isMovementDisabled = true;
+
+            StartCoroutine(EnableMovementAfterDelay(duration));
+        }
+
+        private IEnumerator EnableMovementAfterDelay(float delay)
+        {
+            // Vô hiệu hóa di chuyển
+            float currentSpeed = moveSpeed;
+            moveSpeed = 0f;
+
+            // Đợi
+            yield return new WaitForSeconds(delay);
+
+            // Kích hoạt lại di chuyển
+            moveSpeed = currentSpeed;
+            isMovementDisabled = false;
+        }
+
     }
     
 }

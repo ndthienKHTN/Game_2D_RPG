@@ -9,5 +9,6 @@ namespace Assets.Common.Scripts
         public int attack(GameObject enemy, int atk);
         public int beAttacked(GameObject enemy, int atk);
         //public void DetectDeath();
+        public void DisableMovement(float duration);
     }
 }

@@ -124,4 +124,9 @@ public class Sword : MonoBehaviour, IPlayerController
     {
         attack(collision.gameObject, 1);
     }
+
+    public void DisableMovement(float duration)
+    {
+        return;
+    }
 }

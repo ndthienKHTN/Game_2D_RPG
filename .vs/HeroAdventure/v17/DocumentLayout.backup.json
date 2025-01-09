@@ -3,24 +3,76 @@
   "WorkspaceRootPath": "D:\\L\u1EADp tr\u00ECnh game\\HeroAdventure\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\L\u1EADp tr\u00ECnh game\\HeroAdventure\\Assets\\Winter_Level\\Scripts\\AreaExit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Winter_Level\\Scripts\\AreaExit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\L\u1EADp tr\u00ECnh game\\HeroAdventure\\Assets\\Player\\Scripts\\Player\\PlayerController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Player\\Scripts\\Player\\PlayerController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\L\u1EADp tr\u00ECnh game\\HeroAdventure\\Assets\\Winter_Level\\Scripts\\Enemy\\Kitsune\\BurnedArea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Winter_Level\\Scripts\\Enemy\\Kitsune\\BurnedArea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\L\u1EADp tr\u00ECnh game\\HeroAdventure\\Assets\\Winter_Level\\Scripts\\Enemy\\Bat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Winter_Level\\Scripts\\Enemy\\Bat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\L\u1EADp tr\u00ECnh game\\HeroAdventure\\Assets\\Winter_Level\\Scripts\\Enemy\\Shooting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Winter_Level\\Scripts\\Enemy\\Shooting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\L\u1EADp tr\u00ECnh game\\HeroAdventure\\Assets\\Winter_Level\\Scripts\\Enemy\\Fire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Winter_Level\\Scripts\\Enemy\\Fire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\L\u1EADp tr\u00ECnh game\\HeroAdventure\\Assets\\Winter_Level\\Scripts\\Enemy\\Kitsune.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Winter_Level\\Scripts\\Enemy\\Kitsune.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\L\u1EADp tr\u00ECnh game\\HeroAdventure\\Assets\\Winter_Level\\Scripts\\Enemy\\Gorgon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Winter_Level\\Scripts\\Enemy\\Gorgon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\L\u1EADp tr\u00ECnh game\\HeroAdventure\\Assets\\Player\\Scripts\\Player\\Sword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Player\\Scripts\\Player\\Sword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\L\u1EADp tr\u00ECnh game\\HeroAdventure\\Assets\\Player\\Scripts\\Player\\WeaponCollider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Player\\Scripts\\Player\\WeaponCollider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\L\u1EADp tr\u00ECnh game\\HeroAdventure\\Assets\\Common\\Scripts\\IPlayerController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Common\\Scripts\\IPlayerController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\L\u1EADp tr\u00ECnh game\\HeroAdventure\\Assets\\Common\\Scripts\\IEnemyController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Common\\Scripts\\IEnemyController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\L\u1EADp tr\u00ECnh game\\HeroAdventure\\Assets\\Desert_Level\\Scripts\\Bringer\\BringerController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Desert_Level\\Scripts\\Bringer\\BringerController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\L\u1EADp tr\u00ECnh game\\HeroAdventure\\Assets\\Winter_Level\\Scripts\\Enemy\\Bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Winter_Level\\Scripts\\Enemy\\Bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\L\u1EADp tr\u00ECnh game\\HeroAdventure\\Assets\\Winter_Level\\Scripts\\Enemy\\Slime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Winter_Level\\Scripts\\Enemy\\Slime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\L\u1EADp tr\u00ECnh game\\HeroAdventure\\Assets\\Winter_Level\\Scripts\\Enemy\\EnemyUIHealthBar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Winter_Level\\Scripts\\Enemy\\EnemyUIHealthBar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\L\u1EADp tr\u00ECnh game\\HeroAdventure\\Assets\\Winter_Level\\Scripts\\Enemy\\Flash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Winter_Level\\Scripts\\Enemy\\Flash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\L\u1EADp tr\u00ECnh game\\HeroAdventure\\Assets\\Winter_Level\\Scripts\\SceneManagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Winter_Level\\Scripts\\SceneManagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\L\u1EADp tr\u00ECnh game\\HeroAdventure\\Assets\\Winter_Level\\Scripts\\AreaExit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Winter_Level\\Scripts\\AreaExit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\L\u1EADp tr\u00ECnh game\\HeroAdventure\\Assets\\Winter_Level\\Scripts\\AreaEntrance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Winter_Level\\Scripts\\AreaEntrance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\L\u1EADp tr\u00ECnh game\\HeroAdventure\\Assets\\Winter_Level\\Scripts\\Misc\\TransparentDetection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Winter_Level\\Scripts\\Misc\\TransparentDetection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\L\u1EADp tr\u00ECnh game\\HeroAdventure\\Assets\\Player\\Scripts\\Enemies\\EnemyPathfindingLong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -35,10 +87,6 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Player\\Scripts\\Enemies\\EnemyControllerLong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\L\u1EADp tr\u00ECnh game\\HeroAdventure\\Assets\\Player\\Scripts\\Player\\WeaponCollider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Player\\Scripts\\Player\\WeaponCollider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\L\u1EADp tr\u00ECnh game\\HeroAdventure\\Assets\\Player\\Scripts\\Player\\SlashAnim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Player\\Scripts\\Player\\SlashAnim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -47,20 +95,8 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Player\\Scripts\\Player\\ActiveWeapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\L\u1EADp tr\u00ECnh game\\HeroAdventure\\Assets\\Player\\Scripts\\Player\\Sword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Player\\Scripts\\Player\\Sword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\L\u1EADp tr\u00ECnh game\\HeroAdventure\\Assets\\Player\\Scripts\\Player\\Projectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Player\\Scripts\\Player\\Projectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\L\u1EADp tr\u00ECnh game\\HeroAdventure\\Assets\\Winter_Level\\Scripts\\Enemy\\Shooting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Winter_Level\\Scripts\\Enemy\\Shooting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\L\u1EADp tr\u00ECnh game\\HeroAdventure\\Assets\\Winter_Level\\Scripts\\Enemy\\Bat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Winter_Level\\Scripts\\Enemy\\Bat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\L\u1EADp tr\u00ECnh game\\HeroAdventure\\Assets\\Winter_Level\\Scripts\\Enemy\\EnemyPathfinding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -77,10 +113,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\L\u1EADp tr\u00ECnh game\\HeroAdventure\\Library\\PackageCache\\com.unity.inputsystem@1.11.2\\InputSystem\\Utilities\\DelegateHelpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.inputsystem@1.11.2\\InputSystem\\Utilities\\DelegateHelpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\L\u1EADp tr\u00ECnh game\\HeroAdventure\\Assets\\Winter_Level\\Scripts\\AreaEntrance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Winter_Level\\Scripts\\AreaEntrance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\L\u1EADp tr\u00ECnh game\\HeroAdventure\\Assets\\Winter_Level\\Scripts\\BaseSingleton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -107,20 +139,12 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Winter_Level\\Scripts\\Singleton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\L\u1EADp tr\u00ECnh game\\HeroAdventure\\Assets\\Winter_Level\\Scripts\\SceneManagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Winter_Level\\Scripts\\SceneManagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\L\u1EADp tr\u00ECnh game\\HeroAdventure\\Assets\\Winter_Level\\Scripts\\Player\\Player Controls.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Winter_Level\\Scripts\\Player\\Player Controls.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\L\u1EADp tr\u00ECnh game\\HeroAdventure\\Assets\\Winter_Level\\Scripts\\CameraController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Winter_Level\\Scripts\\CameraController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\L\u1EADp tr\u00ECnh game\\HeroAdventure\\Assets\\Winter_Level\\Scripts\\Misc\\TransparentDetection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Winter_Level\\Scripts\\Misc\\TransparentDetection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\L\u1EADp tr\u00ECnh game\\HeroAdventure\\Assets\\Desert_Level\\Scripts\\Minotaur\\MinotaurController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -142,58 +166,85 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "EnemyPathfindingLong.cs",
-              "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh game\\HeroAdventure\\Assets\\Player\\Scripts\\Enemies\\EnemyPathfindingLong.cs",
-              "RelativeDocumentMoniker": "Assets\\Player\\Scripts\\Enemies\\EnemyPathfindingLong.cs",
-              "ToolTip": "D:\\L\u1EADp tr\u00ECnh game\\HeroAdventure\\Assets\\Player\\Scripts\\Enemies\\EnemyPathfindingLong.cs",
-              "RelativeToolTip": "Assets\\Player\\Scripts\\Enemies\\EnemyPathfindingLong.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAcAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Bat.cs",
+              "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh game\\HeroAdventure\\Assets\\Winter_Level\\Scripts\\Enemy\\Bat.cs",
+              "RelativeDocumentMoniker": "Assets\\Winter_Level\\Scripts\\Enemy\\Bat.cs",
+              "ToolTip": "D:\\L\u1EADp tr\u00ECnh game\\HeroAdventure\\Assets\\Winter_Level\\Scripts\\Enemy\\Bat.cs",
+              "RelativeToolTip": "Assets\\Winter_Level\\Scripts\\Enemy\\Bat.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAEMAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T16:26:57.049Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "EnemyAILong.cs",
-              "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh game\\HeroAdventure\\Assets\\Player\\Scripts\\Enemies\\EnemyAILong.cs",
-              "RelativeDocumentMoniker": "Assets\\Player\\Scripts\\Enemies\\EnemyAILong.cs",
-              "ToolTip": "D:\\L\u1EADp tr\u00ECnh game\\HeroAdventure\\Assets\\Player\\Scripts\\Enemies\\EnemyAILong.cs",
-              "RelativeToolTip": "Assets\\Player\\Scripts\\Enemies\\EnemyAILong.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T16:26:52.582Z",
+              "WhenOpened": "2024-12-19T11:45:42.024Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "PlayerController.cs",
-              "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh game\\HeroAdventure\\Assets\\Player\\Scripts\\Player\\PlayerController.cs",
-              "RelativeDocumentMoniker": "Assets\\Player\\Scripts\\Player\\PlayerController.cs",
-              "ToolTip": "D:\\L\u1EADp tr\u00ECnh game\\HeroAdventure\\Assets\\Player\\Scripts\\Player\\PlayerController.cs",
-              "RelativeToolTip": "Assets\\Player\\Scripts\\Player\\PlayerController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Title": "BurnedArea.cs",
+              "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh game\\HeroAdventure\\Assets\\Winter_Level\\Scripts\\Enemy\\Kitsune\\BurnedArea.cs",
+              "RelativeDocumentMoniker": "Assets\\Winter_Level\\Scripts\\Enemy\\Kitsune\\BurnedArea.cs",
+              "ToolTip": "D:\\L\u1EADp tr\u00ECnh game\\HeroAdventure\\Assets\\Winter_Level\\Scripts\\Enemy\\Kitsune\\BurnedArea.cs",
+              "RelativeToolTip": "Assets\\Winter_Level\\Scripts\\Enemy\\Kitsune\\BurnedArea.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABkAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T10:11:47.557Z",
+              "WhenOpened": "2025-01-07T17:04:11.912Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Slime.cs",
-              "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh game\\HeroAdventure\\Assets\\Winter_Level\\Scripts\\Enemy\\Slime.cs",
-              "RelativeDocumentMoniker": "Assets\\Winter_Level\\Scripts\\Enemy\\Slime.cs",
-              "ToolTip": "D:\\L\u1EADp tr\u00ECnh game\\HeroAdventure\\Assets\\Winter_Level\\Scripts\\Enemy\\Slime.cs",
-              "RelativeToolTip": "Assets\\Winter_Level\\Scripts\\Enemy\\Slime.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAAAAAQAAAASAAAAAAAAAA==",
+              "Title": "Shooting.cs",
+              "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh game\\HeroAdventure\\Assets\\Winter_Level\\Scripts\\Enemy\\Shooting.cs",
+              "RelativeDocumentMoniker": "Assets\\Winter_Level\\Scripts\\Enemy\\Shooting.cs",
+              "ToolTip": "D:\\L\u1EADp tr\u00ECnh game\\HeroAdventure\\Assets\\Winter_Level\\Scripts\\Enemy\\Shooting.cs",
+              "RelativeToolTip": "Assets\\Winter_Level\\Scripts\\Enemy\\Shooting.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEUAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T09:17:35.089Z",
+              "WhenOpened": "2025-01-07T16:43:45.776Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Fire.cs",
+              "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh game\\HeroAdventure\\Assets\\Winter_Level\\Scripts\\Enemy\\Fire.cs",
+              "RelativeDocumentMoniker": "Assets\\Winter_Level\\Scripts\\Enemy\\Fire.cs",
+              "ToolTip": "D:\\L\u1EADp tr\u00ECnh game\\HeroAdventure\\Assets\\Winter_Level\\Scripts\\Enemy\\Fire.cs",
+              "RelativeToolTip": "Assets\\Winter_Level\\Scripts\\Enemy\\Fire.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAADwvxUAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T16:42:38.069Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Sword.cs",
+              "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh game\\HeroAdventure\\Assets\\Player\\Scripts\\Player\\Sword.cs",
+              "RelativeDocumentMoniker": "Assets\\Player\\Scripts\\Player\\Sword.cs",
+              "ToolTip": "D:\\L\u1EADp tr\u00ECnh game\\HeroAdventure\\Assets\\Player\\Scripts\\Player\\Sword.cs",
+              "RelativeToolTip": "Assets\\Player\\Scripts\\Player\\Sword.cs",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAAAIIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T10:26:06.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh game\\HeroAdventure\\Assets\\Player\\Scripts\\Player\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\Player\\Scripts\\Player\\PlayerController.cs",
+              "ToolTip": "D:\\L\u1EADp tr\u00ECnh game\\HeroAdventure\\Assets\\Player\\Scripts\\Player\\PlayerController.cs",
+              "RelativeToolTip": "Assets\\Player\\Scripts\\Player\\PlayerController.cs",
+              "ViewState": "AgIAAFIBAAAAAAAAAADwv2IBAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T10:11:47.557Z",
               "EditorCaption": ""
             },
             {
@@ -204,79 +255,103 @@
               "RelativeDocumentMoniker": "Assets\\Player\\Scripts\\Player\\WeaponCollider.cs",
               "ToolTip": "D:\\L\u1EADp tr\u00ECnh game\\HeroAdventure\\Assets\\Player\\Scripts\\Player\\WeaponCollider.cs",
               "RelativeToolTip": "Assets\\Player\\Scripts\\Player\\WeaponCollider.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAC4AAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T07:23:37.548Z",
+              "WhenOpened": "2025-01-07T15:16:26.693Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Flash.cs",
-              "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh game\\HeroAdventure\\Assets\\Winter_Level\\Scripts\\Enemy\\Flash.cs",
-              "RelativeDocumentMoniker": "Assets\\Winter_Level\\Scripts\\Enemy\\Flash.cs",
-              "ToolTip": "D:\\L\u1EADp tr\u00ECnh game\\HeroAdventure\\Assets\\Winter_Level\\Scripts\\Enemy\\Flash.cs",
-              "RelativeToolTip": "Assets\\Winter_Level\\Scripts\\Enemy\\Flash.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAnAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "Gorgon.cs",
+              "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh game\\HeroAdventure\\Assets\\Winter_Level\\Scripts\\Enemy\\Gorgon.cs",
+              "RelativeDocumentMoniker": "Assets\\Winter_Level\\Scripts\\Enemy\\Gorgon.cs",
+              "ToolTip": "D:\\L\u1EADp tr\u00ECnh game\\HeroAdventure\\Assets\\Winter_Level\\Scripts\\Enemy\\Gorgon.cs",
+              "RelativeToolTip": "Assets\\Winter_Level\\Scripts\\Enemy\\Gorgon.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T11:54:28.492Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Bullet.cs",
-              "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh game\\HeroAdventure\\Assets\\Winter_Level\\Scripts\\Enemy\\Bullet.cs",
-              "RelativeDocumentMoniker": "Assets\\Winter_Level\\Scripts\\Enemy\\Bullet.cs",
-              "ToolTip": "D:\\L\u1EADp tr\u00ECnh game\\HeroAdventure\\Assets\\Winter_Level\\Scripts\\Enemy\\Bullet.cs",
-              "RelativeToolTip": "Assets\\Winter_Level\\Scripts\\Enemy\\Bullet.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T13:45:02.967Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AreaExit.cs",
-              "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh game\\HeroAdventure\\Assets\\Winter_Level\\Scripts\\AreaExit.cs",
-              "RelativeDocumentMoniker": "Assets\\Winter_Level\\Scripts\\AreaExit.cs",
-              "ToolTip": "D:\\L\u1EADp tr\u00ECnh game\\HeroAdventure\\Assets\\Winter_Level\\Scripts\\AreaExit.cs",
-              "RelativeToolTip": "Assets\\Winter_Level\\Scripts\\AreaExit.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T13:44:19.587Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ActiveWeapon.cs",
-              "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh game\\HeroAdventure\\Assets\\Player\\Scripts\\Player\\ActiveWeapon.cs",
-              "RelativeDocumentMoniker": "Assets\\Player\\Scripts\\Player\\ActiveWeapon.cs",
-              "ToolTip": "D:\\L\u1EADp tr\u00ECnh game\\HeroAdventure\\Assets\\Player\\Scripts\\Player\\ActiveWeapon.cs",
-              "RelativeToolTip": "Assets\\Player\\Scripts\\Player\\ActiveWeapon.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T15:59:50.186Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Sword.cs",
-              "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh game\\HeroAdventure\\Assets\\Player\\Scripts\\Player\\Sword.cs",
-              "RelativeDocumentMoniker": "Assets\\Player\\Scripts\\Player\\Sword.cs",
-              "ToolTip": "D:\\L\u1EADp tr\u00ECnh game\\HeroAdventure\\Assets\\Player\\Scripts\\Player\\Sword.cs",
-              "RelativeToolTip": "Assets\\Player\\Scripts\\Player\\Sword.cs",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAAAAoAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T10:26:06.362Z",
+              "WhenOpened": "2025-01-07T11:57:15.624Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
+              "Title": "IPlayerController.cs",
+              "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh game\\HeroAdventure\\Assets\\Common\\Scripts\\IPlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\Common\\Scripts\\IPlayerController.cs",
+              "ToolTip": "D:\\L\u1EADp tr\u00ECnh game\\HeroAdventure\\Assets\\Common\\Scripts\\IPlayerController.cs",
+              "RelativeToolTip": "Assets\\Common\\Scripts\\IPlayerController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T15:10:24.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IEnemyController.cs",
+              "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh game\\HeroAdventure\\Assets\\Common\\Scripts\\IEnemyController.cs",
+              "RelativeDocumentMoniker": "Assets\\Common\\Scripts\\IEnemyController.cs",
+              "ToolTip": "D:\\L\u1EADp tr\u00ECnh game\\HeroAdventure\\Assets\\Common\\Scripts\\IEnemyController.cs",
+              "RelativeToolTip": "Assets\\Common\\Scripts\\IEnemyController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T15:11:04.77Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BringerController.cs",
+              "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh game\\HeroAdventure\\Assets\\Desert_Level\\Scripts\\Bringer\\BringerController.cs",
+              "RelativeDocumentMoniker": "Assets\\Desert_Level\\Scripts\\Bringer\\BringerController.cs",
+              "ToolTip": "D:\\L\u1EADp tr\u00ECnh game\\HeroAdventure\\Assets\\Desert_Level\\Scripts\\Bringer\\BringerController.cs",
+              "RelativeToolTip": "Assets\\Desert_Level\\Scripts\\Bringer\\BringerController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T14:20:09.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Kitsune.cs",
+              "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh game\\HeroAdventure\\Assets\\Winter_Level\\Scripts\\Enemy\\Kitsune.cs",
+              "RelativeDocumentMoniker": "Assets\\Winter_Level\\Scripts\\Enemy\\Kitsune.cs",
+              "ToolTip": "D:\\L\u1EADp tr\u00ECnh game\\HeroAdventure\\Assets\\Winter_Level\\Scripts\\Enemy\\Kitsune.cs",
+              "RelativeToolTip": "Assets\\Winter_Level\\Scripts\\Enemy\\Kitsune.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T11:56:03.616Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Bullet.cs",
+              "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh game\\HeroAdventure\\Assets\\Winter_Level\\Scripts\\Enemy\\Bullet.cs",
+              "RelativeDocumentMoniker": "Assets\\Winter_Level\\Scripts\\Enemy\\Bullet.cs",
+              "ToolTip": "D:\\L\u1EADp tr\u00ECnh game\\HeroAdventure\\Assets\\Winter_Level\\Scripts\\Enemy\\Bullet.cs",
+              "RelativeToolTip": "Assets\\Winter_Level\\Scripts\\Enemy\\Bullet.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T13:45:02.967Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "EnemyUIHealthBar.cs",
+              "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh game\\HeroAdventure\\Assets\\Winter_Level\\Scripts\\Enemy\\EnemyUIHealthBar.cs",
+              "RelativeDocumentMoniker": "Assets\\Winter_Level\\Scripts\\Enemy\\EnemyUIHealthBar.cs",
+              "ToolTip": "D:\\L\u1EADp tr\u00ECnh game\\HeroAdventure\\Assets\\Winter_Level\\Scripts\\Enemy\\EnemyUIHealthBar.cs",
+              "RelativeToolTip": "Assets\\Winter_Level\\Scripts\\Enemy\\EnemyUIHealthBar.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T08:45:22.637Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
               "Title": "SlashAnim.cs",
               "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh game\\HeroAdventure\\Assets\\Player\\Scripts\\Player\\SlashAnim.cs",
               "RelativeDocumentMoniker": "Assets\\Player\\Scripts\\Player\\SlashAnim.cs",
@@ -284,12 +359,95 @@
               "RelativeToolTip": "Assets\\Player\\Scripts\\Player\\SlashAnim.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T14:46:25.124Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-18T14:46:25.124Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 22,
+              "Title": "ActiveWeapon.cs",
+              "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh game\\HeroAdventure\\Assets\\Player\\Scripts\\Player\\ActiveWeapon.cs",
+              "RelativeDocumentMoniker": "Assets\\Player\\Scripts\\Player\\ActiveWeapon.cs",
+              "ToolTip": "D:\\L\u1EADp tr\u00ECnh game\\HeroAdventure\\Assets\\Player\\Scripts\\Player\\ActiveWeapon.cs",
+              "RelativeToolTip": "Assets\\Player\\Scripts\\Player\\ActiveWeapon.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T15:59:50.186Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "SceneManagement.cs",
+              "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh game\\HeroAdventure\\Assets\\Winter_Level\\Scripts\\SceneManagement.cs",
+              "RelativeDocumentMoniker": "Assets\\Winter_Level\\Scripts\\SceneManagement.cs",
+              "ToolTip": "D:\\L\u1EADp tr\u00ECnh game\\HeroAdventure\\Assets\\Winter_Level\\Scripts\\SceneManagement.cs",
+              "RelativeToolTip": "Assets\\Winter_Level\\Scripts\\SceneManagement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T13:55:31.588Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AreaEntrance.cs",
+              "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh game\\HeroAdventure\\Assets\\Winter_Level\\Scripts\\AreaEntrance.cs",
+              "RelativeDocumentMoniker": "Assets\\Winter_Level\\Scripts\\AreaEntrance.cs",
+              "ToolTip": "D:\\L\u1EADp tr\u00ECnh game\\HeroAdventure\\Assets\\Winter_Level\\Scripts\\AreaEntrance.cs",
+              "RelativeToolTip": "Assets\\Winter_Level\\Scripts\\AreaEntrance.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T13:55:32.82Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "TransparentDetection.cs",
+              "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh game\\HeroAdventure\\Assets\\Winter_Level\\Scripts\\Misc\\TransparentDetection.cs",
+              "RelativeDocumentMoniker": "Assets\\Winter_Level\\Scripts\\Misc\\TransparentDetection.cs",
+              "ToolTip": "D:\\L\u1EADp tr\u00ECnh game\\HeroAdventure\\Assets\\Winter_Level\\Scripts\\Misc\\TransparentDetection.cs",
+              "RelativeToolTip": "Assets\\Winter_Level\\Scripts\\Misc\\TransparentDetection.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAuwC4AAABmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T16:08:58.629Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AreaExit.cs",
+              "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh game\\HeroAdventure\\Assets\\Winter_Level\\Scripts\\AreaExit.cs",
+              "RelativeDocumentMoniker": "Assets\\Winter_Level\\Scripts\\AreaExit.cs",
+              "ToolTip": "D:\\L\u1EADp tr\u00ECnh game\\HeroAdventure\\Assets\\Winter_Level\\Scripts\\AreaExit.cs",
+              "RelativeToolTip": "Assets\\Winter_Level\\Scripts\\AreaExit.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T13:44:19.587Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "EnemyAILong.cs",
+              "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh game\\HeroAdventure\\Assets\\Player\\Scripts\\Enemies\\EnemyAILong.cs",
+              "RelativeDocumentMoniker": "Assets\\Player\\Scripts\\Enemies\\EnemyAILong.cs",
+              "ToolTip": "D:\\L\u1EADp tr\u00ECnh game\\HeroAdventure\\Assets\\Player\\Scripts\\Enemies\\EnemyAILong.cs",
+              "RelativeToolTip": "Assets\\Player\\Scripts\\Enemies\\EnemyAILong.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T16:26:52.582Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "EnemyPathfindingLong.cs",
+              "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh game\\HeroAdventure\\Assets\\Player\\Scripts\\Enemies\\EnemyPathfindingLong.cs",
+              "RelativeDocumentMoniker": "Assets\\Player\\Scripts\\Enemies\\EnemyPathfindingLong.cs",
+              "ToolTip": "D:\\L\u1EADp tr\u00ECnh game\\HeroAdventure\\Assets\\Player\\Scripts\\Enemies\\EnemyPathfindingLong.cs",
+              "RelativeToolTip": "Assets\\Player\\Scripts\\Enemies\\EnemyPathfindingLong.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T16:26:57.049Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
               "Title": "EnemyControllerLong.cs",
               "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh game\\HeroAdventure\\Assets\\Player\\Scripts\\Enemies\\EnemyControllerLong.cs",
               "RelativeDocumentMoniker": "Assets\\Player\\Scripts\\Enemies\\EnemyControllerLong.cs",
@@ -297,12 +455,11 @@
               "RelativeToolTip": "Assets\\Player\\Scripts\\Enemies\\EnemyControllerLong.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T07:24:22.243Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-18T07:24:22.243Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 23,
               "Title": "Projectile.cs",
               "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh game\\HeroAdventure\\Assets\\Player\\Scripts\\Player\\Projectile.cs",
               "RelativeDocumentMoniker": "Assets\\Player\\Scripts\\Player\\Projectile.cs",
@@ -310,12 +467,11 @@
               "RelativeToolTip": "Assets\\Player\\Scripts\\Player\\Projectile.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T16:23:32.322Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-19T16:23:32.322Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 25,
               "Title": "EnemyAI.cs",
               "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh game\\HeroAdventure\\Assets\\Winter_Level\\Scripts\\Enemy\\EnemyAI.cs",
               "RelativeDocumentMoniker": "Assets\\Winter_Level\\Scripts\\Enemy\\EnemyAI.cs",
@@ -327,19 +483,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Bat.cs",
-              "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh game\\HeroAdventure\\Assets\\Winter_Level\\Scripts\\Enemy\\Bat.cs",
-              "RelativeDocumentMoniker": "Assets\\Winter_Level\\Scripts\\Enemy\\Bat.cs",
-              "ToolTip": "D:\\L\u1EADp tr\u00ECnh game\\HeroAdventure\\Assets\\Winter_Level\\Scripts\\Enemy\\Bat.cs",
-              "RelativeToolTip": "Assets\\Winter_Level\\Scripts\\Enemy\\Bat.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAACUAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T11:45:42.024Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 24,
               "Title": "EnemyPathfinding.cs",
               "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh game\\HeroAdventure\\Assets\\Winter_Level\\Scripts\\Enemy\\EnemyPathfinding.cs",
               "RelativeDocumentMoniker": "Assets\\Winter_Level\\Scripts\\Enemy\\EnemyPathfinding.cs",
@@ -351,20 +495,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Shooting.cs",
-              "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh game\\HeroAdventure\\Assets\\Winter_Level\\Scripts\\Enemy\\Shooting.cs",
-              "RelativeDocumentMoniker": "Assets\\Winter_Level\\Scripts\\Enemy\\Shooting.cs",
-              "ToolTip": "D:\\L\u1EADp tr\u00ECnh game\\HeroAdventure\\Assets\\Winter_Level\\Scripts\\Enemy\\Shooting.cs",
-              "RelativeToolTip": "Assets\\Winter_Level\\Scripts\\Enemy\\Shooting.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAuwDAAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T14:21:59.738Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 26,
               "Title": "PlayerController.cs",
               "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh game\\HeroAdventure\\Assets\\Winter_Level\\Scripts\\Player\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\Winter_Level\\Scripts\\Player\\PlayerController.cs",
@@ -376,7 +507,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 27,
               "Title": "DelegateHelpers.cs",
               "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh game\\HeroAdventure\\Library\\PackageCache\\com.unity.inputsystem@1.11.2\\InputSystem\\Utilities\\DelegateHelpers.cs",
               "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.inputsystem@1.11.2\\InputSystem\\Utilities\\DelegateHelpers.cs",
@@ -388,7 +519,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 28,
               "Title": "BaseSingleton.cs",
               "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh game\\HeroAdventure\\Assets\\Winter_Level\\Scripts\\BaseSingleton.cs",
               "RelativeDocumentMoniker": "Assets\\Winter_Level\\Scripts\\BaseSingleton.cs",
@@ -400,19 +531,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "AreaEntrance.cs",
-              "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh game\\HeroAdventure\\Assets\\Winter_Level\\Scripts\\AreaEntrance.cs",
-              "RelativeDocumentMoniker": "Assets\\Winter_Level\\Scripts\\AreaEntrance.cs",
-              "ToolTip": "D:\\L\u1EADp tr\u00ECnh game\\HeroAdventure\\Assets\\Winter_Level\\Scripts\\AreaEntrance.cs",
-              "RelativeToolTip": "Assets\\Winter_Level\\Scripts\\AreaEntrance.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T13:55:32.82Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 29,
               "Title": "EnemyController.cs",
               "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh game\\HeroAdventure\\Assets\\Common\\Scripts\\EnemyController.cs",
               "RelativeDocumentMoniker": "Assets\\Common\\Scripts\\EnemyController.cs",
@@ -424,7 +543,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 30,
               "Title": "DamageTrigger.cs",
               "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh game\\HeroAdventure\\Assets\\Player\\Scripts\\DamageTrigger.cs",
               "RelativeDocumentMoniker": "Assets\\Player\\Scripts\\DamageTrigger.cs",
@@ -436,7 +555,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 31,
               "Title": "PlayerController.cs",
               "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh game\\HeroAdventure\\Assets\\Desert_Level\\Scripts\\Player\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\Desert_Level\\Scripts\\Player\\PlayerController.cs",
@@ -448,7 +567,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 32,
               "Title": "PlayerController.cs",
               "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh game\\HeroAdventure\\Assets\\Common\\Scripts\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\Common\\Scripts\\PlayerController.cs",
@@ -460,7 +579,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 33,
               "Title": "Singleton.cs",
               "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh game\\HeroAdventure\\Assets\\Winter_Level\\Scripts\\Singleton.cs",
               "RelativeDocumentMoniker": "Assets\\Winter_Level\\Scripts\\Singleton.cs",
@@ -472,19 +591,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "SceneManagement.cs",
-              "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh game\\HeroAdventure\\Assets\\Winter_Level\\Scripts\\SceneManagement.cs",
-              "RelativeDocumentMoniker": "Assets\\Winter_Level\\Scripts\\SceneManagement.cs",
-              "ToolTip": "D:\\L\u1EADp tr\u00ECnh game\\HeroAdventure\\Assets\\Winter_Level\\Scripts\\SceneManagement.cs",
-              "RelativeToolTip": "Assets\\Winter_Level\\Scripts\\SceneManagement.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T13:55:31.588Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 34,
               "Title": "Player Controls.cs",
               "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh game\\HeroAdventure\\Assets\\Winter_Level\\Scripts\\Player\\Player Controls.cs",
               "RelativeDocumentMoniker": "Assets\\Winter_Level\\Scripts\\Player\\Player Controls.cs",
@@ -496,7 +603,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 35,
               "Title": "CameraController.cs",
               "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh game\\HeroAdventure\\Assets\\Winter_Level\\Scripts\\CameraController.cs",
               "RelativeDocumentMoniker": "Assets\\Winter_Level\\Scripts\\CameraController.cs",
@@ -508,19 +615,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "TransparentDetection.cs",
-              "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh game\\HeroAdventure\\Assets\\Winter_Level\\Scripts\\Misc\\TransparentDetection.cs",
-              "RelativeDocumentMoniker": "Assets\\Winter_Level\\Scripts\\Misc\\TransparentDetection.cs",
-              "ToolTip": "D:\\L\u1EADp tr\u00ECnh game\\HeroAdventure\\Assets\\Winter_Level\\Scripts\\Misc\\TransparentDetection.cs",
-              "RelativeToolTip": "Assets\\Winter_Level\\Scripts\\Misc\\TransparentDetection.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T16:08:58.629Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 36,
               "Title": "MinotaurController.cs",
               "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh game\\HeroAdventure\\Assets\\Desert_Level\\Scripts\\Minotaur\\MinotaurController.cs",
               "RelativeDocumentMoniker": "Assets\\Desert_Level\\Scripts\\Minotaur\\MinotaurController.cs",
@@ -532,7 +627,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 37,
               "Title": "Singleton.cs",
               "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh game\\HeroAdventure\\Assets\\Desert_Level\\Scripts\\Singleton.cs",
               "RelativeDocumentMoniker": "Assets\\Desert_Level\\Scripts\\Singleton.cs",
@@ -544,7 +639,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 38,
               "Title": "EnemyUIHealthBar.cs",
               "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh game\\HeroAdventure\\Assets\\Desert_Level\\Scripts\\Enemy\\EnemyUIHealthBar.cs",
               "RelativeDocumentMoniker": "Assets\\Desert_Level\\Scripts\\Enemy\\EnemyUIHealthBar.cs",
