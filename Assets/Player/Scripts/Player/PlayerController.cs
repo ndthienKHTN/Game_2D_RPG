@@ -7,13 +7,14 @@ using Assets.Common.Scripts;
 using Assets.Player.Scripts;
 //using Assets.Desert_Level.Scripts;
 using TMPro;
-// public class PlayerController : Singleton<PlayerController>
 namespace Assets.Player.Scripts
 {
-    public class PlayerController : MonoBehaviour, IPlayerController, ICheckpoint, IPlayerStatController
+    // public class PlayerController : MonoBehaviour, IPlayerController, ICheckpoint, IPlayerStatController
+    public class PlayerController : Singleton<PlayerController>, IPlayerController, ICheckpoint, IPlayerStatController
     {
+        public AudioClip hitSound;
         //public bool FacingLeft { get { return facingLeft; } set { facingLeft = value; } }
-        public static PlayerController Instance;
+        // public static PlayerController Instance;
 
         [SerializeField] private float moveSpeed = 4f;
         [SerializeField] private float speedBoostMultiplier = 2f;
@@ -23,6 +24,7 @@ namespace Assets.Player.Scripts
         [SerializeField] private float teleportCooldown = 10f;
         [SerializeField] private float dashSpeed = 10f;
         [SerializeField] private TrailRenderer myTrailRenderer;
+        [SerializeField] private Transform weaponCollider;
 
         private PlayerControls playerControls;
         private Vector2 movement;
@@ -57,7 +59,7 @@ namespace Assets.Player.Scripts
 
         public int maxHealth = 100;
         [SerializeField] private float knockBackThrustAmount = 10f;
-        [SerializeField] private float damageRecoveryTime = 1f;
+        [SerializeField] private float damageRecoveryTime = 0.5f;
         int currentHealth;
         public int health
         {
@@ -90,6 +92,14 @@ namespace Assets.Player.Scripts
         public float timeInvincible = 2.0f;
         bool isInvincible;
         float invincibleTimer;
+        //-------------------------Other-Stats--------------------------
+        public int Attack { get; private set; } = 15;
+        public int Defence { get; private set; } = 20;
+        public float Speed { get; private set; } = 10f;
+        public int Level { get; private set; } = 1;
+        public float EXP { get; private set; } = 0;
+        private float expToNextLevel => 10 * Mathf.Pow(1.5f, Level);
+
         void Start()
         {
             audioSource = GetComponent<AudioSource>();
@@ -131,10 +141,10 @@ namespace Assets.Player.Scripts
 
         
 
-        // protected override void Awake()
-        private void Awake() {
-            //base.Awake();
-            Instance = this;
+        protected override void Awake()
+        // private void Awake() 
+        {
+            base.Awake();
             playerControls = new PlayerControls();
             rb = GetComponent<Rigidbody2D>();
             myAnimator = GetComponent<Animator>();
@@ -142,6 +152,11 @@ namespace Assets.Player.Scripts
             //hieu ung khi bi tan cong
             flash = GetComponent<Flash>();
             knockback = GetComponent<Knockback>();
+
+            // Update stats based on the current level
+            Level = 5;
+            UpdateStatsForCurrentLevel();
+            currentHealth = maxHealth;
         }
 
         private void OnEnable()
@@ -156,6 +171,7 @@ namespace Assets.Player.Scripts
             HandleSpeedBoost();
             HandleTeleportCooldown();
             AdjustLookDirection();
+            CheckLevelUp();
 
             if (Input.GetKeyDown(KeyCode.C))
             {
@@ -170,6 +186,10 @@ namespace Assets.Player.Scripts
             AdjustPlayerFacingDirection();
             Move();
 
+        }
+        
+        public Transform GetWeaponCollider() {
+            return weaponCollider;
         }
 
         private void PlayerInput()
@@ -266,9 +286,12 @@ namespace Assets.Player.Scripts
         
         public int beAttacked(GameObject enemy, int atk)
         {
-            if ((canTakeDamage))
+            if (canTakeDamage)
             {
-                ChangeHealth(-atk);
+                // New damage calculation formula
+                int damage = Mathf.RoundToInt(atk * (38f / (35f + Mathf.Sqrt(Defence))));
+                ChangeHealth(-damage);
+
                 if (enemy == null)
                 {
                     knockback.GetKnockedBack(this.gameObject.transform, knockBackThrustAmount);
@@ -278,8 +301,8 @@ namespace Assets.Player.Scripts
                     IEnemyController Ienemy = enemy.GetComponent<IEnemyController>();
                     knockback.GetKnockedBack(enemy.gameObject.transform, knockBackThrustAmount);
                 }
-                // StartCoroutine(flash.FlashRoutine());
 
+                // StartCoroutine(flash.FlashRoutine());
             }
             return 0;
         }
@@ -395,19 +418,68 @@ namespace Assets.Player.Scripts
                 {
                     StartCoroutine(flash.FlashRoutine());
                 }
+                PlaySound(hitSound);
                 
             }
             currentHealth = Mathf.Clamp(currentHealth + amount, 0, maxHealth);
             Debug.Log(currentHealth + "/" + maxHealth);
-            if (currentHealth <= 0)
-            {
-                currentHealth = 100;
-            }
-            UpdateHealthSlider();
             if (currentHealth == 0)
             {
+                currentHealth = maxHealth;
                 Respawn();
             }
+            UpdateHealthSlider();
+        }
+
+        private void CheckLevelUp()
+        {
+            if (EXP >= expToNextLevel)
+            {
+                LevelUp();
+            }
+        }
+
+        private void LevelUp()
+        {
+            EXP -= expToNextLevel;
+            Level++;
+            maxHealth = Mathf.RoundToInt(maxHealth * 1.05f);
+            Attack = Mathf.RoundToInt(Attack * 1.05f);
+            Defence = Mathf.RoundToInt(Defence * 1.05f);
+            Speed *= 1.05f;
+            currentHealth = maxHealth;
+            UpdateHealthSlider();
+            Debug.Log($"Level Up! New Level: {Level}, HP: {maxHealth}, ATK: {Attack}, DEF: {Defence}, SPD: {Speed}");
+        }
+
+        public void GainEXP(float amount)
+        {
+            EXP += amount;
+            Debug.Log($"Gained {amount} EXP. Current EXP: {EXP}/{expToNextLevel}");
+        }
+
+        private void UpdateStatsForCurrentLevel()
+        {
+            float multiplier = Mathf.Pow(1.05f, Level - 1);
+            maxHealth = Mathf.RoundToInt(maxHealth * multiplier);
+            Attack = Mathf.RoundToInt(Attack * multiplier);
+            Defence = Mathf.RoundToInt(Defence * multiplier);
+            Speed *= multiplier;
+
+            UpdateHealthSlider();
+            Debug.Log($"Stats updated for Level {Level}: HP: {maxHealth}, ATK: {Attack}, DEF: {Defence}, SPD: {Speed}");
+        }
+
+        public int increaseHealth(int increasedHealth)
+        {
+            ChangeHealth(increasedHealth);
+            return 0;
+        }
+
+        public int increaseDefense(int value)
+        {
+            defense += value;
+            return 0;
         }
 
         public int increaseHealth(int increasedHealth)
