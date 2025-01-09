@@ -41,5 +41,10 @@ public class DamageSource: MonoBehaviour, IPlayerController
     {
         return 0;
     }
+
+    public void DisableMovement(float duration)
+    {
+        return;
+    }
 }
 
