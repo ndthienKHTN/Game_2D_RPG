@@ -19,7 +19,7 @@ ExportedObj/
 *.booproj
 *.VC.db
 
-/.vs
+/.vs/*
 
 # Crashlytics generated files
 crashlytics-build.properties
