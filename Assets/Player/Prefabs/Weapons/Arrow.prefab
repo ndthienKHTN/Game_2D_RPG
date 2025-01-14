@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 4869190980186613999}
   - component: {fileID: 8248461910535432303}
   - component: {fileID: 5341153073203062228}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Arrow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -303,4 +303,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33f85e61d0edd5a419412d27645994dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  atkAmount: 0
