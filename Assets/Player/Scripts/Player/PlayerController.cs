@@ -78,6 +78,7 @@ namespace Assets.Player.Scripts
         private Flash flash;
 
         public Slider healthSlider;
+        public Slider expSlider;
         // --health-bar-
 
         public int currentLevel { get; set; } = 1;
@@ -92,6 +93,18 @@ namespace Assets.Player.Scripts
             healthSlider.maxValue = maxHealth;
             healthSlider.value = currentHealth;
         }
+
+        private void UpdateExpSlider()
+        {
+            if (expSlider == null) {
+                expSlider = GameObject.Find("EXP Slider")?.GetComponent<Slider>();
+                if (expSlider == null) return; // Exit if expSlider is still null
+            }
+
+            expSlider.maxValue = expToNextLevel;
+            expSlider.value = EXP;
+        }
+
         // Timer for invincibility
         public float timeInvincible = 2.0f;
         bool isInvincible;
@@ -104,13 +117,17 @@ namespace Assets.Player.Scripts
         public float EXP { get; private set; } = 0;
         private float expToNextLevel => 10 * Mathf.Pow(1.5f, Level);
 
+        public TextMeshProUGUI lvText;
+
         void Start()
         {
             audioSource = GetComponent<AudioSource>();
             currentHealth = maxHealth;
             checkpointPosition = transform.position;
             UpdateHealthSlider();
+            UpdateExpSlider();
             playerControls.Combat.Dash.performed += _ => Dash();
+            UpdateLevelText();
         }
         private void Dash()
         {
@@ -158,7 +175,7 @@ namespace Assets.Player.Scripts
             knockback = GetComponent<Knockback>();
 
             // Update stats based on the current level
-            Level = 5;
+            Level = 1;
             UpdateStatsForCurrentLevel();
             currentHealth = maxHealth;
         }
@@ -442,6 +459,7 @@ namespace Assets.Player.Scripts
             {
                 LevelUp();
             }
+            UpdateExpSlider();
         }
 
         private void LevelUp()
@@ -454,6 +472,8 @@ namespace Assets.Player.Scripts
             Speed *= 1.05f;
             currentHealth = maxHealth;
             UpdateHealthSlider();
+            UpdateExpSlider();
+            UpdateLevelText();
             Debug.Log($"Level Up! New Level: {Level}, HP: {maxHealth}, ATK: {Attack}, DEF: {Defence}, SPD: {Speed}");
         }
 
@@ -461,6 +481,7 @@ namespace Assets.Player.Scripts
         {
             EXP += amount;
             Debug.Log($"Gained {amount} EXP. Current EXP: {EXP}/{expToNextLevel}");
+            UpdateExpSlider();
         }
 
         private void UpdateStatsForCurrentLevel()
@@ -472,7 +493,17 @@ namespace Assets.Player.Scripts
             Speed *= multiplier;
 
             UpdateHealthSlider();
+            UpdateExpSlider();
             Debug.Log($"Stats updated for Level {Level}: HP: {maxHealth}, ATK: {Attack}, DEF: {Defence}, SPD: {Speed}");
+        }
+
+        private void UpdateLevelText()
+        {
+            if (lvText == null) {
+                lvText = GameObject.Find("LVCounter")?.GetComponent<TextMeshProUGUI>();
+                if (lvText == null) return; // Exit if lvText is still null
+            }
+            lvText.SetText($"{Level}");
         }
 
         public int increaseHealth(int increasedHealth)

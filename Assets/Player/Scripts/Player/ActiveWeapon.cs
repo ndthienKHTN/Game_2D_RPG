@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Assets.Winter_Level.Scripts;
+using Assets.Player.Scripts;
 
 public class ActiveWeapon : Singleton<ActiveWeapon>
 {
@@ -39,7 +40,7 @@ public class ActiveWeapon : Singleton<ActiveWeapon>
         CurrentActiveWeapon = newWeapon;
 
         AttackCooldown();
-        timeBetweenAttacks = (CurrentActiveWeapon as IWeapon).GetWeaponInfo().weaponCooldown;
+        timeBetweenAttacks = CalculateActualCooldown((CurrentActiveWeapon as IWeapon).GetWeaponInfo().weaponCooldown);
     }
 
     public void WeaponNull() {
@@ -72,5 +73,10 @@ public class ActiveWeapon : Singleton<ActiveWeapon>
             AttackCooldown();
             (CurrentActiveWeapon as IWeapon).Attack();
         }
+    }
+
+    private float CalculateActualCooldown(float baseCooldown) {
+        float playerSpeed = PlayerController.Instance.Speed;
+        return baseCooldown * (28 / (25 + Mathf.Sqrt(playerSpeed)));
     }
 }

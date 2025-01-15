@@ -4,10 +4,11 @@ using System.Collections.Generic;
 using Assets.Common.Scripts;
 using UnityEngine;
 using Assets.Winter_Level.Scripts;
+using Assets.Winter_Level.Scripts.Enemy;
 
 namespace Assets.Winter_Level.Scripts
 {
-    public class Bat : MonoBehaviour, IEnemyController
+    public class Minion : MonoBehaviour, IEnemyController
     {
         // Thông số tĩnh của Bat
         public int Attack { get; private set; } = 15;
@@ -17,11 +18,22 @@ namespace Assets.Winter_Level.Scripts
 
         private int currentHP;
 
+        // Phạm vi phát hiện và tấn công
+        //[Header("Detection & Attack")]
+        [SerializeField] private float detectionRange = 10f;
+        [SerializeField] private float attackCooldown = 1f;
+
+        //[Header("Shooting")]
+        [SerializeField] private Shooting shootingScript;
+        private bool isAttacking = false;
+
         Rigidbody2D rigidbody2d;
         bool broken = true;
         private Flash flash;
         [SerializeField] private GameObject deathVFXPrefab;
         EnemyUIHealthBar enemyUIHealthBar;
+
+        private Transform player;
 
 
         private void Awake()
@@ -37,10 +49,54 @@ namespace Assets.Winter_Level.Scripts
         }
         void Update()
         {
-            if (!broken)
+            //if (!broken)
+            //{
+            //    return;
+            //}
+
+            if (player == null)
             {
+                GameObject playerObj = GameObject.FindGameObjectWithTag("Player");
+                if (playerObj != null)
+                {
+                    player = playerObj.transform;
+                }
                 return;
             }
+
+            float distanceToPlayer = Vector2.Distance(transform.position, player.position);
+
+            if (distanceToPlayer < detectionRange)
+            {
+                if (!isAttacking)
+                {
+                    StartCoroutine(AttackPlayer());
+                }
+            }
+        }
+
+        private IEnumerator AttackPlayer()
+        {
+            if (currentHP <= 0)
+            {
+                yield break;
+            }
+
+            isAttacking = true;
+
+            yield return new WaitForSeconds(0.5f);
+
+            if (shootingScript != null)
+            {
+                shootingScript.StartCoroutine("Shoot");
+            }
+            else
+            {
+                Debug.LogError("Shooting script is not assigned!");
+            }
+
+            yield return new WaitForSeconds(attackCooldown);
+            isAttacking = false;
         }
 
         private void OnCollisionEnter2D(Collision2D other)
@@ -86,10 +142,18 @@ namespace Assets.Winter_Level.Scripts
             }
         }
 
-        public void Fix()
+        //public void Fix()
+        //{
+        //    broken = false;
+        //    rigidbody2d.simulated = false;
+        //}
+
+        private void OnDrawGizmosSelected()
         {
-            broken = false;
-            rigidbody2d.simulated = false;
+            // Vẽ phạm vi phát hiện trong Scene
+
+            Gizmos.color = Color.yellow;
+            Gizmos.DrawWireSphere(transform.position, detectionRange);
         }
 
     }
