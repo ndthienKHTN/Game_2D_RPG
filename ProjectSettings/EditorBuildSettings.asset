@@ -20,7 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Forest_Level/Scenes/Forest_Sence_2.unity
     guid: ed0c8c5da63694f46ac42b43f1626c5a
-  - enabled: 1
+  - enabled: 0
     path: Assets/Forest_Level/Scenes/NightTime_DemoScene.unity
     guid: b11f1b86e5764ed4c8b5b75da3a8c00e
   - enabled: 1

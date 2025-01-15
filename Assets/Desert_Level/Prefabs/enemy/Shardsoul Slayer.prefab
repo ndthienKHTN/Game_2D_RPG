@@ -202,6 +202,9 @@ MonoBehaviour:
   level: 0
   exp: 0
   def: 0
+  reward: {fileID: 3722725015315296617, guid: d1213b14db9231e48bea4b35cd812ebd, type: 3}
+  chickenRewardPrefab: {fileID: 5092948635045256709, guid: db592ace089d2d7438af3341759ca8bb, type: 3}
+  healPortionRewardPrefab: {fileID: 6438700291658177123, guid: cf526b9ab04e6104097f2c2042dc540b, type: 3}
 --- !u!1001 &6244115384543464448
 PrefabInstance:
   m_ObjectHideFlags: 0

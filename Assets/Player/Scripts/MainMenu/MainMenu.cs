@@ -1,15 +1,22 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 namespace Assets.Player.Scripts 
 {
     public class MainMenu : MonoBehaviour
     {
-        // Start is called before the first frame update
+        SavingFile savingFile;
+        public void Start()
+        {
+            savingFile = SavingFile.Instance;
+        }
         public void Button_Continue()
         {
-            SceneManager.LoadScene("DayTime_DemoScene");
+            savingFile.loadData();
+
+            SceneManager.LoadScene(savingFile.GameSaveData.currentScene);
         }
         public void Button_Options(){
             

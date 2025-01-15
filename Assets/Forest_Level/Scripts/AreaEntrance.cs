@@ -15,7 +15,7 @@ namespace Assets.Forest_Level.Scripts
             if (transitionName == SceneManagement.Instance.SceneTransitionName)
             {
                 PlayerController.Instance.transform.position = this.transform.position;
-                //CameraController.Instance.SetPlayerCameraFollow();
+                CameraController.Instance.SetPlayerCameraFollow();
             }
         }
     }

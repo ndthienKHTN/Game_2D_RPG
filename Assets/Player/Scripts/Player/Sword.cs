@@ -3,54 +3,49 @@ using System.Collections.Generic;
 using UnityEngine;
 using Assets.Player.Scripts;
 using Assets.Common.Scripts;
-public class Sword : MonoBehaviour, IPlayerController
+using Common.Scripts.UI.Model;
+public class Sword : MonoBehaviour, IWeapon, IWeaponSystem
 {
     [SerializeField] private GameObject slashAnimPrefab;
     [SerializeField] private Transform slashAnimSpawnPoint;
-    [SerializeField] private Transform weaponCollider;
+    [SerializeField] private WeaponInfo weaponInfo;
+    private Transform weaponCollider;
     
-    private PlayerControls playerControls;
     private Animator myAnimator;
-    private PlayerController playerController;
-    private ActiveWeapon activeWeapon;
-
     private GameObject slashAnim;
-    //---------arrow
-    [SerializeField] private GameObject arrowPrefab;
+
+    [SerializeField] private EquippableItemSO weaponItem;
+    [SerializeField] private InventorySO inventoryData;
+    [SerializeField] private List<ItemParameter> parametersToModify;
+    [SerializeField] private List<ItemParameter> itemCurrentState;
 
     private void Awake() {
-        playerController = GetComponentInParent<PlayerController>();
-        activeWeapon = GetComponentInParent<ActiveWeapon>();
         myAnimator = GetComponent<Animator>();
-        playerControls = new PlayerControls();
     }
 
-    private void OnEnable() {
-        playerControls.Enable();
-    }
 
     void Start()
     {
-        playerControls.Combat.Attack.started += _ => Attack();
-        //FIX BUG NHA LONG
-        playerControls.Combat.Shoot.started += _ => ShootArrow();
+        weaponCollider = PlayerController.Instance.GetWeaponCollider();
+        slashAnimSpawnPoint = GameObject.Find("SlashSpawnPoint").transform;
+       
     }
-
     private void Update() {
         MouseFollowWithOffset();
     }
+    public WeaponInfo GetWeaponInfo() {
+        return weaponInfo;
+    }
 
-    private void Attack() {
+    public void Attack() {
         //check  animater and weaponCollider
         if (myAnimator == null || weaponCollider == null){
             return;
         }
         myAnimator.SetTrigger("Attack");
         weaponCollider.gameObject.SetActive(true);
-        if (slashAnimPrefab != null) {
-            slashAnim = Instantiate(slashAnimPrefab, slashAnimSpawnPoint.position, Quaternion.identity);
-            slashAnim.transform.parent = this.transform.parent;
-        }
+        slashAnim = Instantiate(slashAnimPrefab, slashAnimSpawnPoint.position, Quaternion.identity);
+        slashAnim.transform.parent = this.transform.parent;
     }
 
     public void DoneAttackingAnimEvent() {
@@ -61,7 +56,7 @@ public class Sword : MonoBehaviour, IPlayerController
     public void SwingUpFlipAnimEvent() {
         slashAnim.gameObject.transform.rotation = Quaternion.Euler(-180, 0, 0);
 
-        if (playerController.FacingLeft) { 
+        if (PlayerController.Instance.FacingLeft) { 
             slashAnim.GetComponent<SpriteRenderer>().flipX = true;
         }
     }
@@ -69,59 +64,66 @@ public class Sword : MonoBehaviour, IPlayerController
     public void SwingDownFlipAnimEvent() {
         slashAnim.gameObject.transform.rotation = Quaternion.Euler(0, 0, 0);
 
-        if (playerController.FacingLeft)
+        if (PlayerController.Instance.FacingLeft)
         {
             slashAnim.GetComponent<SpriteRenderer>().flipX = true;
         }
     }
-
     private void MouseFollowWithOffset() {
         Vector3 mousePos = Input.mousePosition;
-        Vector3 playerScreenPoint = Camera.main.WorldToScreenPoint(playerController.transform.position);
-        if (activeWeapon == null || weaponCollider == null) {
+        Vector3 playerScreenPoint = Camera.main.WorldToScreenPoint(PlayerController.Instance.transform.position);
+        if (ActiveWeapon.Instance == null || weaponCollider == null) {
             return;
         }
-
 
         float angle = Mathf.Atan2(mousePos.y, mousePos.x) * Mathf.Rad2Deg;
 
         if (mousePos.x < playerScreenPoint.x) {
-            activeWeapon.transform.rotation = Quaternion.Euler(0, -180, angle);
+            ActiveWeapon.Instance.transform.rotation = Quaternion.Euler(0, -180, angle);
             weaponCollider.transform.rotation = Quaternion.Euler(0, -180, 0);
         } else {
-            activeWeapon.transform.rotation = Quaternion.Euler(0, 0, angle);
+            ActiveWeapon.Instance.transform.rotation = Quaternion.Euler(0, 0, angle);
             weaponCollider.transform.rotation = Quaternion.Euler(0, 0, 0);
         }
     }
-    private void ShootArrow() {
-        Debug.Log(slashAnimSpawnPoint);
-        if (slashAnimSpawnPoint == null) {
-            return;
-        }
-        Vector3 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        Vector2 direction = (mousePosition - slashAnimSpawnPoint.position).normalized;
 
-        GameObject arrow = Instantiate(arrowPrefab, slashAnimSpawnPoint.position, Quaternion.identity);
-        arrow.transform.right = direction;
+    public int increaseHealth(int increasedHealth)
+    {
+        return 0;
     }
 
-    public int attack(GameObject enemy, int atk)
+    public void SetWeapon(EquippableItemSO weaponItemSO, List<ItemParameter> itemState)
     {
-        IEnemyController enemyController = enemy.GetComponent<IEnemyController>();
-        if (enemyController != null)
+        if (weaponItemSO != null)
         {
-            return enemyController.beAttacked(atk);
+            inventoryData.AddItem(weaponItemSO, 1, itemCurrentState);
         }
-        return 0;
+
+        this.weaponItem = weaponItemSO;
+        this.itemCurrentState = new List<ItemParameter>(itemState);
+        ModifyParameters();
     }
 
-    public int beAttacked(GameObject enemy, int atk)
+    private void ModifyParameters()
     {
-        return 0;
+
+        foreach (ItemParameter parameter in parametersToModify)
+        {
+            if (itemCurrentState.Contains(parameter))
+            {
+                int index = itemCurrentState.IndexOf(parameter);
+                int newValue = itemCurrentState[index].value + parameter.value;
+                itemCurrentState[index] = new ItemParameter
+                {
+                    itemParameter = parameter.itemParameter,
+                    value = newValue
+                };
+            }
+        }
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    public void DisableMovement(float duration)
     {
-        attack(collision.gameObject, 1);
+        return;
     }
 }

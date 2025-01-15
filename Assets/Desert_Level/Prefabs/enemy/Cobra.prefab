@@ -197,11 +197,12 @@ MonoBehaviour:
   speed: 1.5
   vertical: 0
   changeTime: 3
-  maxHealth: 100
-  atk: 100
+  maxHealth: 10
+  atk: 10
   level: 100
   exp: 1
   def: 100
+  reward: {fileID: 5092948635045256709, guid: db592ace089d2d7438af3341759ca8bb, type: 3}
 --- !u!1001 &5304387243044745897
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -210,6 +211,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1540270398456372811}
     m_Modifications:
+    - target: {fileID: 214531323237581284, guid: 2a623a98e21a8564b8d69bc78efb6a20, type: 3}
+      propertyPath: m_Pivot.x
+      value: -0.00000014249235
+      objectReference: {fileID: 0}
+    - target: {fileID: 214531323237581284, guid: 2a623a98e21a8564b8d69bc78efb6a20, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.49999994
+      objectReference: {fileID: 0}
+    - target: {fileID: 214531323237581284, guid: 2a623a98e21a8564b8d69bc78efb6a20, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.06480014
+      objectReference: {fileID: 0}
+    - target: {fileID: 214531323237581284, guid: 2a623a98e21a8564b8d69bc78efb6a20, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.054800123
+      objectReference: {fileID: 0}
     - target: {fileID: 1530244444826099006, guid: 2a623a98e21a8564b8d69bc78efb6a20, type: 3}
       propertyPath: m_Name
       value: Canvas

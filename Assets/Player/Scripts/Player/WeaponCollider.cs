@@ -30,6 +30,8 @@ public class WeaponCollider: MonoBehaviour, IPlayerController
         return 0;
     }
 
+   
+
     private void OnTriggerEnter2D(Collider2D other) {
         /*if (other.gameObject.GetComponent<EnemyControllerLong>()) {
             attack(other.gameObject, atkAmount);
@@ -42,6 +44,16 @@ public class WeaponCollider: MonoBehaviour, IPlayerController
         /*if (other.gameObject.GetComponent<IEnemyController>()) {
            
         }*/
+    }
+
+    public int increaseHealth(int increasedHealth)
+    {
+        return 0;
+    }
+
+    public void DisableMovement(float duration)
+    {
+        return;
     }
 }
 
