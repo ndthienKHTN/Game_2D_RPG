@@ -6,6 +6,7 @@ TagManager:
   tags:
   - LargeTile
   - LevelChanger
+  - TreeEntrance
   layers:
   - Default
   - TransparentFX
@@ -21,8 +22,6 @@ TagManager:
   - Grass_And_Path
   - Enemy
   - Tree
-  - 
-  - 
   - 
   - 
   - 

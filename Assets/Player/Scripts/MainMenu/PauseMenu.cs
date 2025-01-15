@@ -7,12 +7,26 @@ namespace Assets.Player.Scripts
     public class PauseMenu : MonoBehaviour
     {
         // [SerializeField] GameObject pauseMenu;
-        SavingFile savingFile;
+        [SerializeField]
+        public SavingFile savingFile;
          
         private void Start()
         {
-            savingFile = FindObjectOfType<SavingFile>();
-            savingFile.loadData();
+            if (savingFile == null)
+            {
+                savingFile = FindObjectOfType<SavingFile>();
+                if (savingFile != null)
+                {
+                    savingFile.loadData();
+                }
+
+                savingFile = GetComponentInChildren<SavingFile>();
+                if (savingFile != null)
+                {
+                    savingFile.loadData();
+                }
+            }
+            //savingFile.loadData();
 
         }
         public void Button_Pause()

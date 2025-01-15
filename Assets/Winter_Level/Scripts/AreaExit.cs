@@ -17,6 +17,13 @@ namespace Assets.Winter_Level.Scripts
         {
             if (other.gameObject.GetComponent<PlayerController>())
             {
+                PlayerController playerController = other.gameObject.GetComponent<PlayerController>();
+                PlayerPrefs.SetInt("PlayerHealth", playerController.currentHealth);
+                //PlayerControls current = other.gameObject.GetComponent<PlayerControls>();
+                //current.Movement.Disable();
+                //current.Combat.Disable();
+                //current.Inventory.Disable();
+
                 SceneManager.LoadScene(sceneToLoad);
                 SceneManagement.Instance.SetTransitionName(sceneTransitionname);
             }

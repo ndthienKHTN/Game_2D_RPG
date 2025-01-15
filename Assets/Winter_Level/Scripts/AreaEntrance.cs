@@ -17,6 +17,11 @@ namespace Assets.Winter_Level.Scripts
             {
                 PlayerController.Instance.transform.position = this.transform.position;
                 CameraController.Instance.SetPlayerCameraFollow();
+
+                if (PlayerPrefs.HasKey("PlayerHealth"))
+                {
+                    PlayerController.Instance.currentHealth = PlayerPrefs.GetInt("PlayerHealth");
+                }
             }
         }
     }

@@ -119,7 +119,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ba085faf20268a49ab23356b236acc7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  slashAnimPrefab: {fileID: 497013944059296499, guid: fadc888d3359e944aa0427c0d1c4f042, type: 3}
+  slashAnimPrefab: {fileID: 497013944059296499, guid: 35f1ea1a430c21140b943e9e10ac7f50, type: 3}
   slashAnimSpawnPoint: {fileID: 0}
-  swordAttackCD: 0.5
   weaponInfo: {fileID: 11400000, guid: d3dbf98488a8a1d4ab98984052658f4d, type: 2}
+  weaponItem: {fileID: 0}
+  inventoryData: {fileID: 0}
+  parametersToModify: []
+  itemCurrentState: []

@@ -14,7 +14,7 @@ public class Collectable : MonoBehaviour
         {
             player.ChangeHealth(HP);
             Destroy(gameObject);
-            player.PlaySound(collectSound);
+            //player.PlaySound(collectSound);
         }
     }
 }

@@ -40,22 +40,23 @@ public class ActiveWeapon : Singleton<ActiveWeapon>
         CurrentActiveWeapon = newWeapon;
 
         AttackCooldown();
-        timeBetweenAttacks = CalculateActualCooldown((CurrentActiveWeapon as IWeapon).GetWeaponInfo().weaponCooldown);
+        timeBetweenAttacks = (CurrentActiveWeapon as IWeapon).GetWeaponInfo().weaponCooldown;
     }
 
     public void WeaponNull() {
         CurrentActiveWeapon = null;
     }
 
-    private void AttackCooldown() {
-        isAttacking = true;
-        StopAllCoroutines();
-        StartCoroutine(TimeBetweenAttacksRoutine());
-    }
 
     private IEnumerator TimeBetweenAttacksRoutine() {
         yield return new WaitForSeconds(timeBetweenAttacks);
         isAttacking = false;
+    }
+
+    private void AttackCooldown() {
+        isAttacking = true;
+        StopAllCoroutines();
+        StartCoroutine(TimeBetweenAttacksRoutine());
     }
 
     private void StartAttacking()
@@ -74,6 +75,7 @@ public class ActiveWeapon : Singleton<ActiveWeapon>
             (CurrentActiveWeapon as IWeapon).Attack();
         }
     }
+
 
     private float CalculateActualCooldown(float baseCooldown) {
         float playerSpeed = PlayerController.Instance.Speed;

@@ -1,16 +1,17 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using Assets.Common.Scripts;
+using Assets.Forest_Level.Scripts;
 using UnityEngine;
-using System;
 namespace Assets.Forest_Level.Scripts
 {
     public class EnemyOrc4 : MonoBehaviour, IEnemyController
     {
-        public int Attack { get; private set; } = 10;
-        public int Defence { get; private set; } = 10;
+        public int Attack { get; private set; } = 20;
+        public int Defence { get; private set; } = 20;
         public float Speed { get; private set; } = 3f;
-        public int HP { get; private set; } = 100;
+        public int HP { get; private set; } = 150;
 
         public bool vertical;
         Rigidbody2D rigidbody2d;
@@ -21,15 +22,23 @@ namespace Assets.Forest_Level.Scripts
         bool broken = true;
         private Flash flash;
         [SerializeField] private GameObject deathVFXPrefab;
+
+        public int currentHP;
+        EnemyUIHealthBar enemyUIHealthBar;
+
         private void Awake()
         {
             flash = GetComponent<Flash>();
+
+
         }
         void Start()
         {
             rigidbody2d = GetComponent<Rigidbody2D>();
             animator = GetComponent<Animator>();
             movingTimer = movingTime;
+            currentHP = HP;
+            enemyUIHealthBar = GetComponentInChildren<EnemyUIHealthBar>();
         }
         void Update()
         {
@@ -98,9 +107,9 @@ namespace Assets.Forest_Level.Scripts
             atk = 15;//Lấy ví dụ chưa có số liệu
             float randomFactor = UnityEngine.Random.Range(0.8f, 1.2f);
             int damage = Mathf.RoundToInt((atk * atk / (atk + Defence)) * randomFactor);
-            HP -= damage;
-
-            HP = Math.Max(HP, 0);
+            currentHP -= damage;
+            currentHP = Math.Max(currentHP, 0);
+            enemyUIHealthBar.SetValue(currentHP / (float)HP);
             if (flash != null)
             {
                 StartCoroutine(flash.FlashRoutine());
@@ -111,11 +120,13 @@ namespace Assets.Forest_Level.Scripts
 
         public void DetectDeath()
         {
-            if (HP <= 0)
+            if (currentHP <= 0)
             {
                 Instantiate(deathVFXPrefab, transform.position, Quaternion.identity);
                 Destroy(gameObject);
             }
         }
     }
+
 }
+

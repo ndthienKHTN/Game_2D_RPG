@@ -3,31 +3,71 @@
   "WorkspaceRootPath": "D:\\UnityProjects\\FinalProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|d:\\unityprojects\\finalproject\\assets\\player\\scripts\\ui\\weaponinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|solutionrelative:assets\\player\\scripts\\ui\\weaponinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|D:\\UnityProjects\\FinalProject\\assets\\winter_level\\scripts\\areaentrance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|solutionrelative:assets\\winter_level\\scripts\\areaentrance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|d:\\unityprojects\\finalproject\\assets\\common\\scripts\\shop\\model\\shopso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|solutionrelative:assets\\common\\scripts\\shop\\model\\shopso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|D:\\UnityProjects\\FinalProject\\assets\\winter_level\\scripts\\areaexit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|solutionrelative:assets\\winter_level\\scripts\\areaexit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|d:\\unityprojects\\finalproject\\assets\\common\\scripts\\shop\\ui\\uishopdescription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|solutionrelative:assets\\common\\scripts\\shop\\ui\\uishopdescription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|d:\\unityprojects\\finalproject\\assets\\player\\scripts\\player\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|solutionrelative:assets\\player\\scripts\\player\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|d:\\unityprojects\\finalproject\\assets\\common\\scripts\\shop\\ui\\uishoppage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|solutionrelative:assets\\common\\scripts\\shop\\ui\\uishoppage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|d:\\unityprojects\\finalproject\\assets\\common\\scripts\\ui\\inventorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|solutionrelative:assets\\common\\scripts\\ui\\inventorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|d:\\unityprojects\\finalproject\\assets\\desert_level\\scripts\\ui\\uicanvascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|D:\\UnityProjects\\FinalProject\\assets\\desert_level\\scripts\\ui\\uicanvascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|solutionrelative:assets\\desert_level\\scripts\\ui\\uicanvascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|d:\\unityprojects\\finalproject\\assets\\common\\scripts\\ui\\uiinventorypage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|d:\\unityprojects\\finalproject\\assets\\winter_level\\scripts\\player\\player controls.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|solutionrelative:assets\\winter_level\\scripts\\player\\player controls.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|d:\\unityprojects\\finalproject\\assets\\player\\scripts\\player\\player controls.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|solutionrelative:assets\\player\\scripts\\player\\player controls.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UnityProjects\\FinalProject\\Library\\PackageCache\\com.unity.ugui@1.0.0\\Runtime\\EventSystem\\InputModules\\BaseInput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.ugui@1.0.0\\Runtime\\EventSystem\\InputModules\\BaseInput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|D:\\UnityProjects\\FinalProject\\assets\\winter_level\\scripts\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|solutionrelative:assets\\winter_level\\scripts\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|D:\\UnityProjects\\FinalProject\\assets\\winter_level\\scripts\\scenemanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|solutionrelative:assets\\winter_level\\scripts\\scenemanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|D:\\UnityProjects\\FinalProject\\assets\\player\\scripts\\player\\sword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|solutionrelative:assets\\player\\scripts\\player\\sword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|D:\\UnityProjects\\FinalProject\\assets\\player\\scripts\\player\\activeweapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|solutionrelative:assets\\player\\scripts\\player\\activeweapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|D:\\UnityProjects\\FinalProject\\assets\\player\\scripts\\ui\\weaponinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|solutionrelative:assets\\player\\scripts\\ui\\weaponinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|D:\\UnityProjects\\FinalProject\\assets\\common\\scripts\\shop\\model\\shopso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|solutionrelative:assets\\common\\scripts\\shop\\model\\shopso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|D:\\UnityProjects\\FinalProject\\assets\\common\\scripts\\shop\\ui\\uishopdescription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|solutionrelative:assets\\common\\scripts\\shop\\ui\\uishopdescription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|D:\\UnityProjects\\FinalProject\\assets\\common\\scripts\\shop\\ui\\uishoppage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|solutionrelative:assets\\common\\scripts\\shop\\ui\\uishoppage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|D:\\UnityProjects\\FinalProject\\assets\\common\\scripts\\ui\\inventorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|solutionrelative:assets\\common\\scripts\\ui\\inventorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|D:\\UnityProjects\\FinalProject\\assets\\common\\scripts\\ui\\uiinventorypage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|solutionrelative:assets\\common\\scripts\\ui\\uiinventorypage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -38,7 +78,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,7 +98,146 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Player Controls.cs",
+              "DocumentMoniker": "D:\\UnityProjects\\FinalProject\\Assets\\Winter_Level\\Scripts\\Player\\Player Controls.cs",
+              "RelativeDocumentMoniker": "Assets\\Winter_Level\\Scripts\\Player\\Player Controls.cs",
+              "ToolTip": "D:\\UnityProjects\\FinalProject\\Assets\\Winter_Level\\Scripts\\Player\\Player Controls.cs",
+              "RelativeToolTip": "Assets\\Winter_Level\\Scripts\\Player\\Player Controls.cs",
+              "ViewState": "AQIAAGEAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T16:25:21.122Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Player Controls.cs",
+              "DocumentMoniker": "D:\\UnityProjects\\FinalProject\\Assets\\Player\\Scripts\\Player\\Player Controls.cs",
+              "RelativeDocumentMoniker": "Assets\\Player\\Scripts\\Player\\Player Controls.cs",
+              "ToolTip": "D:\\UnityProjects\\FinalProject\\Assets\\Player\\Scripts\\Player\\Player Controls.cs",
+              "RelativeToolTip": "Assets\\Player\\Scripts\\Player\\Player Controls.cs",
+              "ViewState": "AQIAAPUAAAAAAAAAAAAvwAEBAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T16:23:52.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AreaExit.cs",
+              "DocumentMoniker": "D:\\UnityProjects\\FinalProject\\Assets\\Winter_Level\\Scripts\\AreaExit.cs",
+              "RelativeDocumentMoniker": "Assets\\Winter_Level\\Scripts\\AreaExit.cs",
+              "ToolTip": "D:\\UnityProjects\\FinalProject\\Assets\\Winter_Level\\Scripts\\AreaExit.cs",
+              "RelativeToolTip": "Assets\\Winter_Level\\Scripts\\AreaExit.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T15:59:59.981Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "AreaEntrance.cs",
+              "DocumentMoniker": "D:\\UnityProjects\\FinalProject\\Assets\\Winter_Level\\Scripts\\AreaEntrance.cs",
+              "RelativeDocumentMoniker": "Assets\\Winter_Level\\Scripts\\AreaEntrance.cs",
+              "ToolTip": "D:\\UnityProjects\\FinalProject\\Assets\\Winter_Level\\Scripts\\AreaEntrance.cs",
+              "RelativeToolTip": "Assets\\Winter_Level\\Scripts\\AreaEntrance.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T15:59:48.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Sword.cs",
+              "DocumentMoniker": "D:\\UnityProjects\\FinalProject\\Assets\\Player\\Scripts\\Player\\Sword.cs",
+              "RelativeDocumentMoniker": "Assets\\Player\\Scripts\\Player\\Sword.cs",
+              "ToolTip": "D:\\UnityProjects\\FinalProject\\Assets\\Player\\Scripts\\Player\\Sword.cs",
+              "RelativeToolTip": "Assets\\Player\\Scripts\\Player\\Sword.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADMAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T15:54:45.964Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UICanvasController.cs",
+              "DocumentMoniker": "D:\\UnityProjects\\FinalProject\\Assets\\Desert_Level\\Scripts\\UI\\UICanvasController.cs",
+              "RelativeDocumentMoniker": "Assets\\Desert_Level\\Scripts\\UI\\UICanvasController.cs",
+              "ToolTip": "D:\\UnityProjects\\FinalProject\\Assets\\Desert_Level\\Scripts\\UI\\UICanvasController.cs",
+              "RelativeToolTip": "Assets\\Desert_Level\\Scripts\\UI\\UICanvasController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACwAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T12:54:42.348Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "D:\\UnityProjects\\FinalProject\\Assets\\Player\\Scripts\\Player\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\Player\\Scripts\\Player\\PlayerController.cs",
+              "ToolTip": "D:\\UnityProjects\\FinalProject\\Assets\\Player\\Scripts\\Player\\PlayerController.cs",
+              "RelativeToolTip": "Assets\\Player\\Scripts\\Player\\PlayerController.cs",
+              "ViewState": "AQIAAJ4AAAAAAAAAAAAWwLkAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T16:04:57.725Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BaseInput.cs",
+              "DocumentMoniker": "D:\\UnityProjects\\FinalProject\\Library\\PackageCache\\com.unity.ugui@1.0.0\\Runtime\\EventSystem\\InputModules\\BaseInput.cs",
+              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.ugui@1.0.0\\Runtime\\EventSystem\\InputModules\\BaseInput.cs",
+              "ToolTip": "D:\\UnityProjects\\FinalProject\\Library\\PackageCache\\com.unity.ugui@1.0.0\\Runtime\\EventSystem\\InputModules\\BaseInput.cs",
+              "RelativeToolTip": "Library\\PackageCache\\com.unity.ugui@1.0.0\\Runtime\\EventSystem\\InputModules\\BaseInput.cs",
+              "ViewState": "AQIAADcAAAAAAAAAAADgv0oAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T16:10:42.561Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SceneManagement.cs",
+              "DocumentMoniker": "D:\\UnityProjects\\FinalProject\\Assets\\Winter_Level\\Scripts\\SceneManagement.cs",
+              "RelativeDocumentMoniker": "Assets\\Winter_Level\\Scripts\\SceneManagement.cs",
+              "ToolTip": "D:\\UnityProjects\\FinalProject\\Assets\\Winter_Level\\Scripts\\SceneManagement.cs",
+              "RelativeToolTip": "Assets\\Winter_Level\\Scripts\\SceneManagement.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T16:00:24.462Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CameraController.cs",
+              "DocumentMoniker": "D:\\UnityProjects\\FinalProject\\Assets\\Winter_Level\\Scripts\\CameraController.cs",
+              "RelativeDocumentMoniker": "Assets\\Winter_Level\\Scripts\\CameraController.cs",
+              "ToolTip": "D:\\UnityProjects\\FinalProject\\Assets\\Winter_Level\\Scripts\\CameraController.cs",
+              "RelativeToolTip": "Assets\\Winter_Level\\Scripts\\CameraController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T16:01:26.196Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ActiveWeapon.cs",
+              "DocumentMoniker": "D:\\UnityProjects\\FinalProject\\Assets\\Player\\Scripts\\Player\\ActiveWeapon.cs",
+              "RelativeDocumentMoniker": "Assets\\Player\\Scripts\\Player\\ActiveWeapon.cs",
+              "ToolTip": "D:\\UnityProjects\\FinalProject\\Assets\\Player\\Scripts\\Player\\ActiveWeapon.cs",
+              "RelativeToolTip": "Assets\\Player\\Scripts\\Player\\ActiveWeapon.cs",
+              "ViewState": "AQIAADEAAAAAAAAAAAAwwAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T15:51:47.956Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "WeaponInfo.cs",
               "DocumentMoniker": "D:\\UnityProjects\\FinalProject\\Assets\\Player\\Scripts\\UI\\WeaponInfo.cs",
               "RelativeDocumentMoniker": "Assets\\Player\\Scripts\\UI\\WeaponInfo.cs",
@@ -66,12 +245,11 @@
               "RelativeToolTip": "Assets\\Player\\Scripts\\UI\\WeaponInfo.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-15T14:30:01.249Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-15T14:30:01.249Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 12,
               "Title": "ShopSO.cs",
               "DocumentMoniker": "D:\\UnityProjects\\FinalProject\\Assets\\Common\\Scripts\\Shop\\Model\\ShopSO.cs",
               "RelativeDocumentMoniker": "Assets\\Common\\Scripts\\Shop\\Model\\ShopSO.cs",
@@ -79,12 +257,11 @@
               "RelativeToolTip": "Assets\\Common\\Scripts\\Shop\\Model\\ShopSO.cs",
               "ViewState": "AQIAAIAAAAAAAAAAAAAcwJsAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-15T13:08:58.965Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-15T13:08:58.965Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 13,
               "Title": "UIShopDescription.cs",
               "DocumentMoniker": "D:\\UnityProjects\\FinalProject\\Assets\\Common\\Scripts\\Shop\\UI\\UIShopDescription.cs",
               "RelativeDocumentMoniker": "Assets\\Common\\Scripts\\Shop\\UI\\UIShopDescription.cs",
@@ -92,12 +269,11 @@
               "RelativeToolTip": "Assets\\Common\\Scripts\\Shop\\UI\\UIShopDescription.cs",
               "ViewState": "AQIAACIAAAAAAAAAAAAQwDMAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-15T13:07:35.741Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-15T13:07:35.741Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 14,
               "Title": "UIShopPage.cs",
               "DocumentMoniker": "D:\\UnityProjects\\FinalProject\\Assets\\Common\\Scripts\\Shop\\UI\\UIShopPage.cs",
               "RelativeDocumentMoniker": "Assets\\Common\\Scripts\\Shop\\UI\\UIShopPage.cs",
@@ -105,25 +281,11 @@
               "RelativeToolTip": "Assets\\Common\\Scripts\\Shop\\UI\\UIShopPage.cs",
               "ViewState": "AQIAAHYAAAAAAAAAAAApwJEAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-15T13:05:15.046Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-15T13:05:15.046Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UICanvasController.cs",
-              "DocumentMoniker": "D:\\UnityProjects\\FinalProject\\Assets\\Desert_Level\\Scripts\\UI\\UICanvasController.cs",
-              "RelativeDocumentMoniker": "Assets\\Desert_Level\\Scripts\\UI\\UICanvasController.cs",
-              "ToolTip": "D:\\UnityProjects\\FinalProject\\Assets\\Desert_Level\\Scripts\\UI\\UICanvasController.cs",
-              "RelativeToolTip": "Assets\\Desert_Level\\Scripts\\UI\\UICanvasController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-15T12:54:42.348Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 15,
               "Title": "InventoryController.cs",
               "DocumentMoniker": "D:\\UnityProjects\\FinalProject\\Assets\\Common\\Scripts\\UI\\InventoryController.cs",
               "RelativeDocumentMoniker": "Assets\\Common\\Scripts\\UI\\InventoryController.cs",
@@ -131,12 +293,11 @@
               "RelativeToolTip": "Assets\\Common\\Scripts\\UI\\InventoryController.cs",
               "ViewState": "AQIAAMwAAAAAAAAAAADwv94AAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-15T12:53:37.164Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-15T12:53:37.164Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 16,
               "Title": "UIInventoryPage.cs",
               "DocumentMoniker": "D:\\UnityProjects\\FinalProject\\Assets\\Common\\Scripts\\UI\\UIInventoryPage.cs",
               "RelativeDocumentMoniker": "Assets\\Common\\Scripts\\UI\\UIInventoryPage.cs",
@@ -144,8 +305,7 @@
               "RelativeToolTip": "Assets\\Common\\Scripts\\UI\\UIInventoryPage.cs",
               "ViewState": "AQIAAIEAAAAAAAAAAAAswJYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-15T12:53:19.292Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-15T12:53:19.292Z"
             }
           ]
         },
