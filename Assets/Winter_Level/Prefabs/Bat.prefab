@@ -140,7 +140,7 @@ MonoBehaviour:
   bulletPrefab: {fileID: 8588890881778031360, guid: fac555bf238fd224c9348af49ef4ed30, type: 3}
   firePoint: {fileID: 5187078778986535721}
   bulletSpeed: 10
-  shootCooldown: 5
+  shootCooldown: 0.5
 --- !u!114 &6928212497133780582
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -178,6 +178,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98d7b150359f8364bbd51fc769a875bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  detectionRange: 10
+  attackCooldown: 1
+  shootingScript: {fileID: 872921539871957415}
   deathVFXPrefab: {fileID: 1698634917931367144, guid: e751be24f0872e849bc775bc64349cc7, type: 3}
 --- !u!114 &4122263464807003426
 MonoBehaviour:
