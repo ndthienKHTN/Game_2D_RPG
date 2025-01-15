@@ -18,7 +18,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2815323424730624927
 RectTransform:
   m_ObjectHideFlags: 0
@@ -427,9 +427,9 @@ GameObject:
   - component: {fileID: 3113292691710090745}
   - component: {fileID: 2996990021396433067}
   - component: {fileID: 4186861126234257005}
-  - component: {fileID: 1441738059223231871}
+  - component: {fileID: 6354678699651109570}
   m_Layer: 5
-  m_Name: ItemUI
+  m_Name: ShopItemUI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -477,7 +477,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 0
+  m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -493,7 +493,7 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &1441738059223231871
+--- !u!114 &6354678699651109570
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -502,9 +502,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 6793539526696742094}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cb5b2e5eb30fdd040abc1fa42a607791, type: 3}
+  m_Script: {fileID: 11500000, guid: dae62d6f288ca93418a5e328120c6097, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   itemImage: {fileID: 7460435555529504171}
-  quantityTxt: {fileID: 8598738831029567210}
   borderImage: {fileID: 513874842948303326}
+  price: 0

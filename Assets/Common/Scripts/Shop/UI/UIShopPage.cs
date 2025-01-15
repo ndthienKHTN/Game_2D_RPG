@@ -1,43 +1,39 @@
+using Common.Scripts.UI;
 using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Common.Scripts.UI
+namespace Common.Scripts.Shop.UI
 {
-    public class UIInventoryPage : MonoBehaviour
+    public class UIShopPage : MonoBehaviour
     {
         [SerializeField]
-        private UIInventoryItem itemPrefab;
+        private UIShopItem itemPrefab;
 
         [SerializeField]
         private Transform contentPanel;
 
-        [SerializeField]   
-        private UIInventoryDescription itemDescription;
+        [SerializeField]
+        private UIShopDescription itemDescription;
 
         [SerializeField]
-        private MouseFollower mouseFollower;
+        private ShopMouseFollower mouseFollower;
 
-        List<UIInventoryItem> listItems = new List<UIInventoryItem>();
-
-        /*public Sprite image;
-        public Sprite image2;
-        public int quantity;
-        public string title;
-        public string description;*/
+        [SerializeField]
+        private List<UIShopItem> listItems = new List<UIShopItem>();
 
         private int currentlyDraggedItemIndex = -1;
 
         public event Action<int> OnDescriptionRequested,
             OnItemActionRequested,
-            OnStartDragging;
+            OnStartDragging,
+            OnBuyRequested;
 
         public event Action<int, int> OnSwapItems;
 
         [SerializeField]
-        private ItemActionPanel actionPanel;
-
+        private ShopItemActionPanel actionPanel;
 
         private void Awake()
         {
@@ -46,11 +42,11 @@ namespace Common.Scripts.UI
             itemDescription.ResetDescription();
         }
 
-        public void InitializeInventoryUI(int inventorySize)
+        public void InitializeShopUI(int inventorySize)
         {
             for (int i = 0; i < inventorySize; i++)
             {
-                UIInventoryItem item =
+                UIShopItem item =
                     Instantiate(itemPrefab,
                         Vector3.zero,
                         Quaternion.identity);
@@ -65,16 +61,16 @@ namespace Common.Scripts.UI
             }
         }
 
-        public void UpdateData(int itemIndex, Sprite itemImage, 
-            int itemQuantity)
+        public void UpdateData(int itemIndex, Sprite itemImage,
+            int itemQuantity, double price)
         {
             if (listItems.Count > itemIndex)
             {
-                listItems[itemIndex].SetData(itemImage, itemQuantity);
+                listItems[itemIndex].SetData(itemImage, itemQuantity, price);
             }
         }
 
-        private void HandleShowItemActions(UIInventoryItem item)
+        private void HandleShowItemActions(UIShopItem item)
         {
             int index = listItems.IndexOf(item);
 
@@ -86,12 +82,12 @@ namespace Common.Scripts.UI
             OnItemActionRequested?.Invoke(index);
         }
 
-        private void HandleEndDrag(UIInventoryItem item)
+        private void HandleEndDrag(UIShopItem item)
         {
             ResetDraggedItem();
         }
 
-        private void HandleBeginDrag(UIInventoryItem item)
+        private void HandleBeginDrag(UIShopItem item)
         {
             int index = listItems.IndexOf(item);
 
@@ -105,12 +101,12 @@ namespace Common.Scripts.UI
             OnStartDragging?.Invoke(index);
         }
 
-        public void CreateDraggedItem(Sprite image, int quantity)
+        public void CreateDraggedItem(Sprite image, int quantity, double price)
         {
             mouseFollower.Toggle(true);
-            mouseFollower.SetData(image, quantity);
+            mouseFollower.SetData(image, quantity, price);
         }
-        private void HandleSwap(UIInventoryItem item)
+        private void HandleSwap(UIShopItem item)
         {
             int index = listItems.IndexOf(item);
 
@@ -130,7 +126,7 @@ namespace Common.Scripts.UI
             currentlyDraggedItemIndex = -1;
         }
 
-        private void HandleItemSelection(UIInventoryItem item)
+        private void HandleItemSelection(UIShopItem item)
         {
             int index = listItems.IndexOf(item);
 
@@ -140,12 +136,13 @@ namespace Common.Scripts.UI
                 return;
             }
 
-            OnDescriptionRequested?.Invoke(index);  
+            OnDescriptionRequested?.Invoke(index);
         }
 
         public void Show()
         {
             gameObject.SetActive(true);
+
             ResetSelection();
         }
 
@@ -165,6 +162,7 @@ namespace Common.Scripts.UI
             actionPanel.Toggle(true);
             actionPanel.transform.position = listItems[itemIndex].transform.position;
         }
+
         private void DeselectAllItems()
         {
             foreach (var item in listItems)
@@ -181,21 +179,33 @@ namespace Common.Scripts.UI
             ResetDraggedItem();
         }
 
-        public void UpdateDescription(int itemIndex, Sprite itemImage, string name, string description)
+        public void UpdateDescription(int itemIndex, Sprite itemImage, 
+            string name, string description, double price, double currentGold)
         {
-            itemDescription.SetDescription(itemImage, name, description);
+            itemDescription.SetDescription(itemImage, name, description, price, currentGold);
             DeselectAllItems();
             listItems[itemIndex].Select();
         }
 
         public void ResetAllItems()
         {
-           foreach (var item in listItems)
+            foreach (var item in listItems)
             {
                 item.ResetData();
                 item.Deselect();
             }
         }
-       
+
+        // Start is called before the first frame update
+        void Start()
+        {
+            
+        }
+
+        // Update is called once per frame
+        void Update()
+        {
+            
+        }
     }
 }

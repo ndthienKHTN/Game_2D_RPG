@@ -78,6 +78,7 @@
     <Compile Include="Assets\Desert_Level\Scripts\Door\DoorController.cs" />
     <Compile Include="Assets\Winter_Level\Scripts\Enemy\Boss\FrostGuardian.cs" />
     <Compile Include="Assets\Desert_Level\Scripts\UI\InventoryController.cs" />
+    <Compile Include="Assets\Common\Scripts\Shop\UI\ShopItemActionPanel.cs" />
     <Compile Include="Assets\Winter_Level\Scripts\Enemy\EnemyPathfinding.cs" />
     <Compile Include="Assets\Winter_Level\Scripts\CameraController.cs" />
     <Compile Include="Assets\Winter_Level\Scripts\Enemy\EnemyUIHealthBar.cs" />
@@ -93,9 +94,11 @@
     <Compile Include="Assets\Player\Scripts\MainMenu\LevelMenu.cs" />
     <Compile Include="Assets\Player\Scripts\Player\Player Controls.cs" />
     <Compile Include="Assets\Player\Scripts\Misc\Knockback.cs" />
+    <Compile Include="Assets\Common\Scripts\Shop\UI\UIShopItem.cs" />
     <Compile Include="Assets\Player\Scripts\MainMenu\MainMenu.cs" />
     <Compile Include="Assets\Forest_Level\Scripts\Enemies\EnemyBoss.cs" />
     <Compile Include="Assets\Player\Scripts\Player\Indestructible.cs" />
+    <Compile Include="Assets\Common\Scripts\Shop\UI\UIShopDescription.cs" />
     <Compile Include="Assets\Forest_Level\Scripts\Enemies\EnemyController.cs" />
     <Compile Include="Assets\Player\Scripts\UI\ActiveInventory.cs" />
     <Compile Include="Assets\Desert_Level\Scripts\Minotaur\AnimationController.cs" />
@@ -116,8 +119,11 @@
     <Compile Include="Assets\Common\Scripts\UI\UIInventoryPage.cs" />
     <Compile Include="Assets\Player\Scripts\UI\WeaponInfo.cs" />
     <Compile Include="Assets\Winter_Level\Scripts\Enemy\Slime\Slime.cs" />
+    <Compile Include="Assets\Common\Scripts\Shop\UI\ShopController.cs" />
+    <Compile Include="Assets\Common\Scripts\Shop\UI\ShopMouseFollower.cs" />
     <Compile Include="Assets\Desert_Level\Scripts\Collectables\ChickenController.cs" />
     <Compile Include="Assets\Common\Scripts\Model\ItemModifiers\PlayerStatModifierSO.cs" />
+    <Compile Include="Assets\Common\Scripts\Shop\UI\UIShopPage.cs" />
     <Compile Include="Assets\Desert_Level\Scripts\Collectables\GoldCollectable.cs" />
     <Compile Include="Assets\Common\Scripts\Model\ItemModifiers\PlayerDefenseModifierSO.cs" />
     <Compile Include="Assets\Desert_Level\Scripts\UI\FrameController.cs" />
@@ -138,6 +144,7 @@
     <Compile Include="Assets\Common\Scripts\IPlayerController.cs" />
     <Compile Include="Assets\Player\Scripts\Player\Sword.cs" />
     <Compile Include="Assets\Player\Scripts\Player\Magic Laser.cs" />
+    <Compile Include="Assets\Common\Scripts\Shop\Model\ShopSO.cs" />
     <Compile Include="Assets\Forest_Level\Scripts\SavingFile.cs" />
     <Compile Include="Assets\Common\Scripts\Model\ItemModifiers\PlayerStatHealthModifierSO.cs" />
     <Compile Include="Assets\Forest_Level\Scripts\Flash.cs" />
@@ -168,6 +175,7 @@
     <Compile Include="Assets\Player\Scripts\Player\IWeapon.cs" />
     <Compile Include="Assets\Winter_Level\Scripts\Enemy\Kitsune\Kitsune.cs" />
     <Compile Include="Assets\Common\Scripts\Model\InventorySO.cs" />
+    <Compile Include="Assets\Common\Scripts\Shop\PickupSystem\ShopPickupSystem.cs" />
     <Compile Include="Assets\Common\Scripts\INPCController.cs" />
     <Compile Include="Assets\Player\Scripts\Player\WeaponCollider.cs" />
     <Compile Include="Assets\Player\Scripts\Player\PlayerController.cs" />

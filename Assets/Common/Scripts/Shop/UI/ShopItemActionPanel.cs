@@ -6,9 +6,9 @@ using UnityEngine;
 using UnityEngine.UI;
 
 
-namespace Common.Scripts.UI
+namespace Common.Scripts.Shop.UI
 {
-    public class ItemActionPanel : MonoBehaviour
+    public class ShopItemActionPanel : MonoBehaviour
     {
         [SerializeField]
         private GameObject buttonPrefab;
@@ -41,5 +41,16 @@ namespace Common.Scripts.UI
             }
         }
 
+        // Start is called before the first frame update
+        void Start()
+        {
+
+        }
+
+        // Update is called once per frame
+        void Update()
+        {
+
+        }
     }
 }

@@ -3,25 +3,26 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Common.Scripts.UI
+
+namespace Common.Scripts.Shop.UI
 {
-    public class MouseFollower : MonoBehaviour
+    public class ShopMouseFollower : MonoBehaviour
     {
         [SerializeField]
         private Canvas canvas;
 
         [SerializeField]
-        private UIInventoryItem item;
+        private UIShopItem item;
 
         public void Awake()
         {
             canvas = transform.root.GetComponent<Canvas>();
-            item = GetComponentInChildren<UIInventoryItem>();
+            item = GetComponentInChildren<UIShopItem>();
         }
 
-        public void SetData(Sprite sprite, int quantity)
+        public void SetData(Sprite sprite, int quantity, double price)
         {
-            item.SetData(sprite, quantity);
+            item.SetData(sprite, quantity, price);
         }
 
         // Start is called before the first frame update
@@ -47,7 +48,7 @@ namespace Common.Scripts.UI
 
         public void Toggle(bool value)
         {
-            Debug.Log("Item Toggle: " + value);
+            Debug.Log("Item shop Toggle: " + value);
             gameObject.SetActive(value);
         }
     }
