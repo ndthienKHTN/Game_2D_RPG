@@ -26,9 +26,9 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1530244444826099006}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.43478256, y: 0.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 5548816177471290257}
@@ -84,7 +84,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 0
+  m_PresetInfoIsWorld: 1
 --- !u!114 &6065245161956524474
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -277,6 +277,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5548816177471290257}
   - component: {fileID: 8277676940756329491}
+  - component: {fileID: 3501605855618812415}
   - component: {fileID: 3765774925782154268}
   - component: {fileID: 6767596262878840593}
   m_Layer: 12
@@ -314,6 +315,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3119237931176462157}
   m_CullTransparentMesh: 1
+--- !u!114 &3501605855618812415
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3119237931176462157}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb05a0abaa3f9434ab9bef26c990c6a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mask: {fileID: 7349209563728670380}
 --- !u!114 &3765774925782154268
 MonoBehaviour:
   m_ObjectHideFlags: 0

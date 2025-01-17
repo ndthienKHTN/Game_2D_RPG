@@ -6,6 +6,7 @@ using Assets.Desert_Level.Scripts;
 using Assets.Forest_Level.Scripts;
 using Assets.Winter_Level.Scripts;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 namespace Assets.Forest_Level.Scripts
 {
@@ -74,8 +75,7 @@ namespace Assets.Forest_Level.Scripts
 
         private void OnCollisionEnter2D(Collision2D other)
         {
-            int atk = 15; // Example value
-            int damage = Mathf.RoundToInt(atk * (15f / (10f + Mathf.Sqrt(Defence))));
+            int damage = Mathf.RoundToInt(Attack * (15f / (10f + Mathf.Sqrt(Defence))));
             Debug.Log($"Player Hit Damage: {Attack}");
             attack(other.gameObject, Attack);
         }
@@ -89,7 +89,6 @@ namespace Assets.Forest_Level.Scripts
 
         public int attack(GameObject player, int atk)
         {
-            int attack = Attack;
             IPlayerController playerController = player.GetComponent<IPlayerController>();
             if (playerController != null)
             {
@@ -101,7 +100,6 @@ namespace Assets.Forest_Level.Scripts
 
         public int beAttacked(int atk)
         {
-            atk = 15; // Example value
             float randomFactor = UnityEngine.Random.Range(0.8f, 1.2f);
             int damage = Mathf.RoundToInt((atk * atk / (atk + Defence)) * randomFactor);
             currentHP -= damage;
@@ -121,6 +119,7 @@ namespace Assets.Forest_Level.Scripts
             {
                 Instantiate(deathVFXPrefab, transform.position, Quaternion.identity);
                 Destroy(gameObject);
+                SceneManager.LoadScene(3);
             }
         }
 

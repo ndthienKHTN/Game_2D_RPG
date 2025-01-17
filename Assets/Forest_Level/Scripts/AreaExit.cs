@@ -23,7 +23,7 @@ namespace Assets.Forest_Level.Scripts
                 
                 SceneManager.LoadScene(sceneToLoad);
                 SceneManagement.Instance.SetTransitionName(sceneTransitionname);
-                int newScene = player.currentScene == 2 ? 3 : 2;
+                int newScene = player.currentScene == 1 ? 2 : 1;
                 player.UpdateCurrentScene(newScene);
                 print("Scene: " + player.currentScene);
             }
