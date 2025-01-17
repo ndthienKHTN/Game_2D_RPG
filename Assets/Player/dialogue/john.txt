@@ -1,3 +1,13 @@
 John: Xin chao bạn đã đến với game của chúng tôi
+
 John: vui lòng chơi thử
+
 John: cố lên nhé!
+
+John: Hôm nay tôi sẽ làm hướng dân viên du lịch cho bạn!
+
+John: Được rồi bắt đầu nhấn phím [E] để nói chuyện với các NPC nhé!
+
+John: Đoạn hội thoại có thể kéo dài bạn có thể nhấn [E] để đọc tiếp hoặc nhấn [R] để kết thúc đoạn trò chuyện
+
+Chúc bạn chơi game vui vẻ
