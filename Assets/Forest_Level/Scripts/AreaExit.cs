@@ -20,12 +20,12 @@ namespace Assets.Forest_Level.Scripts
         {
             if (other.gameObject.GetComponent<PlayerController>())
             {
-                if(player.currentScene == 1)
-                    player.currentScene = 2;
-                else if (player.currentScene == 2)
-                    player.currentScene = 1;
+                
                 SceneManager.LoadScene(sceneToLoad);
                 SceneManagement.Instance.SetTransitionName(sceneTransitionname);
+                int newScene = player.currentScene == 2 ? 3 : 2;
+                player.UpdateCurrentScene(newScene);
+                print("Scene: " + player.currentScene);
             }
         }
     }

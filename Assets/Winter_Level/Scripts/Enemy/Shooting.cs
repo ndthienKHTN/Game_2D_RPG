@@ -13,31 +13,6 @@ namespace Assets.Winter_Level.Scripts.Enemy
 
         private bool canShoot = true;
 
-        private void Update()
-        {
-            // Kiểm tra nếu có thể bắn, bạn có thể thêm điều kiện nếu cần.
-            if (canShoot)
-            {
-                StartCoroutine(Shoot());
-            }
-        }
-
-        //private IEnumerator Shoot()
-        //{
-        //    canShoot = false;
-
-        //    // Tạo viên đạn tại firePoint
-        //    GameObject bullet = Instantiate(bulletPrefab, firePoint.position, Quaternion.identity);
-        //    Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
-
-        //    // Đặt hướng bay của viên đạn
-        //    Vector2 targetDir = (PlayerPosition() - (Vector2)firePoint.position).normalized;
-        //    rb.velocity = targetDir * bulletSpeed;
-
-        //    yield return new WaitForSeconds(shootCooldown);
-        //    canShoot = true;
-        //}
-
         private IEnumerator Shoot()
         {
             canShoot = false;

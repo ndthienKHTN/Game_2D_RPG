@@ -13,7 +13,7 @@ public class DamageZone : MonoBehaviour
         if (player != null)
         {
             player.ChangeHealth(-Damage);
-            player.PlaySound(collectSound);
+            //player.PlaySound(collectSound);
         }
     }
 }

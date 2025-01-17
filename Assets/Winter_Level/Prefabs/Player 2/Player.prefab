@@ -129,6 +129,7 @@ Transform:
   - {fileID: 427262004493578922}
   - {fileID: 3040478389824366519}
   - {fileID: 8565178834548102715}
+  - {fileID: 5704996771322361818}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &69717262563503469
@@ -171,7 +172,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 0
   m_Sprite: {fileID: 366048774, guid: 5ff33453431bc20469cc630da65e450a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -276,7 +277,7 @@ SortingGroup:
   m_Enabled: 1
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 0
   m_SortAtRoot: 0
 --- !u!114 &858957723293044554
 MonoBehaviour:
@@ -290,7 +291,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f39837c3856a26645ba26c2ebaac96bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitSound: {fileID: 8300000, guid: 6a26e6dd3e92a7249b8bfe4e2c2c2304, type: 3}
   moveSpeed: 4
   speedBoostMultiplier: 2
   speedBoostDuration: 5
@@ -306,8 +306,11 @@ MonoBehaviour:
   maxHealth: 100
   knockBackThrustAmount: 10
   damageRecoveryTime: 1
+  currentHealth: 0
   healthSlider: {fileID: 0}
+  expSlider: {fileID: 0}
   timeInvincible: 2
+  lvText: {fileID: 0}
 --- !u!114 &8535671963601916534
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -335,6 +338,37 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   whiteFlashMat: {fileID: 2100000, guid: adea451d42376004ebf69c6960d166aa, type: 2}
   restoreDefaultMatTime: 0.2
+--- !u!1 &3745409567989744577
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5704996771322361818}
+  m_Layer: 0
+  m_Name: Saving
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5704996771322361818
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3745409567989744577}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.43169212, y: -1.4501166, z: -0.15157877}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5960839532547210823}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &3919191483407448871
 GameObject:
   m_ObjectHideFlags: 0

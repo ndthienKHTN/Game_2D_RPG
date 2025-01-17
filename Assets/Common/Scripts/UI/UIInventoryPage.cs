@@ -146,7 +146,6 @@ namespace Common.Scripts.UI
         public void Show()
         {
             gameObject.SetActive(true);
-
             ResetSelection();
         }
 

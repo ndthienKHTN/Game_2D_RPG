@@ -49,6 +49,7 @@ GameObject:
   - component: {fileID: 449511478268050341}
   - component: {fileID: 4630635509457084985}
   - component: {fileID: 5818851742450209530}
+  - component: {fileID: 9200927826941340925}
   m_Layer: 12
   m_Name: Bat
   m_TagString: Untagged
@@ -140,7 +141,7 @@ MonoBehaviour:
   bulletPrefab: {fileID: 8588890881778031360, guid: fac555bf238fd224c9348af49ef4ed30, type: 3}
   firePoint: {fileID: 5187078778986535721}
   bulletSpeed: 10
-  shootCooldown: 5
+  shootCooldown: 0.5
 --- !u!114 &6928212497133780582
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -178,6 +179,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98d7b150359f8364bbd51fc769a875bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  detectionRange: 10
+  attackCooldown: 1
+  shootingScript: {fileID: 872921539871957415}
   deathVFXPrefab: {fileID: 1698634917931367144, guid: e751be24f0872e849bc775bc64349cc7, type: 3}
 --- !u!114 &4122263464807003426
 MonoBehaviour:
@@ -276,6 +280,19 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &9200927826941340925
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8791306987025907435}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c59b384bdbdd6194ead3ae6b709f5e09, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  expAmount: 100
 --- !u!1001 &6267709819303534181
 PrefabInstance:
   m_ObjectHideFlags: 0

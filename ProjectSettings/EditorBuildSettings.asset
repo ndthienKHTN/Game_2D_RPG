@@ -9,9 +9,6 @@ EditorBuildSettings:
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Player/Scenes/MainMenu.unity
-    guid: 00102a849b6aa2b488225c40d4b13204
-  - enabled: 1
     path: Assets/Player/Scenes/DemoScene1.unity
     guid: e743c1bf0a2c81e4391939f774e84da7
   - enabled: 1
@@ -21,9 +18,6 @@ EditorBuildSettings:
     path: Assets/Forest_Level/Scenes/Forest_Sence_2.unity
     guid: ed0c8c5da63694f46ac42b43f1626c5a
   - enabled: 1
-    path: Assets/Forest_Level/Scenes/NightTime_DemoScene.unity
-    guid: b11f1b86e5764ed4c8b5b75da3a8c00e
-  - enabled: 1
     path: Assets/Desert_Level/Scenes/DesertScence.unity
     guid: e400dcbde7cec1848b1a790fc6199169
   - enabled: 1
@@ -32,4 +26,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Winter_Level/Scenes/Winter_Scene_2.unity
     guid: 96d1d249887bbcc4f934624c498af4ec
+  - enabled: 1
+    path: Assets/Player/Scenes/MainMenu.unity
+    guid: 00102a849b6aa2b488225c40d4b13204
+  - enabled: 0
+    path: Assets/Forest_Level/Scenes/NightTime_DemoScene.unity
+    guid: b11f1b86e5764ed4c8b5b75da3a8c00e
   m_configObjects: {}

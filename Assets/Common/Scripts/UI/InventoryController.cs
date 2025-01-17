@@ -216,8 +216,10 @@ namespace Common.Scripts.UI
         {
             if (Input.GetKeyDown(KeyCode.I))
             {
+                //Debug.Log("I key pressed");
                 if (inventoryUI.isActiveAndEnabled == false)
                 {
+                    //Debug.Log("Show inventory");
                     inventoryUI.Show();
 
                     foreach (var item in 

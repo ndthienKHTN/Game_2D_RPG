@@ -3,7 +3,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Common.Scripts.UI {
+namespace Common.Scripts.UI
+{
     public class MouseFollower : MonoBehaviour
     {
         [SerializeField]
@@ -35,9 +36,9 @@ namespace Common.Scripts.UI {
             Vector2 position;
 
             RectTransformUtility.ScreenPointToLocalPointInRectangle(
-                canvas.transform as RectTransform, 
-                Input.mousePosition, 
-                canvas.worldCamera, 
+                canvas.transform as RectTransform,
+                Input.mousePosition,
+                canvas.worldCamera,
                 out position
             );
 

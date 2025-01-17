@@ -33,6 +33,9 @@ namespace Assets.Winter_Level.Scripts
 
         EnemyUIHealthBar enemyUIHealthBar;
 
+        // Hiển thị Completed Game
+        [SerializeField] private GameObject endGameCanvas;
+
         private void Awake()
         {
             rb = GetComponent<Rigidbody2D>();
@@ -180,6 +183,11 @@ namespace Assets.Winter_Level.Scripts
 
         public void OnExitState()
         {
+            // Hiển thị UI End Game
+            if (endGameCanvas != null)
+            {
+                endGameCanvas.SetActive(true);
+            }
             Destroy(gameObject);
         }
 

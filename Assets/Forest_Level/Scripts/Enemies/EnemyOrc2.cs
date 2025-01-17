@@ -2,15 +2,16 @@
 using System.Collections;
 using System.Collections.Generic;
 using Assets.Common.Scripts;
+using Assets.Forest_Level.Scripts;
 using UnityEngine;
 namespace Assets.Forest_Level.Scripts
 {
     public class EnemyOrc2 : MonoBehaviour, IEnemyController
     {
         public int Attack { get; private set; } = 15;
-        public int Defence { get; private set; } = 10;
-        public float Speed { get; private set; } = 3f;
-        public int HP { get; private set; } = 120;
+        public int Defence { get; private set; } = 12;
+        public float Speed { get; private set; } = 2.5f;
+        public int HP { get; private set; } = 150;
 
         public bool vertical;
         Rigidbody2D rigidbody2d;
@@ -21,15 +22,23 @@ namespace Assets.Forest_Level.Scripts
         bool broken = true;
         private Flash flash;
         [SerializeField] private GameObject deathVFXPrefab;
+
+        public int currentHP;
+        EnemyUIHealthBar enemyUIHealthBar;
+
         private void Awake()
         {
             flash = GetComponent<Flash>();
+
+
         }
         void Start()
         {
             rigidbody2d = GetComponent<Rigidbody2D>();
             animator = GetComponent<Animator>();
             movingTimer = movingTime;
+            currentHP = HP;
+            enemyUIHealthBar = GetComponentInChildren<EnemyUIHealthBar>();
         }
         void Update()
         {
@@ -69,7 +78,7 @@ namespace Assets.Forest_Level.Scripts
         }
         private void OnCollisionEnter2D(Collision2D other)
         {
-            int atk = 20;//Lấy ví dụ chưa có số liệu
+            int atk = 15;//Lấy ví dụ chưa có số liệu
             int damage = Mathf.RoundToInt(atk * (15f / (10f + Mathf.Sqrt(Defence))));
             Debug.Log($"Player Hit Damage: {Attack}");
             attack(other.gameObject, Attack);
@@ -83,6 +92,7 @@ namespace Assets.Forest_Level.Scripts
 
         public int attack(GameObject player, int atk)
         {
+            int attack = Attack;
             IPlayerController playerController = player.GetComponent<IPlayerController>();
             if (playerController != null)
             {
@@ -94,21 +104,23 @@ namespace Assets.Forest_Level.Scripts
 
         public int beAttacked(int atk)
         {
-            atk = 20;//Lấy ví dụ chưa có số liệu
+            atk = 15;//Lấy ví dụ chưa có số liệu
             float randomFactor = UnityEngine.Random.Range(0.8f, 1.2f);
             int damage = Mathf.RoundToInt((atk * atk / (atk + Defence)) * randomFactor);
-            HP -= damage;
-
-            HP = Math.Max(HP, 0);
-            StartCoroutine(flash.FlashRoutine());
-
-            Debug.Log($"Orc 2 nhận {damage} sát thương! HP còn lại: {HP}");
+            currentHP -= damage;
+            currentHP = Math.Max(currentHP, 0);
+            enemyUIHealthBar.SetValue(currentHP / (float)HP);
+            if (flash != null)
+            {
+                StartCoroutine(flash.FlashRoutine());
+            }
+            Debug.Log($"Orc 1 nhận {damage} sát thương! HP còn lại: {HP}");
             return damage;
         }
 
         public void DetectDeath()
         {
-            if (HP <= 0)
+            if (currentHP <= 0)
             {
                 Instantiate(deathVFXPrefab, transform.position, Quaternion.identity);
                 Destroy(gameObject);

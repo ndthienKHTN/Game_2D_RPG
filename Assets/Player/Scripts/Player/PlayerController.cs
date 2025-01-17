@@ -14,7 +14,7 @@ namespace Assets.Player.Scripts
     public class PlayerController : Singleton<PlayerController>, IPlayerController, ICheckpoint, IPlayerStatController
     {
         //public bool FacingLeft { get { return facingLeft; } set { facingLeft = value; } }
-        // public static PlayerController Instance;
+       // public static PlayerController Instance;
 
         private bool isMovementDisabled = false;
         [SerializeField] private float moveSpeed = 4f;
@@ -60,8 +60,9 @@ namespace Assets.Player.Scripts
 
         public int maxHealth = 100;
         [SerializeField] private float knockBackThrustAmount = 10f;
+
         [SerializeField] private float damageRecoveryTime = 0.5f;
-        int currentHealth;
+        public int currentHealth;
         public int health
         {
             get { return currentHealth; }
@@ -83,6 +84,10 @@ namespace Assets.Player.Scripts
 
         public int currentLevel { get; set; } = 1;
         public int currentScene { get; set; } = 1;
+        public void UpdateCurrentScene(int newScene)
+        {
+            currentScene = newScene;
+        }
 
         private void UpdateHealthSlider()
         {
@@ -163,9 +168,10 @@ namespace Assets.Player.Scripts
         
 
         protected override void Awake()
-        // private void Awake() 
+
         {
             base.Awake();
+            DontDestroyOnLoad(gameObject);
             playerControls = new PlayerControls();
             rb = GetComponent<Rigidbody2D>();
             myAnimator = GetComponent<Animator>();
@@ -178,6 +184,25 @@ namespace Assets.Player.Scripts
             Level = 1;
             UpdateStatsForCurrentLevel();
             currentHealth = maxHealth;
+
+            if (PlayerPrefs.HasKey("PlayerHealth"))
+            {
+                currentHealth = PlayerPrefs.GetInt("PlayerHealth");
+            }
+
+            //if (currentHealth == 0)
+            //{
+            //    currentHealth = maxHealth;
+            //}
+            //print("Current Health: " + currentHealth);
+
+            if (healthSlider == null)
+            {
+                healthSlider = GameObject.Find("Health Slider").GetComponent<Slider>();
+            }
+
+            UpdateHealthSlider();
+
         }
 
         private void OnEnable()
@@ -208,7 +233,7 @@ namespace Assets.Player.Scripts
             Move();
 
         }
-        
+
         public Transform GetWeaponCollider() {
             return weaponCollider;
         }
@@ -394,10 +419,10 @@ namespace Assets.Player.Scripts
             }
         }
 
-        public void PlaySound(AudioClip clip)
-        {
-            audioSource.PlayOneShot(clip);
-        }
+        //public void PlaySound(AudioClip clip)
+        //{
+        //    audioSource.PlayOneShot(clip);
+        //}
 
         private void HandleTeleportCooldown()
         {
@@ -518,7 +543,7 @@ namespace Assets.Player.Scripts
             return 0;
         }
 
-      
+
 
         public void DisableMovement(float duration)
         {

@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using Assets.Common.Scripts;
+using Assets.Desert_Level.Scripts;
 using Assets.Forest_Level.Scripts;
 using Assets.Winter_Level.Scripts;
 using UnityEngine;
@@ -10,10 +11,10 @@ namespace Assets.Forest_Level.Scripts
 {
     public class EnemyBoss : MonoBehaviour, IEnemyController
     {
-        public int Attack { get; private set; } = 30;
-        public int Defence { get; private set; } = 30;
+        public int Attack { get; private set; } = 35;
+        public int Defence { get; private set; } = 35;
         public float Speed { get; private set; } = 3f;
-        public int HP { get; private set; } = 150;
+        public int HP { get; private set; } = 300;
 
         public bool vertical;
         Rigidbody2D rigidbody2d;
@@ -27,6 +28,9 @@ namespace Assets.Forest_Level.Scripts
         private Transform playerTransform;
         private bool shouldFollowPlayer = false;
 
+        public int currentHP;
+        EnemyUIHealthBar enemyUIHealthBar;
+
         private void Awake()
         {
             flash = GetComponent<Flash>();
@@ -38,6 +42,8 @@ namespace Assets.Forest_Level.Scripts
             animator = GetComponent<Animator>();
             movingTimer = movingTime;
             playerTransform = GameObject.FindGameObjectWithTag("Player").transform;
+            currentHP = HP;
+            enemyUIHealthBar = GetComponentInChildren<EnemyUIHealthBar>();
         }
 
         void Update()
@@ -98,9 +104,9 @@ namespace Assets.Forest_Level.Scripts
             atk = 15; // Example value
             float randomFactor = UnityEngine.Random.Range(0.8f, 1.2f);
             int damage = Mathf.RoundToInt((atk * atk / (atk + Defence)) * randomFactor);
-            HP -= damage;
-
-            HP = Math.Max(HP, 0);
+            currentHP -= damage;
+            currentHP = Math.Max(currentHP, 0);
+            enemyUIHealthBar.SetValue(currentHP / (float)HP);
             if (flash != null)
             {
                 StartCoroutine(flash.FlashRoutine());
@@ -111,7 +117,7 @@ namespace Assets.Forest_Level.Scripts
 
         public void DetectDeath()
         {
-            if (HP <= 0)
+            if (currentHP <= 0)
             {
                 Instantiate(deathVFXPrefab, transform.position, Quaternion.identity);
                 Destroy(gameObject);
