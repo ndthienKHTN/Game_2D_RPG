@@ -43,6 +43,7 @@ GameObject:
   - component: {fileID: 9003826588880801022}
   - component: {fileID: 8674908016210634684}
   - component: {fileID: 5706018596203990625}
+  - component: {fileID: 6120487926229546134}
   - component: {fileID: 8005230617659423028}
   - component: {fileID: 2247000391976526097}
   - component: {fileID: 2346125385948623783}
@@ -150,13 +151,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9e71de693a425b64388029acb40b7f34, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Attack: 30
-  Defence: 15
-  Speed: 3
-  HP: 200
-  detectionRange: 10
+  Attack: 100
+  Defence: 50
+  Speed: 4
+  HP: 350
+  detectionRange: 12
   attackCooldown: 4
   shootingScript: {fileID: 8674908016210634684}
+--- !u!114 &6120487926229546134
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7225386647140490135}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c59b384bdbdd6194ead3ae6b709f5e09, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  expAmount: 80
 --- !u!70 &8005230617659423028
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
