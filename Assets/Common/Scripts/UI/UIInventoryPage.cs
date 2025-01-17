@@ -112,6 +112,7 @@ namespace Common.Scripts.UI
         }
         private void HandleSwap(UIInventoryItem item)
         {
+            Debug.Log("Swap items");
             int index = listItems.IndexOf(item);
 
             if (index == -1)

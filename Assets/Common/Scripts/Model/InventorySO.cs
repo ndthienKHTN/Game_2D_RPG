@@ -1,3 +1,4 @@
+using Common.Scripts.Shop.Model;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -168,6 +169,11 @@ namespace Common.Scripts.UI.Model
         public void AddItem(InventoryItem item)
         {
             AddItem(item.item, item.quantity);
+        }
+
+        public void AddItem(ShopItem item)
+        {
+            AddItem(item.item, 1, item.itemState);
         }
 
         public void SwapItems(int itemIndex1, int itemIndex2)

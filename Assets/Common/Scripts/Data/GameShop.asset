@@ -19,36 +19,6 @@ MonoBehaviour:
   - item: {fileID: 11400000, guid: 6e8a55efc87a2314fbe7ddd9376f14e5, type: 2}
     price: 200
     itemState: []
-  - item: {fileID: 11400000, guid: 2d585bce6750c87419f6d2fbf755ff83, type: 2}
-    price: 100
-    itemState: []
-  - item: {fileID: 11400000, guid: 9e0aa590959fc004bbc808bda5df4d86, type: 2}
-    price: 200
-    itemState: []
-  - item: {fileID: 0}
-    price: 0
-    itemState: []
-  - item: {fileID: 0}
-    price: 0
-    itemState: []
-  - item: {fileID: 0}
-    price: 0
-    itemState: []
-  - item: {fileID: 0}
-    price: 0
-    itemState: []
-  - item: {fileID: 0}
-    price: 0
-    itemState: []
-  - item: {fileID: 0}
-    price: 0
-    itemState: []
-  - item: {fileID: 0}
-    price: 0
-    itemState: []
-  - item: {fileID: 0}
-    price: 0
-    itemState: []
   - item: {fileID: 0}
     price: 0
     itemState: []

@@ -173,6 +173,7 @@ namespace Common.Scripts.UI
 
         private void HandleSwapItems(int itemIndex1, int itemIndex2)
         {
+            Debug.Log("Swap items");
             inventoryData.SwapItems(itemIndex1, itemIndex2);
         }   
 

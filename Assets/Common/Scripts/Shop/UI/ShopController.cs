@@ -25,7 +25,6 @@ namespace Common.Scripts.Shop.UI
         [SerializeField]
         private AudioSource audioSource;
 
-
         // Start is called before the first frame update
         void Start()
         {
@@ -35,9 +34,9 @@ namespace Common.Scripts.Shop.UI
 
         private void PrepareShopData()
         {
-            shopData.Initialize();
+            //shopData.Initialize();
             shopData.OnShopUpdated += UpdateShopUI;
-            foreach (ShopItem item in shopItems)
+            /*foreach (ShopItem item in shopItems)
             {
                 if (item.IsEmpty)
                 {
@@ -45,17 +44,34 @@ namespace Common.Scripts.Shop.UI
                 }
 
                 shopData.AddItem(item);
-            }
+            }*/
         }
 
 
 
         private void UpdateShopUI(Dictionary<int, ShopItem> dictionary)
         {
+           
+
             shopUI.ResetAllItems();
+
+            if (shopUI == null)
+            {
+                Debug.Log("shopUI is null in UpdateShopUI");
+            } else
+            {
+                Debug.Log("shopUI is not null in UpdateShopUI");
+            }
+
+            if (dictionary.Count <0 )
+            {
+                return;
+            }
 
             foreach (var item in dictionary)
             {
+                
+
                 shopUI.UpdateData(
                     item.Key,
                     item.Value.item.ItemImage,
@@ -91,7 +107,8 @@ namespace Common.Scripts.Shop.UI
 
         private void PerformAction(int itemIndex)
         {
-            throw new NotImplementedException();
+            Debug.Log("Performing action buy on item: " + itemIndex);
+            audioSource.PlayOneShot(buyClip);
         }
 
         private void HandleStartDragging(int itemIndex)
@@ -181,6 +198,12 @@ namespace Common.Scripts.Shop.UI
 
                     foreach (var item in shopData.GetCurrentShopState())
                     {
+                        if (shopUI ==null)
+                        {
+                            Debug.Log("shopUI is null when open");
+                        }
+                        
+                        
                         shopUI.UpdateData(
                             item.Key,
                             item.Value.item.ItemImage,

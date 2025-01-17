@@ -20,7 +20,7 @@ namespace Common.Scripts.Shop.UI
         [SerializeField]
         private ShopMouseFollower mouseFollower;
 
-        [SerializeField]
+        //[SerializeField]
         private List<UIShopItem> listItems = new List<UIShopItem>();
 
         private int currentlyDraggedItemIndex = -1;
@@ -44,6 +44,7 @@ namespace Common.Scripts.Shop.UI
 
         public void InitializeShopUI(int inventorySize)
         {
+            Debug.Log("Initializing shop UI");
             for (int i = 0; i < inventorySize; i++)
             {
                 UIShopItem item =
@@ -64,6 +65,7 @@ namespace Common.Scripts.Shop.UI
         public void UpdateData(int itemIndex, Sprite itemImage,
             int itemQuantity, double price)
         {
+            
             if (listItems.Count > itemIndex)
             {
                 listItems[itemIndex].SetData(itemImage, itemQuantity, price);
@@ -182,7 +184,7 @@ namespace Common.Scripts.Shop.UI
         public void UpdateDescription(int itemIndex, Sprite itemImage, 
             string name, string description, double price, double currentGold)
         {
-            itemDescription.SetDescription(itemImage, name, description, price, currentGold);
+            itemDescription.SetDescription(itemImage, name, description, price, currentGold, itemIndex);
             DeselectAllItems();
             listItems[itemIndex].Select();
         }

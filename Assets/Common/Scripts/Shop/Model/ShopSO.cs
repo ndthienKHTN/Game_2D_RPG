@@ -16,7 +16,7 @@ namespace Common.Scripts.Shop.Model
         private List<ShopItem> shopItems = new List<ShopItem>();
 
         [SerializeField]
-        public int Size { get; private set; } = 20;
+        public int Size { get; private set; } = 10;
 
         public event Action<Dictionary<int, ShopItem>> OnShopUpdated;
 
@@ -31,7 +31,7 @@ namespace Common.Scripts.Shop.Model
 
         public void AddItem(ItemSO item, double price, List<ItemParameter> itemState)
         {
-            if (item.isStackable == false)
+            /*if (item.isStackable == false)
             {
                 for (int i = 0; i < shopItems.Count; i++)
                 {
@@ -43,7 +43,7 @@ namespace Common.Scripts.Shop.Model
                     InformAboutChange();
                     return;
                 }
-            }
+            }*/
             AddStackableItem(item, price, itemState);
             InformAboutChange();
             return;
@@ -103,7 +103,7 @@ namespace Common.Scripts.Shop.Model
 
             for (int i = 0; i < shopItems.Count; i++)
             {
-                if (shopItems[i].IsEmpty == false)
+                if (shopItems[i].IsEmpty)
                 {
                     continue;
                 }
@@ -111,6 +111,7 @@ namespace Common.Scripts.Shop.Model
                 shopState[i] = shopItems[i];
             }
 
+            UnityEngine.Debug.Log("shopItems.Count: " + shopItems.Count);
             return shopState;
         }
 

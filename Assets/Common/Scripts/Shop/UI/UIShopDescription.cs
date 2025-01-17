@@ -1,3 +1,5 @@
+using Common.Scripts.Shop.Model;
+using Common.Scripts.UI.Model;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
@@ -28,6 +30,14 @@ namespace Common.Scripts.Shop.UI
         [SerializeField]
         private TMP_Text currentGold;
 
+        private int currentItemIndex = -1;
+
+        [SerializeField]
+        public ShopSO shopData;
+
+        [SerializeField]
+        private InventorySO inventoryData;
+
         public void Awake()
         {
             ResetDescription();
@@ -41,10 +51,11 @@ namespace Common.Scripts.Shop.UI
             price.text = "";
             currentGold.text = "";
             buyButton.gameObject.SetActive(false);
+            currentItemIndex = -1;
         }
 
         public void SetDescription(Sprite sprite, string itemName,
-            string itemDescription, double price, double currentGold)
+            string itemDescription, double price, double currentGold, int itemIndex)
         {
             itemImage.gameObject.SetActive(true);
             itemImage.sprite = sprite;
@@ -52,6 +63,7 @@ namespace Common.Scripts.Shop.UI
             description.text = itemDescription;
             this.price.text = "Price: " + price.ToString();
             this.currentGold.text = "Current gold: " +  currentGold.ToString();
+            currentItemIndex = itemIndex;
             buyButton.gameObject.SetActive(true);
         }
 
@@ -59,12 +71,33 @@ namespace Common.Scripts.Shop.UI
         void Start()
         {
 
+            buyButton.onClick.AddListener(
+                () => onClickAction()
+            );
         }
 
         // Update is called once per frame
         void Update()
         {
 
+        }
+
+        public void onClickAction()
+        {
+            if (currentItemIndex == -1)
+            {
+                return;
+            }
+
+            // if (inventoryData.Gold < 0)
+            // {
+            //     return;
+            // }
+
+            //inventoryData.Gold -= 0;
+            ShopItem item = shopData.GetItemAt(currentItemIndex);
+            inventoryData.AddItem(item);
+            //ResetDescription();
         }
     }
 
