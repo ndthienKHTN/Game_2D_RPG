@@ -11,10 +11,10 @@ namespace Assets.Winter_Level.Scripts
     public class Minion : MonoBehaviour, IEnemyController
     {
         // Thông số tĩnh của Bat
-        public int Attack { get; private set; } = 15;
-        public int Defence { get; private set; } = 10;
-        public float Speed { get; private set; } = 5f;
-        public int HP { get; private set; } = 100;
+        public int Attack { get; private set; } = 70;
+        public int Defence { get; private set; } = 40;
+        public float Speed { get; private set; } = 3f;
+        public int HP { get; private set; } = 250;
 
         private int currentHP;
 

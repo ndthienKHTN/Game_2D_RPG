@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3912819774654689921}
   - component: {fileID: 1132926378396126096}
   - component: {fileID: -50000587926811133}
+  - component: {fileID: -107220435475548844}
   - component: {fileID: 1708659244223198194}
   - component: {fileID: 4292666344677733080}
   - component: {fileID: 2403964244474395780}
@@ -101,14 +102,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 91cff546f8e5d434aaa67b205f4530c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Attack: 30
-  Defence: 15
+  Attack: 150
+  Defence: 150
   Speed: 4
-  HP: 200
-  detectionRange: 10
+  HP: 500
+  detectionRange: 12
   attackRange: 6
   attackCooldown: 2
   attackEffect: {fileID: 8285969719528017833, guid: 9c5675a73a59c09418d101193a38c02e, type: 3}
+  endGameCanvas: {fileID: 0}
+--- !u!114 &-107220435475548844
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3026700333760253865}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c59b384bdbdd6194ead3ae6b709f5e09, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  expAmount: 100
 --- !u!70 &1708659244223198194
 CapsuleCollider2D:
   m_ObjectHideFlags: 0

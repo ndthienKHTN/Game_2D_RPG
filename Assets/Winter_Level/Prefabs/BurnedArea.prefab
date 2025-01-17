@@ -99,7 +99,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 196e0275fe7043e4084523569470cb79, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damagePerSecond: 10
+  damagePerSecond: 20
   duration: 5
 --- !u!95 &9160110654590730228
 Animator:

@@ -10,10 +10,10 @@ namespace Assets.Winter_Level.Scripts
     public class Slime : MonoBehaviour, IEnemyController
     {
         // Thông số tĩnh của Slime
-        public int Attack { get; private set; } = 15;
-        public int Defence { get; private set; } = 10;
-        public float Speed { get; private set; } = 5f;
-        public int HP { get; private set; } = 100;
+        public int Attack { get; private set; } = 30;
+        public int Defence { get; private set; } = 30;
+        public float Speed { get; private set; } = 7f;
+        public int HP { get; private set; } = 180;
 
         private int currentHP;
 
