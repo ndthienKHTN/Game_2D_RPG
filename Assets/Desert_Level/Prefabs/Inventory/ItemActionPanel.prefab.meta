@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Desert_Level/Prefabs/Inventory/ItemActionPanel.prefab.meta
 guid: 47c809a8d56f6d345801a5955949b25f
+========
+guid: c18cded96193de0459a1e953de2c83e5
+>>>>>>>> origin/long-dev:Assets/Desert_Level/Prefabs/Shop/Shop Menu.prefab.meta
 PrefabImporter:
   externalObjects: {}
   userData: 

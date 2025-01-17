@@ -84,7 +84,6 @@
     <Compile Include="Assets\Winter_Level\Scripts\Enemy\EnemyPathfinding.cs" />
     <Compile Include="Assets\Winter_Level\Scripts\CameraController.cs" />
     <Compile Include="Assets\Winter_Level\Scripts\Enemy\EnemyUIHealthBar.cs" />
-    <Compile Include="Assets\Player\Scripts\MainMenu\BackgroundMusic.cs" />
     <Compile Include="Assets\Player\Scripts\SavingFile\SavingFile.cs" />
     <Compile Include="Assets\Player\Scripts\Player\ActiveWeapon.cs" />
     <Compile Include="Assets\Common\Scripts\PickUpSystem\Item.cs" />
