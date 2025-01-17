@@ -97,12 +97,12 @@ public class SavingFile : MonoBehaviour
             Debug.Log("PlayerController is not initialized.");
             playerController = FindObjectOfType<PlayerController>();
         }
-        gameSaveData.currentLevel = playerController.currentLevel;
+        gameSaveData.currentLevel = playerController.Level;
         gameSaveData.currentScene = playerController.currentScene;
         if (playerController != null)
         {
             gameSaveData.levelData.position = playerController.transform.position;
-            gameSaveData.levelData.level = playerController.currentLevel;
+            gameSaveData.levelData.level = playerController.Level;
             gameSaveData.levelData.scene = playerController.currentScene;
             gameSaveData.levelData.exp = playerController.EXP;
             gameSaveData.levelData.hp = playerController.currentHealth;

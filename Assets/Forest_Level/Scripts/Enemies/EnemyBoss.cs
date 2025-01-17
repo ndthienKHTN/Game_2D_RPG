@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using Assets.Common.Scripts;
 using Assets.Desert_Level.Scripts;
 using Assets.Forest_Level.Scripts;
+using Assets.Player.Scripts;
 using Assets.Winter_Level.Scripts;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -119,8 +120,23 @@ namespace Assets.Forest_Level.Scripts
             {
                 Instantiate(deathVFXPrefab, transform.position, Quaternion.identity);
                 Destroy(gameObject);
+                SceneManager.sceneLoaded += OnSceneLoaded;
                 SceneManager.LoadScene(3);
+
             }
+        }
+        private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+        {
+            PlayerController playerController = PlayerController.Instance;
+            if (playerController != null)
+            {
+                playerController.transform.position = new Vector3(31, 0.8f, 0);
+            }
+            else
+            {
+                Debug.LogWarning("PlayerController not found");
+            }
+            SceneManager.sceneLoaded -= OnSceneLoaded;
         }
 
         public void StartFollowingPlayer()

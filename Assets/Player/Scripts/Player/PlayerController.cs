@@ -81,12 +81,14 @@ namespace Assets.Player.Scripts
         public Slider healthSlider;
         public Slider expSlider;
         // --health-bar-
-
-        public int currentLevel { get; set; } = 1;
         public int currentScene { get; set; } = 1;
         public void UpdateCurrentScene(int newScene)
         {
             currentScene = newScene;
+        }
+        public void UpdateCurrentPosition(Vector3 newPosition)
+        {
+            transform.position = newPosition;
         }
 
         private void UpdateHealthSlider()
@@ -165,8 +167,6 @@ namespace Assets.Player.Scripts
             Debug.Log("Player respawned at: " + checkpointPosition);
         }
 
-        
-
         protected override void Awake()
 
         {
@@ -183,18 +183,12 @@ namespace Assets.Player.Scripts
             // Update stats based on the current level
             Level = 1;
             UpdateStatsForCurrentLevel();
-            currentHealth = maxHealth;
+            //currentHealth = maxHealth;
 
             if (PlayerPrefs.HasKey("PlayerHealth"))
             {
                 currentHealth = PlayerPrefs.GetInt("PlayerHealth");
             }
-
-            //if (currentHealth == 0)
-            //{
-            //    currentHealth = maxHealth;
-            //}
-            //print("Current Health: " + currentHealth);
 
             if (healthSlider == null)
             {
@@ -495,7 +489,7 @@ namespace Assets.Player.Scripts
             Attack = Mathf.RoundToInt(Attack * 1.05f);
             Defence = Mathf.RoundToInt(Defence * 1.05f);
             Speed *= 1.05f;
-            currentHealth = maxHealth;
+            //currentHealth = maxHealth;
             UpdateHealthSlider();
             UpdateExpSlider();
             UpdateLevelText();
