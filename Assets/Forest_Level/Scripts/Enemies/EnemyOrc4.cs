@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using Assets.Common.Scripts;
 using Assets.Forest_Level.Scripts;
 using UnityEngine;
+using static UnityEngine.InputSystem.LowLevel.InputStateHistory;
 namespace Assets.Forest_Level.Scripts
 {
     public class EnemyOrc4 : MonoBehaviour, IEnemyController
@@ -13,6 +14,9 @@ namespace Assets.Forest_Level.Scripts
         public float Speed { get; private set; } = 3f;
         public int HP { get; private set; } = 150;
 
+        public int Gold { get; private set; } = 20;
+        public int Exp { get; private set; } = 6;
+
         public bool vertical;
         Rigidbody2D rigidbody2d;
         int direction = 1;
@@ -21,6 +25,7 @@ namespace Assets.Forest_Level.Scripts
         Animator animator;
         bool broken = true;
         private Flash flash;
+        public GameObject reward;
         [SerializeField] private GameObject deathVFXPrefab;
 
         public int currentHP;
@@ -78,8 +83,7 @@ namespace Assets.Forest_Level.Scripts
         }
         private void OnCollisionEnter2D(Collision2D other)
         {
-            int atk = 15;//Lấy ví dụ chưa có số liệu
-            int damage = Mathf.RoundToInt(atk * (15f / (10f + Mathf.Sqrt(Defence))));
+            int damage = Mathf.RoundToInt(Attack * (15f / (10f + Mathf.Sqrt(Defence))));
             Debug.Log($"Player Hit Damage: {Attack}");
             attack(other.gameObject, Attack);
         }
@@ -92,7 +96,6 @@ namespace Assets.Forest_Level.Scripts
 
         public int attack(GameObject player, int atk)
         {
-            int attack = Attack;
             IPlayerController playerController = player.GetComponent<IPlayerController>();
             if (playerController != null)
             {
@@ -104,7 +107,6 @@ namespace Assets.Forest_Level.Scripts
 
         public int beAttacked(int atk)
         {
-            atk = 15;//Lấy ví dụ chưa có số liệu
             float randomFactor = UnityEngine.Random.Range(0.8f, 1.2f);
             int damage = Mathf.RoundToInt((atk * atk / (atk + Defence)) * randomFactor);
             currentHP -= damage;
@@ -122,6 +124,23 @@ namespace Assets.Forest_Level.Scripts
         {
             if (currentHP <= 0)
             {
+                if (reward != null)
+                {
+                    GameObject rewardClone = Instantiate(reward, transform.position, Quaternion.identity);
+                    GoldCollectable rewardCollected = rewardClone.GetComponent<GoldCollectable>();
+                    if (rewardCollected != null)
+                    {
+                        rewardCollected.goldValue = Gold;
+                    }
+                    else
+                    {
+                        Debug.LogWarning("GoldCollectable component not found on rewardClone.");
+                    }
+                }
+                else
+                {
+                    Debug.LogWarning("Reward GameObject is not assigned.");
+                }
                 Instantiate(deathVFXPrefab, transform.position, Quaternion.identity);
                 Destroy(gameObject);
             }

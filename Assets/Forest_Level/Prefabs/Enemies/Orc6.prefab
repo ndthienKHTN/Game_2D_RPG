@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 3270859889993582178}
   - component: {fileID: 1526703220526039197}
   - component: {fileID: -8615949551717810770}
+  - component: {fileID: 4825468255516815314}
   m_Layer: 0
   m_Name: Orc6
   m_TagString: Untagged
@@ -213,6 +214,19 @@ MonoBehaviour:
   movingTime: 2
   deathVFXPrefab: {fileID: 1698634917931367144, guid: 59802b838efeb564c9383ed4788c509d, type: 3}
   currentHP: 0
+--- !u!114 &4825468255516815314
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5957680300890937630}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c59b384bdbdd6194ead3ae6b709f5e09, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  expAmount: 10
 --- !u!1001 &5375036674948605709
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -251,11 +265,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5264129802626497669, guid: 38f9df15019bb264ab424161170b1d37, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 2.6114
+      value: 2.256
       objectReference: {fileID: 0}
     - target: {fileID: 5264129802626497669, guid: 38f9df15019bb264ab424161170b1d37, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 0.6153
+      value: 0.532
       objectReference: {fileID: 0}
     - target: {fileID: 5264129802626497669, guid: 38f9df15019bb264ab424161170b1d37, type: 3}
       propertyPath: m_LocalScale.x
@@ -299,11 +313,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5264129802626497669, guid: 38f9df15019bb264ab424161170b1d37, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -0.5
+      value: -1.5
       objectReference: {fileID: 0}
     - target: {fileID: 5264129802626497669, guid: 38f9df15019bb264ab424161170b1d37, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 14.7
+      value: 11.8
       objectReference: {fileID: 0}
     - target: {fileID: 5264129802626497669, guid: 38f9df15019bb264ab424161170b1d37, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x

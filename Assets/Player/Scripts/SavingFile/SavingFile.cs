@@ -17,7 +17,7 @@ public class LevelData
 {
     public int level;
     public int scene;
-    public int exp;
+    public float exp;
     public float hp;
     public float gold;
     public Vector3 position;
@@ -104,7 +104,7 @@ public class SavingFile : MonoBehaviour
             gameSaveData.levelData.position = playerController.transform.position;
             gameSaveData.levelData.level = playerController.currentLevel;
             gameSaveData.levelData.scene = playerController.currentScene;
-            gameSaveData.levelData.exp = 100;
+            gameSaveData.levelData.exp = playerController.EXP;
             gameSaveData.levelData.hp = playerController.currentHealth;
             gameSaveData.levelData.gold = playerController.goldCounter;
 
@@ -141,7 +141,7 @@ public class SavingFile : MonoBehaviour
 
         if (gameSaveData.levelData.level == gameSaveData.currentLevel && gameSaveData.levelData.scene == gameSaveData.currentScene)
         {
-            Debug.Log("Data loaded for level " + gameSaveData.levelData.level);
+            //Debug.Log("Data loaded for level " + gameSaveData.levelData.level);
         }
         else
         {
@@ -163,7 +163,6 @@ public class SavingFile : MonoBehaviour
         {
             string data = File.ReadAllText(filePath);
             gameSaveData = JsonUtility.FromJson<GameSaveData>(data);
-            Debug.Log("Data Loaded");
         }
     }
 
