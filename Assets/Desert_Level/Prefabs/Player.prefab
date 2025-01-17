@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4590148681272170700}
-  m_Layer: 7
+  m_Layer: 8
   m_Name: SlashSpawnPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42,7 +42,7 @@ GameObject:
   - component: {fileID: 4637116348518892259}
   - component: {fileID: 3825161170304679466}
   - component: {fileID: 7337851944362826435}
-  m_Layer: 7
+  m_Layer: 8
   m_Name: Weapon Collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -130,7 +130,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33f85e61d0edd5a419412d27645994dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  atkAmount: 1
 --- !u!1 &3412714443259742891
 GameObject:
   m_ObjectHideFlags: 0
@@ -150,13 +149,15 @@ GameObject:
   - component: {fileID: 7545770093757119290}
   - component: {fileID: 4581079042597577091}
   - component: {fileID: 1464422754094859532}
-  m_Layer: 7
+  - component: {fileID: 121136084808423692}
+  - component: {fileID: 4360485854270229925}
+  m_Layer: 8
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &8752625446106869573
 Transform:
   m_ObjectHideFlags: 0
@@ -306,9 +307,9 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.03320825, y: 0.23319697}
-  m_Size: {x: 0.72409606, y: 1.1606994}
-  m_Direction: 0
+  m_Offset: {x: 0.02280077, y: -0.046848364}
+  m_Size: {x: 0.949112, y: 0.6006134}
+  m_Direction: 1
 --- !u!114 &5452979584968614064
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -329,13 +330,18 @@ MonoBehaviour:
   teleportCooldown: 10
   dashSpeed: 10
   myTrailRenderer: {fileID: 0}
+  weaponCollider: {fileID: 0}
   goldCounter: 0
   goldText: {fileID: 0}
+  defense: 0
   maxHealth: 100
   knockBackThrustAmount: 10
   damageRecoveryTime: 1
+  currentHealth: 0
   healthSlider: {fileID: 0}
+  expSlider: {fileID: 0}
   timeInvincible: 2
+  lvText: {fileID: 0}
 --- !u!210 &5941175044631305778
 SortingGroup:
   m_ObjectHideFlags: 0
@@ -405,6 +411,125 @@ MonoBehaviour:
   inventoryItems:
   - item: {fileID: 11400000, guid: 9dc4b2661ca4ac24d87778852a45b0ff, type: 2}
     quantity: 2
+    itemState: []
+  dropClip: {fileID: 8300000, guid: 92ee29874b0480c458120134dec24b59, type: 3}
+  audioSource: {fileID: 121136084808423692}
+--- !u!82 &121136084808423692
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3412714443259742891}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &4360485854270229925
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3412714443259742891}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fe730b3a0ecbf44ab4670e4c7263c1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shopUI: {fileID: 0}
+  shopData: {fileID: 11400000, guid: 6bd72408fd1bc0e47bc3db3e9d7e37d2, type: 2}
+  shopItems:
+  - item: {fileID: 11400000, guid: cfc74c559ef682b4eaea1b87877cb12b, type: 2}
+    price: 100
+    itemState: []
+  buyClip: {fileID: 8300000, guid: 92ee29874b0480c458120134dec24b59, type: 3}
+  audioSource: {fileID: 121136084808423692}
 --- !u!1 &5891060337207591867
 GameObject:
   m_ObjectHideFlags: 0
@@ -417,7 +542,7 @@ GameObject:
   - component: {fileID: 6514624360185603003}
   - component: {fileID: 1985923245561989985}
   - component: {fileID: 3421417309389646312}
-  m_Layer: 7
+  m_Layer: 8
   m_Name: Sword
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -526,8 +651,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   slashAnimPrefab: {fileID: 497013944059296499, guid: fadc888d3359e944aa0427c0d1c4f042, type: 3}
   slashAnimSpawnPoint: {fileID: 4590148681272170700}
-  weaponCollider: {fileID: 4637116348518892259}
-  arrowPrefab: {fileID: 8241492510688663686, guid: f57c28014f7c8a249918a74e8da03cc1, type: 3}
+  weaponInfo: {fileID: 0}
+  weaponItem: {fileID: 0}
+  inventoryData: {fileID: 11400000, guid: 763083f93d877ba4abd9697d84334f39, type: 2}
+  parametersToModify:
+  - itemParameter: {fileID: 11400000, guid: 3fd38005da193494989587f315547c3e, type: 2}
+    value: -10
+  itemCurrentState: []
 --- !u!1 &7103508732607058162
 GameObject:
   m_ObjectHideFlags: 0
@@ -538,7 +668,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5829669253263909386}
   - component: {fileID: 6063100893032288647}
-  m_Layer: 7
+  m_Layer: 8
   m_Name: Active Weapon
   m_TagString: Untagged
   m_Icon: {fileID: 0}

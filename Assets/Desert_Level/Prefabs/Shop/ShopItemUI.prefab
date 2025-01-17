@@ -428,6 +428,7 @@ GameObject:
   - component: {fileID: 2996990021396433067}
   - component: {fileID: 4186861126234257005}
   - component: {fileID: 6354678699651109570}
+  - component: {fileID: 2502628301252016817}
   m_Layer: 5
   m_Name: ShopItemUI
   m_TagString: Untagged
@@ -477,7 +478,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -508,3 +509,15 @@ MonoBehaviour:
   itemImage: {fileID: 7460435555529504171}
   borderImage: {fileID: 513874842948303326}
   price: 0
+--- !u!225 &2502628301252016817
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6793539526696742094}
+  m_Enabled: 1
+  m_Alpha: 0.45
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
