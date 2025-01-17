@@ -3,11 +3,19 @@
   "WorkspaceRootPath": "D:\\UnityProjects\\FinalProject\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|d:\\unityprojects\\finalproject\\assets\\desert_level\\scripts\\collectables\\goldmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|solutionrelative:assets\\desert_level\\scripts\\collectables\\goldmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|d:\\unityprojects\\finalproject\\assets\\forest_level\\scripts\\triggerarea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|solutionrelative:assets\\forest_level\\scripts\\triggerarea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|d:\\unityprojects\\finalproject\\assets\\desert_level\\scripts\\camera\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|solutionrelative:assets\\desert_level\\scripts\\camera\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|d:\\unityprojects\\finalproject\\assets\\desert_level\\scripts\\demon\\demoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|D:\\UnityProjects\\FinalProject\\assets\\desert_level\\scripts\\demon\\demoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|solutionrelative:assets\\desert_level\\scripts\\demon\\demoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -131,6 +139,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "GoldManager.cs",
+              "DocumentMoniker": "D:\\UnityProjects\\FinalProject\\Assets\\Desert_Level\\Scripts\\Collectables\\GoldManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Desert_Level\\Scripts\\Collectables\\GoldManager.cs",
+              "ToolTip": "D:\\UnityProjects\\FinalProject\\Assets\\Desert_Level\\Scripts\\Collectables\\GoldManager.cs",
+              "RelativeToolTip": "Assets\\Desert_Level\\Scripts\\Collectables\\GoldManager.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAADgvy0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T16:45:24.788Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TriggerArea.cs",
+              "DocumentMoniker": "D:\\UnityProjects\\FinalProject\\Assets\\Forest_Level\\Scripts\\TriggerArea.cs",
+              "RelativeDocumentMoniker": "Assets\\Forest_Level\\Scripts\\TriggerArea.cs",
+              "ToolTip": "D:\\UnityProjects\\FinalProject\\Assets\\Forest_Level\\Scripts\\TriggerArea.cs",
+              "RelativeToolTip": "Assets\\Forest_Level\\Scripts\\TriggerArea.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T16:36:14.3Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "CameraController.cs",
               "DocumentMoniker": "D:\\UnityProjects\\FinalProject\\Assets\\Desert_Level\\Scripts\\Camera\\CameraController.cs",
               "RelativeDocumentMoniker": "Assets\\Desert_Level\\Scripts\\Camera\\CameraController.cs",
@@ -143,7 +177,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "DemonController.cs",
               "DocumentMoniker": "D:\\UnityProjects\\FinalProject\\Assets\\Desert_Level\\Scripts\\Demon\\DemonController.cs",
               "RelativeDocumentMoniker": "Assets\\Desert_Level\\Scripts\\Demon\\DemonController.cs",
@@ -151,12 +185,11 @@
               "RelativeToolTip": "Assets\\Desert_Level\\Scripts\\Demon\\DemonController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-17T16:15:28.089Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-17T16:15:28.089Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "InventoryController.cs",
               "DocumentMoniker": "D:\\UnityProjects\\FinalProject\\Assets\\Common\\Scripts\\UI\\InventoryController.cs",
               "RelativeDocumentMoniker": "Assets\\Common\\Scripts\\UI\\InventoryController.cs",
@@ -168,7 +201,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "ActiveInventory.cs",
               "DocumentMoniker": "D:\\UnityProjects\\FinalProject\\Assets\\Player\\Scripts\\UI\\ActiveInventory.cs",
               "RelativeDocumentMoniker": "Assets\\Player\\Scripts\\UI\\ActiveInventory.cs",
@@ -180,7 +213,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "ActiveWeapon.cs",
               "DocumentMoniker": "D:\\UnityProjects\\FinalProject\\Assets\\Player\\Scripts\\Player\\ActiveWeapon.cs",
               "RelativeDocumentMoniker": "Assets\\Player\\Scripts\\Player\\ActiveWeapon.cs",
@@ -192,7 +225,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "UIShopDescription.cs",
               "DocumentMoniker": "D:\\UnityProjects\\FinalProject\\Assets\\Common\\Scripts\\Shop\\UI\\UIShopDescription.cs",
               "RelativeDocumentMoniker": "Assets\\Common\\Scripts\\Shop\\UI\\UIShopDescription.cs",
@@ -204,7 +237,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "UIShopPage.cs",
               "DocumentMoniker": "D:\\UnityProjects\\FinalProject\\Assets\\Common\\Scripts\\Shop\\UI\\UIShopPage.cs",
               "RelativeDocumentMoniker": "Assets\\Common\\Scripts\\Shop\\UI\\UIShopPage.cs",
@@ -216,7 +249,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "ShopSO.cs",
               "DocumentMoniker": "D:\\UnityProjects\\FinalProject\\Assets\\Common\\Scripts\\Shop\\Model\\ShopSO.cs",
               "RelativeDocumentMoniker": "Assets\\Common\\Scripts\\Shop\\Model\\ShopSO.cs",
@@ -228,7 +261,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Player Controls.cs",
               "DocumentMoniker": "D:\\UnityProjects\\FinalProject\\Assets\\Player\\Scripts\\Player\\Player Controls.cs",
               "RelativeDocumentMoniker": "Assets\\Player\\Scripts\\Player\\Player Controls.cs",
@@ -240,7 +273,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "CobraController.cs",
               "DocumentMoniker": "D:\\UnityProjects\\FinalProject\\Assets\\Desert_Level\\Scripts\\Cobra\\CobraController.cs",
               "RelativeDocumentMoniker": "Assets\\Desert_Level\\Scripts\\Cobra\\CobraController.cs",
@@ -252,7 +285,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "ShopController.cs",
               "DocumentMoniker": "D:\\UnityProjects\\FinalProject\\Assets\\Common\\Scripts\\Shop\\UI\\ShopController.cs",
               "RelativeDocumentMoniker": "Assets\\Common\\Scripts\\Shop\\UI\\ShopController.cs",
@@ -264,7 +297,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "InventorySlot.cs",
               "DocumentMoniker": "D:\\UnityProjects\\FinalProject\\Assets\\Player\\Scripts\\UI\\InventorySlot.cs",
               "RelativeDocumentMoniker": "Assets\\Player\\Scripts\\UI\\InventorySlot.cs",
@@ -276,7 +309,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "UIInventoryPage.cs",
               "DocumentMoniker": "D:\\UnityProjects\\FinalProject\\Assets\\Common\\Scripts\\UI\\UIInventoryPage.cs",
               "RelativeDocumentMoniker": "Assets\\Common\\Scripts\\UI\\UIInventoryPage.cs",
@@ -288,7 +321,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "MouseFollower.cs",
               "DocumentMoniker": "D:\\UnityProjects\\FinalProject\\Assets\\Common\\Scripts\\UI\\MouseFollower.cs",
               "RelativeDocumentMoniker": "Assets\\Common\\Scripts\\UI\\MouseFollower.cs",
@@ -300,7 +333,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "ArmProjectileController.cs",
               "DocumentMoniker": "D:\\UnityProjects\\FinalProject\\Assets\\Desert_Level\\Scripts\\Golem\\ArmProjectileController.cs",
               "RelativeDocumentMoniker": "Assets\\Desert_Level\\Scripts\\Golem\\ArmProjectileController.cs",
@@ -312,7 +345,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "UIInventoryItem.cs",
               "DocumentMoniker": "D:\\UnityProjects\\FinalProject\\Assets\\Common\\Scripts\\UI\\UIInventoryItem.cs",
               "RelativeDocumentMoniker": "Assets\\Common\\Scripts\\UI\\UIInventoryItem.cs",
@@ -324,7 +357,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "UIShopItem.cs",
               "DocumentMoniker": "D:\\UnityProjects\\FinalProject\\Assets\\Common\\Scripts\\Shop\\UI\\UIShopItem.cs",
               "RelativeDocumentMoniker": "Assets\\Common\\Scripts\\Shop\\UI\\UIShopItem.cs",
@@ -336,7 +369,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "GolemController.cs",
               "DocumentMoniker": "D:\\UnityProjects\\FinalProject\\Assets\\Desert_Level\\Scripts\\Golem\\GolemController.cs",
               "RelativeDocumentMoniker": "Assets\\Desert_Level\\Scripts\\Golem\\GolemController.cs",
@@ -348,7 +381,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "EquippableItemSO.cs",
               "DocumentMoniker": "D:\\UnityProjects\\FinalProject\\Assets\\Common\\Scripts\\Model\\EquippableItemSO.cs",
               "RelativeDocumentMoniker": "Assets\\Common\\Scripts\\Model\\EquippableItemSO.cs",
@@ -360,7 +393,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "Singleton.cs",
               "DocumentMoniker": "D:\\UnityProjects\\FinalProject\\Assets\\Desert_Level\\Scripts\\Singleton.cs",
               "RelativeDocumentMoniker": "Assets\\Desert_Level\\Scripts\\Singleton.cs",
@@ -372,7 +405,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "ShopItemActionPanel.cs",
               "DocumentMoniker": "D:\\UnityProjects\\FinalProject\\Assets\\Common\\Scripts\\Shop\\UI\\ShopItemActionPanel.cs",
               "RelativeDocumentMoniker": "Assets\\Common\\Scripts\\Shop\\UI\\ShopItemActionPanel.cs",
@@ -384,7 +417,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "ShopMouseFollower.cs",
               "DocumentMoniker": "D:\\UnityProjects\\FinalProject\\Assets\\Common\\Scripts\\Shop\\UI\\ShopMouseFollower.cs",
               "RelativeDocumentMoniker": "Assets\\Common\\Scripts\\Shop\\UI\\ShopMouseFollower.cs",
@@ -396,7 +429,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "ItemActionPanel.cs",
               "DocumentMoniker": "D:\\UnityProjects\\FinalProject\\Assets\\Common\\Scripts\\UI\\ItemActionPanel.cs",
               "RelativeDocumentMoniker": "Assets\\Common\\Scripts\\UI\\ItemActionPanel.cs",
@@ -408,7 +441,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "AreaEntrance.cs",
               "DocumentMoniker": "D:\\UnityProjects\\FinalProject\\Assets\\Forest_Level\\Scripts\\AreaEntrance.cs",
               "RelativeDocumentMoniker": "Assets\\Forest_Level\\Scripts\\AreaEntrance.cs",
@@ -420,7 +453,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 26,
               "Title": "PlayerController.cs",
               "DocumentMoniker": "D:\\UnityProjects\\FinalProject\\Assets\\Player\\Scripts\\Player\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\Player\\Scripts\\Player\\PlayerController.cs",
