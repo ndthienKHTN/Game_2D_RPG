@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Assets.Common.Scripts;
 using UnityEngine;
+using UnityEngine.UI;
 using Assets.Winter_Level.Scripts;
 
 namespace Assets.Winter_Level.Scripts
@@ -34,14 +35,25 @@ namespace Assets.Winter_Level.Scripts
         EnemyUIHealthBar enemyUIHealthBar;
 
         // Hiển thị Completed Game
-        [SerializeField] private GameObject endGameCanvas;
-
+        public GameObject endGameCanvas;
         private void Awake()
         {
             rb = GetComponent<Rigidbody2D>();
             animator = GetComponent<Animator>();
             currentHP = HP;
             enemyUIHealthBar = GetComponentInChildren<EnemyUIHealthBar>();
+        }
+
+        private void Start()
+        {
+            GameObject uiCanvas = GameObject.Find("UICanvas");
+            if (uiCanvas != null)
+            {
+                // Debug.Log("UICanvas GameObject found");
+
+                // Find the DialogueBox GameObject within the UICanvas
+                endGameCanvas = uiCanvas.transform.Find("EndGame").gameObject;
+            }
         }
 
         private void Update()

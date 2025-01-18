@@ -157,7 +157,7 @@ namespace Assets.Desert_Level.Scripts
 
             // Choose a random position from the possible positions
             Vector3 newPosition = possiblePositions[Random.Range(0, possiblePositions.Length)];
-
+            newPosition.z = 0;
             // Move the object to the new position
             transform.position = newPosition;
         }

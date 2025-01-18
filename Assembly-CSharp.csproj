@@ -157,6 +157,7 @@
     <Compile Include="Assets\Forest_Level\Scripts\Flash.cs" />
     <Compile Include="Assets\Winter_Level\Scripts\Enemy\EnemyAI.cs" />
     <Compile Include="Assets\Common\Scripts\Model\ItemParameters\ItemParameterSO.cs" />
+    <Compile Include="Assets\Player\Scripts\UI\EndGame.cs" />
     <Compile Include="Assets\Common\Scripts\UI\ItemActionPanel.cs" />
     <Compile Include="Assets\Desert_Level\Scripts\misc\TransparentDetection.cs" />
     <Compile Include="Assets\Player\Scripts\Player\PotionCollect.cs" />
@@ -172,6 +173,7 @@
     <Compile Include="Assets\Common\Scripts\Model\EdibleItemSO.cs" />
     <Compile Include="Assets\Forest_Level\Scripts\Collectable\GoldCollectable.cs" />
     <Compile Include="Assets\Common\Scripts\PickUpSystem\PickUpSystem.cs" />
+    <Compile Include="Assets\Player\Scripts\UI\EndGameParent.cs" />
     <Compile Include="Assets\Common\Scripts\UI\MouseFollower.cs" />
     <Compile Include="Assets\Forest_Level\Scripts\Enemies\EnemyOrc2.cs" />
     <Compile Include="Assets\Winter_Level\Scripts\SceneManagement.cs" />
