@@ -19,7 +19,6 @@ namespace Assets.Winter_Level.Scripts
 
             //TODO: get health slider in ui canvas and set health of player
         }
-
         public CinemachineVirtualCamera virtualCamera; // Tham chiếu đến CinemachineVirtualCamera
 
         void OnEnable()
@@ -45,6 +44,5 @@ namespace Assets.Winter_Level.Scripts
                 Debug.LogWarning("Player hoặc Virtual Camera không được tìm thấy!");
             }
         }
-
     }
 }

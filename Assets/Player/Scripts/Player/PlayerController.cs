@@ -8,14 +8,13 @@ using Assets.Player.Scripts;
 using Assets.Winter_Level.Scripts;
 //using Assets.Desert_Level.Scripts;
 using TMPro;
-using Common.Scripts.UI.Model;
 namespace Assets.Player.Scripts
 {
     // public class PlayerController : MonoBehaviour, IPlayerController, ICheckpoint, IPlayerStatController
     public class PlayerController : Singleton<PlayerController>, IPlayerController, ICheckpoint, IPlayerStatController
     {
         //public bool FacingLeft { get { return facingLeft; } set { facingLeft = value; } }
-       // public static PlayerController Instance;
+        // public static PlayerController Instance;
 
         private bool isMovementDisabled = false;
         [SerializeField] private float moveSpeed = 4f;
@@ -57,9 +56,20 @@ namespace Assets.Player.Scripts
         public TextMeshProUGUI goldText;
 
         public int defense = 0;
-        //--------------------------Health--------------------------
 
-        public int maxHealth = 100;
+        //-------------------------Other-Stats--------------------------
+        public int Level = 1;
+        private int currentLevel = 1;
+        public int Attack => Mathf.CeilToInt(15f * Mathf.Pow(1.05f, Level - 1));
+        public int Defence => Mathf.CeilToInt(20f * Mathf.Pow(1.05f, Level - 1));
+        public float Speed => 10f * Mathf.Pow(1.05f, Level - 1);
+        public float EXP { get; private set; } = 0;
+        private float expToNextLevel => 10 * Mathf.Pow(1.5f, Level);
+
+        public TextMeshProUGUI lvText;
+
+        //--------------------------Health--------------------------
+        public int maxHealth => Mathf.RoundToInt(100 * Mathf.Pow(1.05f, Level - 1));
         [SerializeField] private float knockBackThrustAmount = 10f;
 
         [SerializeField] private float damageRecoveryTime = 0.5f;
@@ -81,26 +91,18 @@ namespace Assets.Player.Scripts
 
         public Slider healthSlider;
         public Slider expSlider;
-
-        [SerializeField]
-        public InventorySO inventoryData;
-
         // --health-bar-
 
-        public int currentLevel { get; set; } = 1;
         public int currentScene { get; set; } = 1;
         public void UpdateCurrentScene(int newScene)
         {
             currentScene = newScene;
         }
-        public void UpdateCurrentPosition(Vector3 newPosition)
-        {
-            transform.position = newPosition;
-        }
 
         private void UpdateHealthSlider()
         {
-            if (healthSlider == null) {
+            if (healthSlider == null)
+            {
                 healthSlider = GameObject.Find("Health Slider").GetComponent<Slider>();
             }
 
@@ -110,28 +112,16 @@ namespace Assets.Player.Scripts
 
         private void UpdateExpSlider()
         {
-            if (expSlider == null) {
+            if (expSlider == null)
+            {
                 expSlider = GameObject.Find("EXP Slider")?.GetComponent<Slider>();
                 if (expSlider == null) return; // Exit if expSlider is still null
             }
-            Debug.Log("EXP: " + EXP + "/" + expToNextLevel);
+
             expSlider.maxValue = expToNextLevel;
             expSlider.value = EXP;
         }
 
-        // Timer for invincibility
-        public float timeInvincible = 2.0f;
-        bool isInvincible;
-        float invincibleTimer;
-        //-------------------------Other-Stats--------------------------
-        public int Attack { get; private set; } = 15;
-        public int Defence { get; private set; } = 20;
-        public float Speed { get; private set; } = 10f;
-        public int Level { get; private set; } = 1;
-        public float EXP { get; private set; } = 0;
-        private float expToNextLevel => 10 * Mathf.Pow(1.5f, Level);
-
-        public TextMeshProUGUI lvText;
 
         void Start()
         {
@@ -174,6 +164,8 @@ namespace Assets.Player.Scripts
             Debug.Log("Player respawned at: " + checkpointPosition);
         }
 
+
+
         protected override void Awake()
 
         {
@@ -207,10 +199,10 @@ namespace Assets.Player.Scripts
             {
                 healthSlider = GameObject.Find("Health Slider").GetComponent<Slider>();
             }
-            UpdateExpSlider();
+            // UpdateExpSlider();
             UpdateHealthSlider();
-
         }
+
 
         private void OnEnable()
         {
@@ -225,6 +217,14 @@ namespace Assets.Player.Scripts
             HandleTeleportCooldown();
             AdjustLookDirection();
             CheckLevelUp();
+            if (currentLevel != Level)
+            {
+                UpdateHealthSlider();
+                UpdateExpSlider();
+                UpdateLevelText();
+                Debug.Log($"Level Up: {Level}, HP: {maxHealth}, ATK: {Attack}, DEF: {Defence}, SPD: {Speed}");
+                currentLevel = Level;
+            }
 
             if (Input.GetKeyDown(KeyCode.C))
             {
@@ -241,7 +241,8 @@ namespace Assets.Player.Scripts
 
         }
 
-        public Transform GetWeaponCollider() {
+        public Transform GetWeaponCollider()
+        {
             return weaponCollider;
         }
 
@@ -265,7 +266,7 @@ namespace Assets.Player.Scripts
 
         private void Move()
         {
-            if (knockback!=null && knockback.GettingKnockedBack) { return; }
+            if (knockback != null && knockback.GettingKnockedBack) { return; }
             float currentMoveSpeed = isSpeedBoostActive ? moveSpeed * speedBoostMultiplier : moveSpeed;
             rb.MovePosition(rb.position + movement * (currentMoveSpeed * Time.fixedDeltaTime));
         }
@@ -336,7 +337,7 @@ namespace Assets.Player.Scripts
             }
             return 0;
         }
-        
+
         public int beAttacked(GameObject enemy, int atk)
         {
             if (canTakeDamage)
@@ -480,7 +481,7 @@ namespace Assets.Player.Scripts
             if (currentHealth <= 0)
             {
                 Respawn();
-                currentHealth = 100;
+                currentHealth = maxHealth;
             }
             UpdateHealthSlider();
         }
@@ -489,25 +490,18 @@ namespace Assets.Player.Scripts
         {
             if (EXP >= expToNextLevel)
             {
-                LevelUp();
+                // LevelUp();
+                EXP -= expToNextLevel;
+                Level++;
+                currentHealth = maxHealth;
+                UpdateHealthSlider();
+                UpdateExpSlider();
+                UpdateLevelText();
+                Debug.Log($"Level Up: {Level}, HP: {maxHealth}, ATK: {Attack}, DEF: {Defence}, SPD: {Speed}");
+                currentLevel = Level;
             }
-            UpdateExpSlider();
         }
 
-        private void LevelUp()
-        {
-            EXP -= expToNextLevel;
-            Level++;
-            maxHealth = Mathf.RoundToInt(maxHealth * 1.05f);
-            Attack = Mathf.RoundToInt(Attack * 1.05f);
-            Defence = Mathf.RoundToInt(Defence * 1.05f);
-            Speed *= 1.05f;
-            currentHealth = maxHealth;
-            UpdateHealthSlider();
-            UpdateExpSlider();
-            UpdateLevelText();
-            Debug.Log($"Level Up! New Level: {Level}, HP: {maxHealth}, ATK: {Attack}, DEF: {Defence}, SPD: {Speed}");
-        }
 
         public void GainEXP(float amount)
         {
@@ -516,22 +510,12 @@ namespace Assets.Player.Scripts
             UpdateExpSlider();
         }
 
-        private void UpdateStatsForCurrentLevel()
-        {
-            float multiplier = Mathf.Pow(1.05f, Level - 1);
-            maxHealth = Mathf.RoundToInt(maxHealth * multiplier);
-            Attack = Mathf.RoundToInt(Attack * multiplier);
-            Defence = Mathf.RoundToInt(Defence * multiplier);
-            Speed *= multiplier;
 
-            UpdateHealthSlider();
-            UpdateExpSlider();
-            Debug.Log($"Stats updated for Level {Level}: HP: {maxHealth}, ATK: {Attack}, DEF: {Defence}, SPD: {Speed}");
-        }
 
         private void UpdateLevelText()
         {
-            if (lvText == null) {
+            if (lvText == null)
+            {
                 lvText = GameObject.Find("LVCounter")?.GetComponent<TextMeshProUGUI>();
                 if (lvText == null) return; // Exit if lvText is still null
             }
@@ -576,5 +560,5 @@ namespace Assets.Player.Scripts
         }
 
     }
-    
+
 }

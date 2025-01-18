@@ -122,11 +122,11 @@ namespace Assets.Forest_Level.Scripts
                 Destroy(gameObject);
 
                 //todo
-               /* SceneManager.sceneLoaded += OnSceneLoaded;
-                SceneManager.LoadScene(3);*/
+                 SceneManager.sceneLoaded += OnSceneLoaded;
+                 SceneManager.LoadScene(3);
 
-                SceneManager.sceneLoaded += OnSceneLoaded;
-                SceneManager.LoadScene(4);
+                //SceneManager.sceneLoaded += OnSceneLoaded;
+                //SceneManager.LoadScene(4);
 
             }
         }
@@ -136,7 +136,7 @@ namespace Assets.Forest_Level.Scripts
             if (playerController != null)
             {
                 //TODO
-                playerController.transform.position = new Vector3(-24.33f, -16.5f, 0);  //new Vector3(-9.264f, -4.33f, 0);
+                playerController.transform.position = new Vector3(-9.264f, -4.33f, 0); //new Vector3(-24.33f, -16.5f, 0);
             }
             else
             {
