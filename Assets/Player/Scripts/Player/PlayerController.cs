@@ -8,6 +8,7 @@ using Assets.Player.Scripts;
 using Assets.Winter_Level.Scripts;
 //using Assets.Desert_Level.Scripts;
 using TMPro;
+using Common.Scripts.UI.Model;
 namespace Assets.Player.Scripts
 {
     // public class PlayerController : MonoBehaviour, IPlayerController, ICheckpoint, IPlayerStatController
@@ -80,6 +81,12 @@ namespace Assets.Player.Scripts
 
         public Slider healthSlider;
         public Slider expSlider;
+
+
+
+        [SerializeField]
+        public InventorySO inventoryData;
+
         // --health-bar-
 
         public int currentLevel { get; set; } = 1;
@@ -443,6 +450,7 @@ namespace Assets.Player.Scripts
             goldCounter += amount;
             //goldText.text = goldCounter.ToString();
             goldText.SetText(goldCounter.ToString());
+            inventoryData.addGold(amount);
             Debug.Log("Gold: " + goldCounter);
         }
 

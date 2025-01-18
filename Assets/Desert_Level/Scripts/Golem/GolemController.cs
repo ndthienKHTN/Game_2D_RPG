@@ -171,7 +171,8 @@ namespace Assets.Desert_Level.Scripts
 
         public int beAttacked(int atk)
         {
-            currentHealth = Mathf.Clamp(currentHealth - atk, 0, maxHealth);
+            int damage = (int)(atk * (10f / (10f + Mathf.Sqrt(def))));
+            currentHealth = Mathf.Clamp(currentHealth - damage, 0, maxHealth);
             if (currentHealth <= 0)
             {
                 StartCoroutine(DieAnimation());
