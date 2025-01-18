@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "D:\\UnityProjects\\FinalProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|D:\\UnityProjects\\FinalProject\\assets\\player\\scripts\\player\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|d:\\unityprojects\\finalproject\\assets\\player\\scripts\\player\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|solutionrelative:assets\\player\\scripts\\player\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -11,7 +11,7 @@
       "RelativeMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|solutionrelative:assets\\common\\scripts\\shop\\ui\\uishopdescription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|d:\\unityprojects\\finalproject\\assets\\common\\scripts\\model\\inventoryso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|D:\\UnityProjects\\FinalProject\\assets\\common\\scripts\\model\\inventoryso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|solutionrelative:assets\\common\\scripts\\model\\inventoryso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -19,7 +19,7 @@
       "RelativeMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|solutionrelative:assets\\common\\scripts\\shop\\model\\shopso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|d:\\unityprojects\\finalproject\\assets\\player\\scripts\\enemies\\gainexp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|D:\\UnityProjects\\FinalProject\\assets\\player\\scripts\\enemies\\gainexp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|solutionrelative:assets\\player\\scripts\\enemies\\gainexp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -39,15 +39,15 @@
       "RelativeMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|solutionrelative:assets\\desert_level\\scripts\\cobra\\cobracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|d:\\unityprojects\\finalproject\\assets\\desert_level\\scripts\\shardsoul\\shardsoulcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|D:\\UnityProjects\\FinalProject\\assets\\desert_level\\scripts\\shardsoul\\shardsoulcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|solutionrelative:assets\\desert_level\\scripts\\shardsoul\\shardsoulcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|d:\\unityprojects\\finalproject\\assets\\desert_level\\scripts\\minotaur\\minotaurcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|D:\\UnityProjects\\FinalProject\\assets\\desert_level\\scripts\\minotaur\\minotaurcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|solutionrelative:assets\\desert_level\\scripts\\minotaur\\minotaurcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|d:\\unityprojects\\finalproject\\assets\\desert_level\\scripts\\collectables\\goldcollectable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|D:\\UnityProjects\\FinalProject\\assets\\desert_level\\scripts\\collectables\\goldcollectable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|solutionrelative:assets\\desert_level\\scripts\\collectables\\goldcollectable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -55,7 +55,7 @@
       "RelativeMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|solutionrelative:assets\\desert_level\\scripts\\collectables\\goldmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|d:\\unityprojects\\finalproject\\assets\\desert_level\\scripts\\misc\\transparentdetection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|D:\\UnityProjects\\FinalProject\\assets\\desert_level\\scripts\\misc\\transparentdetection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E1456745-ED92-4EB6-8905-E64DC1E47277}|Assembly-CSharp.csproj|solutionrelative:assets\\desert_level\\scripts\\misc\\transparentdetection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -174,8 +174,7 @@
               "RelativeToolTip": "Assets\\Common\\Scripts\\Model\\InventorySO.cs",
               "ViewState": "AQIAAAUAAAAAAAAAAAAAABcAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-18T01:53:46.793Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-18T01:53:46.793Z"
             },
             {
               "$type": "Document",
@@ -187,8 +186,7 @@
               "RelativeToolTip": "Assets\\Player\\Scripts\\Enemies\\GainEXP.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-18T01:40:47.054Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-18T01:40:47.054Z"
             },
             {
               "$type": "Document",
@@ -198,7 +196,7 @@
               "RelativeDocumentMoniker": "Assets\\Player\\Scripts\\Player\\PlayerController.cs",
               "ToolTip": "D:\\UnityProjects\\FinalProject\\Assets\\Player\\Scripts\\Player\\PlayerController.cs",
               "RelativeToolTip": "Assets\\Player\\Scripts\\Player\\PlayerController.cs",
-              "ViewState": "AQIAALcBAAAAAAAAAAAWwMkBAAAJAAAA",
+              "ViewState": "AQIAAMsBAAAAAAAAAAAhwOIBAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-15T18:03:00.165Z",
               "EditorCaption": ""
@@ -213,8 +211,7 @@
               "RelativeToolTip": "Assets\\Common\\Scripts\\Shop\\UI\\UIShopDescription.cs",
               "ViewState": "AQIAAEwAAAAAAAAAAAAkwGkAAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T17:04:17.098Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-16T17:04:17.098Z"
             },
             {
               "$type": "Document",
@@ -226,8 +223,7 @@
               "RelativeToolTip": "Assets\\Desert_Level\\Scripts\\Golem\\GolemController.cs",
               "ViewState": "AQIAAJ0AAAAAAAAAAAAhwK0AAABGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-17T09:29:32.408Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-17T09:29:32.408Z"
             },
             {
               "$type": "Document",
@@ -239,8 +235,7 @@
               "RelativeToolTip": "Assets\\Desert_Level\\Scripts\\Cobra\\CobraController.cs",
               "ViewState": "AQIAAKkAAAAAAAAAAIA+wMAAAABHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-17T04:28:14.837Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-17T04:28:14.837Z"
             },
             {
               "$type": "Document",
@@ -252,8 +247,7 @@
               "RelativeToolTip": "Assets\\Desert_Level\\Scripts\\Demon\\DemonController.cs",
               "ViewState": "AQIAAJIAAAAAAAAAAAD4v6oAAABGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-17T16:15:28.089Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-17T16:15:28.089Z"
             },
             {
               "$type": "Document",
@@ -265,8 +259,7 @@
               "RelativeToolTip": "Assets\\Common\\Scripts\\Shop\\Model\\ShopSO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T16:47:43.158Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-16T16:47:43.158Z"
             },
             {
               "$type": "Document",
@@ -278,8 +271,7 @@
               "RelativeToolTip": "Assets\\Desert_Level\\Scripts\\Golem\\ArmProjectileController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-17T09:36:20.433Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-17T09:36:20.433Z"
             },
             {
               "$type": "Document",
@@ -291,8 +283,7 @@
               "RelativeToolTip": "Assets\\Desert_Level\\Scripts\\Shardsoul\\ShardsoulController.cs",
               "ViewState": "AQIAAJQAAAAAAAAAAAD4v6wAAABGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-18T01:01:03.72Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-18T01:01:03.72Z"
             },
             {
               "$type": "Document",
@@ -304,8 +295,7 @@
               "RelativeToolTip": "Assets\\Desert_Level\\Scripts\\Minotaur\\MinotaurController.cs",
               "ViewState": "AQIAAKUAAAAAAAAAAAAnwL4AAABGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-18T00:59:17.562Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-18T00:59:17.562Z"
             },
             {
               "$type": "Document",
@@ -317,8 +307,7 @@
               "RelativeToolTip": "Assets\\Desert_Level\\Scripts\\Collectables\\GoldCollectable.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAACUAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-18T00:34:19.71Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-18T00:34:19.71Z"
             },
             {
               "$type": "Document",
@@ -330,8 +319,7 @@
               "RelativeToolTip": "Assets\\Desert_Level\\Scripts\\misc\\TransparentDetection.cs",
               "ViewState": "AQIAAAsAAAAAAAAAAAAAwCQAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-17T18:10:09.433Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-17T18:10:09.433Z"
             },
             {
               "$type": "Document",
@@ -367,8 +355,7 @@
               "RelativeToolTip": "Assets\\Desert_Level\\Scripts\\Collectables\\GoldManager.cs",
               "ViewState": "AQIAAAsAAAAAAAAAAAAAwDAAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-17T16:45:24.788Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-17T16:45:24.788Z"
             },
             {
               "$type": "Document",
