@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 2040532600627871730}
   - component: {fileID: 3532230770264558497}
   - component: {fileID: 6852764614829536336}
+  - component: {fileID: 606290206787173695}
   m_Layer: 0
   m_Name: Bringer-of-Death
   m_TagString: Untagged
@@ -157,13 +158,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78c42d233c124124fa1e6f1da8e66e13, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  atk: 15
-  maxHealth: 100
-  def: 1
+  atk: 70
+  maxHealth: 700
+  def: 40
   player: {fileID: 0}
   deathSpellPrefabs: {fileID: 2226582349454227789, guid: 6ef69b59833988745b21d7ac8c233a64, type: 3}
   cursorTeleport: {fileID: 0}
   distanceTeleport: 5
+  sparkEffect: {fileID: 0}
+--- !u!114 &606290206787173695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5082749834936794094}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c59b384bdbdd6194ead3ae6b709f5e09, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  expAmount: 50
 --- !u!1001 &1094058858319171342
 PrefabInstance:
   m_ObjectHideFlags: 0

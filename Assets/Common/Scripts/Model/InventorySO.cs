@@ -11,6 +11,18 @@ namespace Common.Scripts.UI.Model
     [CreateAssetMenu]
     public class InventorySO : ScriptableObject
     {
+        public int gold = 0;
+
+        public void addGold(int goldValue)
+        {
+            gold += goldValue;
+        }
+
+        public void removeGold(int goldValue)
+        {
+            gold -= goldValue;
+        }
+
         [SerializeField]
         private List<InventoryItem> inventoryItems = new List<InventoryItem>();
 
@@ -25,6 +37,7 @@ namespace Common.Scripts.UI.Model
             {
                 inventoryItems.Add(InventoryItem.GetEmptyItem());
             }
+            gold = 0;
         }
 
         public int AddItem(ItemSO item, int quantity, List<ItemParameter> itemState = null)

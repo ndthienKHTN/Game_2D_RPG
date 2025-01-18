@@ -25,7 +25,7 @@ namespace Assets.Desert_Level.Scripts
             if (other.CompareTag("Player"))
             {
                 other.GetComponent<PlayerController>().AddGold(goldValue);
-                GoldManager.Instance.RemoveGold(gameObject);
+                //GoldManager.Instance.RemoveGold(gameObject);
                 Destroy(gameObject);
             }
         }
@@ -35,7 +35,7 @@ namespace Assets.Desert_Level.Scripts
             if (collision.gameObject.CompareTag("Player"))
             {
                 collision.gameObject.GetComponent<PlayerController>().AddGold(goldValue);
-                GoldManager.Instance.RemoveGold(gameObject);
+                //GoldManager.Instance.RemoveGold(gameObject);
                 Destroy(gameObject);
             }
         }

@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 6470124791787600058}
   - component: {fileID: 1543016152815049845}
   - component: {fileID: 8302151126285932595}
+  - component: {fileID: -1740633806143060816}
   m_Layer: 0
   m_Name: Minotaur
   m_TagString: Untagged
@@ -194,17 +195,30 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c98b0c3debcaa14d960226426893302, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1.5
+  speed: 3
   vertical: 0
-  maxHealth: 10
+  maxHealth: 180
   changeTime: 3
-  atk: 10
+  atk: 28
   level: 0
   exp: 0
-  def: 0
+  def: 20
   reward: {fileID: 6438700291658177123, guid: cf526b9ab04e6104097f2c2042dc540b, type: 3}
   chickenRewardPrefab: {fileID: 5092948635045256709, guid: db592ace089d2d7438af3341759ca8bb, type: 3}
   goldRewardPrefab: {fileID: 3722725015315296617, guid: d1213b14db9231e48bea4b35cd812ebd, type: 3}
+--- !u!114 &-1740633806143060816
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 14260177536370137}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c59b384bdbdd6194ead3ae6b709f5e09, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  expAmount: 8
 --- !u!1001 &7160630000377786118
 PrefabInstance:
   m_ObjectHideFlags: 0

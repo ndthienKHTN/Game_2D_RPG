@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 1349791645179610540}
   - component: {fileID: 4784741302924718983}
   - component: {fileID: 8583209405594878593}
+  - component: {fileID: -939400851692959529}
   m_Layer: 0
   m_Name: MechaGolem
   m_TagString: Untagged
@@ -232,16 +233,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c335c5b26b46ec843b5363763a1d3247, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1.5
+  speed: 3
   vertical: 0
   changeTime: 10
-  maxHealth: 10
-  atk: 10
-  level: 0
-  exp: 10
-  def: 10
+  maxHealth: 225
+  atk: 40
+  level: 15
+  exp: 15
+  def: 30
   reward: {fileID: 1813771764899590610, guid: 3c86b81f71e8a8249bcdb46a0f59ea4b, type: 3}
   projectile: {fileID: 3697865704088194393, guid: e116f08eba0758740bfa1fc2891dd80f, type: 3}
+--- !u!114 &-939400851692959529
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5836649205973036353}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c59b384bdbdd6194ead3ae6b709f5e09, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  expAmount: 15
 --- !u!1 &8201242700224172395
 GameObject:
   m_ObjectHideFlags: 0

@@ -6,7 +6,7 @@ using UnityEngine;
 public class ArmProjectileController : MonoBehaviour
 {
     Rigidbody2D rigidbody2d;
-    int atk = 1;
+    int atk = 40;
     // Start is called before the first frame update
     void Awake()
     {

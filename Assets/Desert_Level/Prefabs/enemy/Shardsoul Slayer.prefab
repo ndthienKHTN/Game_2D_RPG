@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 4868620518658792019}
   - component: {fileID: 5519522820775609016}
   - component: {fileID: 950585878406214221}
+  - component: {fileID: -8444989933018491641}
   m_Layer: 0
   m_Name: Shardsoul Slayer
   m_TagString: Untagged
@@ -194,17 +195,30 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63937c45521e5c744a412d76817432ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1
+  speed: 3
   vertical: 0
   changeTime: 3
-  maxHealth: 10
-  atk: 10
-  level: 0
-  exp: 0
-  def: 0
+  maxHealth: 200
+  atk: 35
+  level: 15
+  exp: 15
+  def: 25
   reward: {fileID: 3722725015315296617, guid: d1213b14db9231e48bea4b35cd812ebd, type: 3}
   chickenRewardPrefab: {fileID: 5092948635045256709, guid: db592ace089d2d7438af3341759ca8bb, type: 3}
   healPortionRewardPrefab: {fileID: 6438700291658177123, guid: cf526b9ab04e6104097f2c2042dc540b, type: 3}
+--- !u!114 &-8444989933018491641
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8307644613088912189}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c59b384bdbdd6194ead3ae6b709f5e09, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  expAmount: 15
 --- !u!1001 &6244115384543464448
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -95,8 +95,15 @@ namespace Common.Scripts.Shop.UI
             // }
 
             //inventoryData.Gold -= 0;
+
+            if (inventoryData.gold < shopData.GetItemAt(currentItemIndex).price)
+            {
+                return;
+            }
+
             ShopItem item = shopData.GetItemAt(currentItemIndex);
             inventoryData.AddItem(item);
+            inventoryData.removeGold((int)(item.price));
             //ResetDescription();
         }
     }

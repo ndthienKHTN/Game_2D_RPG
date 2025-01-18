@@ -158,6 +158,7 @@
     <Compile Include="Assets\Winter_Level\Scripts\Enemy\EnemyAI.cs" />
     <Compile Include="Assets\Common\Scripts\Model\ItemParameters\ItemParameterSO.cs" />
     <Compile Include="Assets\Common\Scripts\UI\ItemActionPanel.cs" />
+    <Compile Include="Assets\Desert_Level\Scripts\misc\TransparentDetection.cs" />
     <Compile Include="Assets\Player\Scripts\Player\PotionCollect.cs" />
     <Compile Include="Assets\Player\Scripts\Enemies\EnemyAILong.cs" />
     <Compile Include="Assets\Desert_Level\Scripts\UI\RemoveEquipmentController.cs" />
