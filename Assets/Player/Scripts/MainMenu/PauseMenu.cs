@@ -58,7 +58,7 @@ namespace Assets.Player.Scripts
             {
                 SavingFile savingFile = SavingFile.Instance;
                 savingFile.SaveGame();
-                Debug.LogError("SavingFile không được tìm thấy trong scene!");
+                //Debug.LogError("SavingFile không được tìm thấy trong scene!");
             }
         }
         public void Button_Options()

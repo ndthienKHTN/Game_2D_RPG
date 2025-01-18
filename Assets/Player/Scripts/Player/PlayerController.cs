@@ -18,7 +18,7 @@ namespace Assets.Player.Scripts
 
         private bool isMovementDisabled = false;
         [SerializeField] private float moveSpeed = 4f;
-        [SerializeField] private float speedBoostMultiplier = 2f;
+        [SerializeField] private float speedBoostMultiplier = 1.5f;
         [SerializeField] private float speedBoostDuration = 5f;
         [SerializeField] private float speedBoostCooldown = 10f;
         [SerializeField] private float teleportDistance = 5f;
