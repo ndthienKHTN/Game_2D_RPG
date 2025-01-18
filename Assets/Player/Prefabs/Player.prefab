@@ -171,7 +171,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 0
   m_Sprite: {fileID: 366048774, guid: 5ff33453431bc20469cc630da65e450a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -276,7 +276,7 @@ SortingGroup:
   m_Enabled: 1
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 0
   m_SortAtRoot: 0
 --- !u!114 &858957723293044554
 MonoBehaviour:
@@ -290,7 +290,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f39837c3856a26645ba26c2ebaac96bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitSound: {fileID: 8300000, guid: 6a26e6dd3e92a7249b8bfe4e2c2c2304, type: 3}
   moveSpeed: 4
   speedBoostMultiplier: 2
   speedBoostDuration: 5
@@ -306,8 +305,11 @@ MonoBehaviour:
   maxHealth: 100
   knockBackThrustAmount: 10
   damageRecoveryTime: 1
+  currentHealth: 0
   healthSlider: {fileID: 0}
+  expSlider: {fileID: 0}
   timeInvincible: 2
+  lvText: {fileID: 0}
 --- !u!114 &8535671963601916534
 MonoBehaviour:
   m_ObjectHideFlags: 0

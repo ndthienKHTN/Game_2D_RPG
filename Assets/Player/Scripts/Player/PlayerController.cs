@@ -125,7 +125,7 @@ namespace Assets.Player.Scripts
         public int Attack { get; private set; } = 15;
         public int Defence { get; private set; } = 20;
         public float Speed { get; private set; } = 10f;
-        public int Level { get; private set; } = 1;
+        public int Level = 1;
         public float EXP { get; private set; } = 0;
         private float expToNextLevel => 10 * Mathf.Pow(1.5f, Level);
 
@@ -191,7 +191,7 @@ namespace Assets.Player.Scripts
             Level = 1;
             UpdateStatsForCurrentLevel();
             currentHealth = maxHealth;
-
+            
             if (PlayerPrefs.HasKey("PlayerHealth"))
             {
                 currentHealth = PlayerPrefs.GetInt("PlayerHealth");
