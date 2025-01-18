@@ -34,8 +34,6 @@ namespace Assets.Forest_Level.Scripts
         private void Awake()
         {
             flash = GetComponent<Flash>();
-
-
         }
         void Start()
         {

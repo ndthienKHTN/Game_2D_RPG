@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using Assets.Player.Scripts;
 
 public class GainEXP : MonoBehaviour
@@ -9,22 +10,25 @@ public class GainEXP : MonoBehaviour
 
     private void OnDestroy()
     {
-        PlayerController player = PlayerController.Instance;
-        if (player != null)
+        if (SceneManager.GetActiveScene().isLoaded)
         {
-            player.GainEXP(expAmount);
+            PlayerController player = PlayerController.Instance;
+            if (player != null)
+            {
+                player.GainEXP(expAmount);
+            }
         }
     }
 
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 }

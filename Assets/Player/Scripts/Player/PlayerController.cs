@@ -107,7 +107,7 @@ namespace Assets.Player.Scripts
                 expSlider = GameObject.Find("EXP Slider")?.GetComponent<Slider>();
                 if (expSlider == null) return; // Exit if expSlider is still null
             }
-
+            Debug.Log("EXP: " + EXP + "/" + expToNextLevel);
             expSlider.maxValue = expToNextLevel;
             expSlider.value = EXP;
         }
@@ -181,8 +181,8 @@ namespace Assets.Player.Scripts
             knockback = GetComponent<Knockback>();
 
             // Update stats based on the current level
-            Level = 1;
-            UpdateStatsForCurrentLevel();
+            //Level = 1;
+            //UpdateStatsForCurrentLevel();
             //currentHealth = maxHealth;
 
             if (PlayerPrefs.HasKey("PlayerHealth"))
@@ -194,7 +194,7 @@ namespace Assets.Player.Scripts
             {
                 healthSlider = GameObject.Find("Health Slider").GetComponent<Slider>();
             }
-
+            UpdateExpSlider();
             UpdateHealthSlider();
 
         }
@@ -489,7 +489,7 @@ namespace Assets.Player.Scripts
             Attack = Mathf.RoundToInt(Attack * 1.05f);
             Defence = Mathf.RoundToInt(Defence * 1.05f);
             Speed *= 1.05f;
-            //currentHealth = maxHealth;
+            currentHealth = maxHealth;
             UpdateHealthSlider();
             UpdateExpSlider();
             UpdateLevelText();
