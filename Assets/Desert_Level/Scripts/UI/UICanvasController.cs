@@ -67,7 +67,8 @@ namespace Assets.Desert_Level.Scripts
         {
             inventoryWindow.SetActive(true);
         }
-        public void DestroySelf() {
+        public void DestroySelf()
+        {
             Destroy(gameObject);
         }
     }

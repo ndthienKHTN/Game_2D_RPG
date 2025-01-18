@@ -4,6 +4,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Assets.Common.Scripts;
+using Assets.Player.Scripts;
+using UnityEngine.SceneManagement;
 namespace Assets.Desert_Level.Scripts
 {
     public class BringerController : MonoBehaviour, IEnemyController
@@ -85,6 +87,15 @@ namespace Assets.Desert_Level.Scripts
                     Vector3 gapDistance = Vector3.up * 1.45f;
 
                     Vector3 startPosition = transform.position;
+                    if (player == null)
+                    {
+                        player = PlayerController.Instance.gameObject;
+                        if (player == null)
+                        {
+                            Debug.LogError("Player not found");
+                            yield return new WaitForSeconds(1.2f);
+                        }
+                    }   
                     Vector3 endPosition = player.transform.position;
                     Vector3 direction = (endPosition - startPosition).normalized;
                     float distance = Vector3.Distance(startPosition, endPosition);
@@ -191,11 +202,27 @@ namespace Assets.Desert_Level.Scripts
                 Destroy(spawnedDeathSpells[i]);
             }
             Destroy(gameObject);
+            SceneManager.sceneLoaded += OnSceneLoaded;
+            SceneManager.LoadScene(4);
         }
 
         public void DetectDeath()
         {
             return;
+        }
+
+        private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+        {
+            PlayerController playerController = PlayerController.Instance;
+            if (playerController != null)
+            {
+                playerController.transform.position = new Vector3(-24.33f, -16.5f, 0);
+            }
+            else
+            {
+                Debug.LogWarning("PlayerController not found");
+            }
+            SceneManager.sceneLoaded -= OnSceneLoaded;
         }
     }
 }

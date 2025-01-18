@@ -20,7 +20,6 @@ namespace Assets.Forest_Level.Scripts
         {
             if (other.gameObject.GetComponent<PlayerController>())
             {
-                
                 SceneManager.LoadScene(sceneToLoad);
                 SceneManagement.Instance.SetTransitionName(sceneTransitionname);
                 int newScene = player.currentScene == 1 ? 2 : 1;

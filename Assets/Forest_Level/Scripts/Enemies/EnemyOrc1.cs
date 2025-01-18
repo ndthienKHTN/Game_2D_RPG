@@ -31,6 +31,7 @@ namespace Assets.Forest_Level.Scripts
         public int currentHP;
         EnemyUIHealthBar enemyUIHealthBar;
 
+
         private void Awake()
         {
             flash = GetComponent<Flash>();
@@ -42,6 +43,7 @@ namespace Assets.Forest_Level.Scripts
             movingTimer = movingTime;
             currentHP = HP;
             enemyUIHealthBar = GetComponentInChildren<EnemyUIHealthBar>();
+
         }
         void Update()
         {

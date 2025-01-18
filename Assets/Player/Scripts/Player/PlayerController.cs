@@ -82,8 +82,6 @@ namespace Assets.Player.Scripts
         public Slider healthSlider;
         public Slider expSlider;
 
-
-
         [SerializeField]
         public InventorySO inventoryData;
 
@@ -94,6 +92,10 @@ namespace Assets.Player.Scripts
         public void UpdateCurrentScene(int newScene)
         {
             currentScene = newScene;
+        }
+        public void UpdateCurrentPosition(Vector3 newPosition)
+        {
+            transform.position = newPosition;
         }
 
         private void UpdateHealthSlider()
@@ -112,7 +114,7 @@ namespace Assets.Player.Scripts
                 expSlider = GameObject.Find("EXP Slider")?.GetComponent<Slider>();
                 if (expSlider == null) return; // Exit if expSlider is still null
             }
-
+            Debug.Log("EXP: " + EXP + "/" + expToNextLevel);
             expSlider.maxValue = expToNextLevel;
             expSlider.value = EXP;
         }
@@ -125,7 +127,7 @@ namespace Assets.Player.Scripts
         public int Attack { get; private set; } = 15;
         public int Defence { get; private set; } = 20;
         public float Speed { get; private set; } = 10f;
-        public int Level = 1;
+        public int Level { get; private set; } = 1;
         public float EXP { get; private set; } = 0;
         private float expToNextLevel => 10 * Mathf.Pow(1.5f, Level);
 
@@ -172,8 +174,6 @@ namespace Assets.Player.Scripts
             Debug.Log("Player respawned at: " + checkpointPosition);
         }
 
-        
-
         protected override void Awake()
 
         {
@@ -188,10 +188,10 @@ namespace Assets.Player.Scripts
             knockback = GetComponent<Knockback>();
 
             // Update stats based on the current level
-            Level = 1;
+            /*Level = 1;
             UpdateStatsForCurrentLevel();
-            currentHealth = maxHealth;
-            
+            currentHealth = maxHealth;*/
+
             if (PlayerPrefs.HasKey("PlayerHealth"))
             {
                 currentHealth = PlayerPrefs.GetInt("PlayerHealth");
@@ -207,7 +207,7 @@ namespace Assets.Player.Scripts
             {
                 healthSlider = GameObject.Find("Health Slider").GetComponent<Slider>();
             }
-
+            UpdateExpSlider();
             UpdateHealthSlider();
 
         }
@@ -450,7 +450,6 @@ namespace Assets.Player.Scripts
             goldCounter += amount;
             //goldText.text = goldCounter.ToString();
             goldText.SetText(goldCounter.ToString());
-            inventoryData.addGold(amount);
             Debug.Log("Gold: " + goldCounter);
         }
 
