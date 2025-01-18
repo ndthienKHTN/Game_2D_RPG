@@ -212,7 +212,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   vertical: 1
   movingTime: 1.5
-  reward: {fileID: 0}
+  reward: {fileID: 3722725015315296617, guid: 98a33f5fdc86db94282fbd6d6c73dfe6, type: 3}
   deathVFXPrefab: {fileID: 1698634917931367144, guid: 59802b838efeb564c9383ed4788c509d, type: 3}
   currentHP: 0
 --- !u!114 &5401417204044366279

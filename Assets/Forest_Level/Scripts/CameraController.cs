@@ -9,13 +9,13 @@ namespace Assets.Forest_Level.Scripts
 {
     public class CameraController : Singleton<CameraController>
     {
-        private CinemachineVirtualCamera cinemachineVirtualCamera;
+        public CinemachineVirtualCamera cinemachineVirtualCamera;
         public void SetPlayerCameraFollow()
         {
             cinemachineVirtualCamera = FindObjectOfType<CinemachineVirtualCamera>();
             cinemachineVirtualCamera.Follow = PlayerController.Instance.transform;
         }
-        public CinemachineVirtualCamera virtualCamera; // Tham chiếu đến CinemachineVirtualCamera
+        //public CinemachineVirtualCamera virtualCamera; // Tham chiếu đến CinemachineVirtualCamera
 
         void OnEnable()
         {
@@ -31,12 +31,14 @@ namespace Assets.Forest_Level.Scripts
         {
             // Tìm Player sau khi Scene load
             GameObject player = GameObject.FindGameObjectWithTag("Player");
-            if (player != null && virtualCamera != null)
+            if (player != null && cinemachineVirtualCamera != null)
             {
-                virtualCamera.Follow = player.transform;
+                cinemachineVirtualCamera.Follow = player.transform;
             }
             else
             {
+                cinemachineVirtualCamera = FindObjectOfType<CinemachineVirtualCamera>();
+                cinemachineVirtualCamera.Follow = PlayerController.Instance.transform;
                 Debug.LogWarning("Player hoặc Virtual Camera không được tìm thấy!");
             }
         }

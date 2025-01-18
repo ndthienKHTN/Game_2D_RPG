@@ -7,13 +7,13 @@ public class GuideLine : MonoBehaviour
 {
     public TextMeshProUGUI instructionText; // Reference to the TextMeshProUGUI element
     public Image backgroundImage; // Reference to the background Image element
-    private float displayTime = 1.5f; // Time to display the instructions
+    private float displayTime = 2f; // Time to display the instructions
 
     // Start is called before the first frame update
     void Start()
     {
         // Set the instruction text
-        instructionText.text = "Press 1, 2, 3 to change weapons\nMove with A, S, D, W";
+        instructionText.text = "Press 1, 2, 3 to change weapons\nMove with A, S, D, W\nE and R to open and close NPC";
 
         StartCoroutine(HideInstructions());
     }

@@ -160,7 +160,16 @@ namespace Assets.Player.Scripts
         }
         public void Respawn()
         {
-            transform.position = checkpointPosition;
+            if (currentScene == 5)
+            {
+                transform.position = new Vector3(-26.71f, -15.9f, 0);
+            }
+            else
+            {
+                transform.position = checkpointPosition;
+            }
+            
+            
             Debug.Log("Player respawned at: " + checkpointPosition);
         }
 
