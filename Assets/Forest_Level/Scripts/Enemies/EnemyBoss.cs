@@ -121,7 +121,7 @@ namespace Assets.Forest_Level.Scripts
                 Instantiate(deathVFXPrefab, transform.position, Quaternion.identity);
                 Destroy(gameObject);
                 SceneManager.sceneLoaded += OnSceneLoaded;
-                SceneManager.LoadScene(3);
+                SceneManager.LoadScene(4);
 
             }
         }
@@ -130,7 +130,7 @@ namespace Assets.Forest_Level.Scripts
             PlayerController playerController = PlayerController.Instance;
             if (playerController != null)
             {
-                playerController.transform.position = new Vector3(31, 0.8f, 0);
+                playerController.transform.position = new Vector3(-24.33f, -14.5f, 0);
             }
             else
             {
